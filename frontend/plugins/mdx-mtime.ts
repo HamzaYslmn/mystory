@@ -3,7 +3,7 @@
 // with a map of { "bookSlug/pageSlug" → "YYYY-MM-DD" }.
 
 import { statSync, readdirSync } from 'fs';
-import { join, relative, basename, extname } from 'path';
+import { join, basename, extname } from 'path';
 import type { Plugin } from 'vite';
 
 const VIRTUAL_ID = 'virtual:mdx-mtime';
