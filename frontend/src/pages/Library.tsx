@@ -69,30 +69,41 @@ function BookCard({ book, index }: { book: Book; index: number }) {
     >
       <Link
         to={`/reader/${book.bookSlug}/${targetSlug}`}
-        className="group flex flex-col justify-between h-full min-h-[220px] rounded-2xl border border-white/8 bg-white/3 p-6 no-underline transition-all duration-200 hover:-translate-y-0.5 hover:bg-white/5 hover:border-white/16"
+        className="group flex flex-col h-full rounded-2xl border border-white/8 bg-white/3 overflow-hidden no-underline transition-all duration-300 hover:-translate-y-1.5 hover:bg-white/5 hover:border-white/16 hover:shadow-[0_20px_40px_-15px_rgba(0,0,0,0.5)]"
       >
-        <div>
-          <h2 className="text-xl font-semibold text-[var(--text-color)] leading-snug mb-3">{book.title}</h2>
-          <p className="text-sm text-[var(--muted-color)] leading-relaxed line-clamp-3">{book.description}</p>
-        </div>
-
-        <div className="mt-6 pt-4 border-t border-white/5 flex justify-between items-end">
-          <div className="flex flex-col gap-1.5">
-            <span className="flex items-center gap-1.5 text-xs text-[var(--muted-color)]">
-              <Layers size={12} />
-              {hasProgress && savedIndex !== -1
-                ? `${savedIndex + 1} / ${book.pages.length}`
-                : `${book.pages.length} pages`}
-            </span>
-            {hasProgress && savedIndex !== -1 && (
-              <div className="h-1 w-20 rounded-full bg-white/8 overflow-hidden">
-                <div className="h-full rounded-full bg-[var(--accent-color)] transition-all duration-500" style={{ width: `${pct}%` }} />
-              </div>
-            )}
+        {book.cover && (
+          <div className="relative aspect-[16/10] overflow-hidden border-b border-white/5">
+            <img src={book.cover} alt={book.title} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-60" />
           </div>
-          <span className="flex items-center gap-1 text-xs font-medium text-[var(--accent-color)] transition-transform group-hover:translate-x-0.5">
-            {hasProgress && savedIndex !== -1 ? 'Continue' : 'Read'} <ChevronRight size={14} />
-          </span>
+        )}
+
+        <div className="flex flex-col flex-1 p-6">
+          <h2 className="text-xl font-semibold text-[var(--text-color)] leading-snug mb-3 group-hover:text-[var(--accent-color)] transition-colors">
+            {book.title}
+          </h2>
+          <p className="text-sm text-[var(--muted-color)] leading-relaxed line-clamp-3 mb-auto">
+            {book.description}
+          </p>
+
+          <div className="mt-6 pt-4 border-t border-white/5 flex justify-between items-end">
+            <div className="flex flex-col gap-1.5">
+              <span className="flex items-center gap-1.5 text-xs text-[var(--muted-color)]">
+                <Layers size={12} />
+                {hasProgress && savedIndex !== -1
+                  ? `${savedIndex + 1} / ${book.pages.length}`
+                  : `${book.pages.length} pages`}
+              </span>
+              {hasProgress && savedIndex !== -1 && (
+                <div className="h-1 w-20 rounded-full bg-white/8 overflow-hidden">
+                  <div className="h-full rounded-full bg-[var(--accent-color)] transition-all duration-500" style={{ width: `${pct}%` }} />
+                </div>
+              )}
+            </div>
+            <span className="flex items-center gap-1 text-xs font-medium text-[var(--accent-color)] transition-transform group-hover:translate-x-0.5">
+              {hasProgress && savedIndex !== -1 ? 'Continue' : 'Read'} <ChevronRight size={14} />
+            </span>
+          </div>
         </div>
       </Link>
     </motion.div>

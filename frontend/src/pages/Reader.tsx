@@ -241,6 +241,15 @@ function ProgressBar({ current, total }: { current: number; total: number }) {
 function ChapterContent({ page, number }: { page: Page; number: number }) {
   return (
     <article className="py-6">
+      {page.metadata.cover && (
+        <div className="mb-8 overflow-hidden rounded-2xl border border-white/8 shadow-2xl">
+          <img 
+            src={page.metadata.cover} 
+            alt={page.metadata.title} 
+            className="aspect-[16/9] w-full object-cover transition-transform duration-500 hover:scale-105"
+          />
+        </div>
+      )}
       <p className="mb-2 text-xs font-medium uppercase tracking-widest text-[var(--muted-color)]">Chapter {number}</p>
       <h2 className="mb-6 text-xl font-semibold tracking-tight text-[var(--text-color)] sm:text-2xl md:text-3xl">
         {page.metadata.title}

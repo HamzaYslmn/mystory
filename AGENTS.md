@@ -42,3 +42,5 @@ cover: "url_to_image"
 ## 4. Maintenance Notes
 - Avoid inserting arbitrary standalone `.mdx` files into the `stories/` root folder. They will not be rendered by my Library unless wrapped inside a dedicated book folder. 
 - Avoid quotes with inline commas or unescaped strings in my frontmatter unless strictly necessary; keep parsing simple.
+- **Short Lines (VS Code Compatibility):** All `.mdx` content should be formatted with manual line breaks (short lines) to ensure the text is easily readable and editable in VS Code without horizontal scrolling. Break lines at logical points (around 80-100 characters).
+

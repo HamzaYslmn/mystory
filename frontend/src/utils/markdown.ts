@@ -52,7 +52,32 @@ function formatTitle(slug: string): string {
 }
 
 // MARK: - Glob handle (lazy loaders, paths available immediately)
+// MARK: - Glob handle (lazy loaders, paths available immediately)
 const mdxFiles = import.meta.glob('../../../content/stories/**/*.{md,mdx}', { query: '?raw', import: 'default' });
+
+// MARK: - Asset Glob handle (eager load for direct URL access)
+const assetFiles = import.meta.glob('../../../content/stories/**/assets/*.{png,jpg,jpeg,gif,webp,svg}', { 
+  eager: true, 
+  import: 'default' 
+}) as Record<string, string>;
+
+/** 
+ * Resolves a virtual path (e.g. /assets/foo.png) to a real Vite asset URL 
+ * based on the book context.
+ */
+export function resolveAsset(bookSlug: string, virtualPath: string): string {
+  if (!virtualPath) return '';
+  if (virtualPath.startsWith('http')) return virtualPath;
+
+  // Clean the virtual path: "/assets/chapter-1.png" -> "chapter-1.png"
+  const fileName = virtualPath.split('/').pop();
+  if (!fileName) return virtualPath;
+
+  // Look for the asset in the book's assets folder
+  const targetPath = `../../../content/stories/${bookSlug}/assets/${fileName}`;
+  
+  return assetFiles[targetPath] || virtualPath;
+}
 
 /** Parse a glob path into bookSlug + pageSlug (no fetch needed) */
 function parsePath(path: string): { bookSlug: string; pageSlug: string } | null {
@@ -146,7 +171,7 @@ export async function enrichBookMeta(book: Book): Promise<Book> {
   first.metadata = { ...first.metadata, ...meta, title: meta.title || first.metadata.title };
   book.description = meta.description || `${book.pages.length} chapters`;
   book.date = meta.date || '';
-  book.cover = meta.cover || '';
+  book.cover = resolveAsset(book.bookSlug, meta.cover || '');
   return book;
 }
 
@@ -165,7 +190,7 @@ export async function getPageContent(bookSlug: string, pageSlug: string): Promis
       title: meta.title || formatTitle(pageSlug),
       description: meta.description || '',
       date: meta.date || '',
-      cover: meta.cover || '',
+      cover: resolveAsset(bookSlug, meta.cover || ''),
     },
     content: contentMatch ? contentMatch[1].trim() : raw.trim(),
   };
