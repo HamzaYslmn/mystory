@@ -14,7 +14,7 @@ Enerji depolama ve işlem birimidir. Dışarıdan bakıldığında cam veya buz 
 - **Aktif Çekirdek**: Parlak mavi ışık yayar, içindeki kırmızı ve siber-mavi semboller hareketlidir.
 - **Durağan Çekirdek**: Enerjisi düşük veya tetiklenmeyi bekleyen formdur.
 - **Siyah Çekirdek (Ölü Çekirdek)**: Enerjisi tamamen boşalmış veya dış kalkan/kabuk vazifesi gören kısmın ayrılıp kömürleşmesiyle oluşan işlevsiz halidir. (Ezilerek devreler için iletken siyah toz yapımında kullanılır).
-- **Mor Faz**: Aşırı ısıya veya kapasite üstü yüklenmeye maruz kalan kristalin mora kayarak fazla enerjiyi düzenli ısı halinde dışarı sızdırdığı ara durum. Taşınabilir bir cep sobası gibi davranabilir ve çekirdeğin iç baskısının gözle okunmasına izin verir.
+- **Mor Faz**: Aşırı ısıya maruz kalan kristalin mora kayarak fazla enerjiyi düzenli ısı halinde dışarı sızdırdığı ara durum. Taşınabilir bir cep sobası gibi davranabilir ve çekirdeğin iç baskısının gözle okunmasına izin verir.
 - **Renk Sapması**: Bazı çekirdeklerde, özellikle slime özlerinde, saf maviliğin içinde turkuaz ve yeşile çalan girdaplar görülür. Bu durum enerjinin tek tip olmadığını, farklı niteliklere veya işlevsel alt spektrumlara ayrıldığını düşündürür.
 - **Tetiklenen Enerji Salımı**: Fiziksel darbe, yoğun ısı veya doğru runik bağlanma, kristalin içindeki asıl gücü serbest bırakan "ilk anahtar" işlevi görür. Darbenin kendisi çoğu zaman ana enerji kaynağı değil, baskı altındaki sistemi açan tetikleyicidir.
 - **Yüksek Enerji Yoğunluğu**: Küçük boyutlarına rağmen sıradan mekanik darbelerle açıklanamayacak ölçekte enerji taşıyabilirler. Bu yüzden tek bir kristal bile hem sanayi gücü hem de ciddi ekonomik değer anlamına gelir.
