@@ -17,6 +17,8 @@ Açık mavi renkli kusursuz bir **altıgen prizma (jeton)** şeklindedir. İç y
 - **Bağlama**: Bir çekirdeğin bir nesneye bağlanması için, o nesnenin yüzeyine temas ettirilmesi ve Manipülasyon kristal yeteneği ile bağlanması gerekir. Ayrıca bu bağlama
 çekirdeğin gücünün kullanılmasının tek yoludur. Yalın bir çekirdek çoğu zaman işe yaramazdır.
 - **Sökme**: Bağlanmış bir çekirdeği sökmek için de aynı şekilde Manipülasyon yeteneği kullanılır; ancak sökme işlemi nesneyi parçalayarak da mümkün olabilir fakat bu yöntem genellikle çekirdekte kısmen yada tamamen hasara yol açar.
+- **Bağlanma İzleri**: Bir çekirdek bir nesneye bağlandığında, taşın çevresinden nesnenin dokusuna doğru parmak boyu uzayan, ince mavi izler/damarlar belirir. Bu izler statiktir; canlı değildir, kıpırdamaz, hareket etmez. Yalnızca bağlanmanın görsel damgasıdır. Çekirdek söküldüğünde veya öldüğünde bu izler **geri çekilmez**; yerlerinde sönmüş, kuru bir mürekkep lekesi gibi durur.
+- **Aktif/Deaktif Etme**: Bağlı bir çekirdeği açıp kapatmak için, kişi avucunu taşa değdirip kendi manasının küçük bir kısmını taşa aktarmalıdır. Bu yalnızca bir anahtar görevi görür — komut vermez, çekirdeğin işlevini değiştirmez. Sadece açar veya kapatır.
 - **Depolama**: Çekirdekler, sadece mana depolayabilir. Elektrik, alev, güç gibi diğer enerji türlerini depolayamazlar.
 
 ### Kristal Aileleri (Beş Dönüşüm Tipi)
