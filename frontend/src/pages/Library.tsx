@@ -61,19 +61,17 @@ function Empty() {
 // MARK: - Book Card
 function BookCard({ book, index, savedSlug }: { book: Book; index: number; savedSlug?: string }) {
   const target = savedSlug || book.pages[0]?.pageSlug || '';
+  // MARK: - Single linear scan for index, only when there is saved progress.
   const savedIdx = savedSlug ? book.pages.findIndex((p) => p.pageSlug === savedSlug) : -1;
   const hasProgress = savedIdx >= 0;
   const pct = hasProgress ? Math.round(((savedIdx + 1) / book.pages.length) * 100) : 0;
 
   return (
-    <div
-      className="animate-[fade-in-up_0.4s_ease-out_both]"
+    <Link
+      to={`/reader/${book.bookSlug}/${target}`}
       style={{ animationDelay: `${index * 50}ms` }}
+      className="surface group flex h-full animate-[fade-in-up_0.4s_ease-out_both] flex-col overflow-hidden no-underline transition-all duration-300 hover:-translate-y-1 hover:border-white/20 hover:bg-white/[0.05] hover:shadow-2xl"
     >
-      <Link
-        to={`/reader/${book.bookSlug}/${target}`}
-        className="surface group flex h-full flex-col overflow-hidden no-underline transition-all duration-300 hover:-translate-y-1 hover:border-white/20 hover:bg-white/[0.05] hover:shadow-2xl"
-      >
         {book.cover && (
           <div className="relative aspect-[16/10] overflow-hidden border-b border-white/5">
             <OptimizedImage
@@ -113,7 +111,6 @@ function BookCard({ book, index, savedSlug }: { book: Book; index: number; saved
             </span>
           </div>
         </div>
-      </Link>
-    </div>
+    </Link>
   );
 }

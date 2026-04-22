@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useRef, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { ArrowLeft } from 'lucide-react';
 import { useReader } from '@/pages/useReader';
@@ -11,52 +11,47 @@ import Pagination from '@/pages/reader/Pagination';
 import SettingsSheet from '@/pages/reader/SettingsSheet';
 import NewChapterButton from '@/pages/reader/NewChapterButton';
 import { useMountTransition } from '@/pages/reader/useMountTransition';
+import { useEditingStore } from '@/store/editing';
 
 const TOOLBAR_HIDE_MS = 3500;
 
 export default function Reader() {
   const { bookSlug, pageSlug } = useParams<{ bookSlug: string; pageSlug: string }>();
   const r = useReader(bookSlug, pageSlug);
+  const editing = useEditingStore((s) => s.editing);
 
-  // MARK: - Toolbar auto-hide
   const [toolbar, setToolbar] = useState(true);
   const [showSettings, setShowSettings] = useState(false);
-  const hideTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
 
-  const toolbarT = useMountTransition(toolbar, 200);
+  // MARK: - Auto-hide the toolbar; reset timer whenever it becomes visible.
+  useEffect(() => {
+    if (!toolbar || editing) return;
+    const t = window.setTimeout(() => setToolbar(false), TOOLBAR_HIDE_MS);
+    return () => window.clearTimeout(t);
+  }, [toolbar, pageSlug, editing]);
+
+  // MARK: - Suppress toolbar entirely while editing.
+  const toolbarT = useMountTransition(toolbar && !editing, 200);
   const settingsT = useMountTransition(showSettings, 200);
 
-  const resetTimer = useCallback(() => {
-    if (hideTimer.current) clearTimeout(hideTimer.current);
-    hideTimer.current = setTimeout(() => setToolbar(false), TOOLBAR_HIDE_MS);
-  }, []);
-
-  useEffect(() => {
-    resetTimer();
-    return () => { if (hideTimer.current) clearTimeout(hideTimer.current); };
-  }, [pageSlug, resetTimer]);
-
-  const toggleToolbar = useCallback(() => {
-    setToolbar((v) => { if (!v) resetTimer(); return !v; });
-  }, [resetTimer]);
-
-  // MARK: - Keyboard nav
-  const { goPrev, goNext } = r;
+  // MARK: - Keyboard nav (ignores typing into form fields).
   useEffect(() => {
     const handler = (e: KeyboardEvent) => {
       if ((e.target as HTMLElement)?.closest('button, a, input, textarea, select')) return;
-      if (e.key === 'ArrowLeft') goPrev();
-      if (e.key === 'ArrowRight') goNext();
+      if (e.key === 'ArrowLeft') r.goPrev();
+      else if (e.key === 'ArrowRight') r.goNext();
     };
     window.addEventListener('keydown', handler);
     return () => window.removeEventListener('keydown', handler);
-  }, [goPrev, goNext]);
+  }, [r.goPrev, r.goNext]);
 
-  const handleTap = useCallback((e: React.MouseEvent<HTMLDivElement>) => {
-    if ((e.target as HTMLElement).closest('a, button, input')) return;
+  // MARK: - Tap middle band to toggle the toolbar.
+  function handleTap(e: React.MouseEvent<HTMLDivElement>) {
+    if (editing) return;
+    if ((e.target as HTMLElement).closest('a, button, input, textarea')) return;
     const ry = e.clientY / window.innerHeight;
-    if (ry > 0.25 && ry < 0.75) toggleToolbar();
-  }, [toggleToolbar]);
+    if (ry > 0.25 && ry < 0.75) setToolbar((v) => !v);
+  }
 
   if (!r.book) return <CenteredSpinner />;
   if (!r.entry) return null;

@@ -85,7 +85,6 @@ export default function ChapterEditor({ page, number, onClose }: {
       <div className="prose prose-invert prose-mystory max-w-none prose-sm sm:prose-base md:prose-lg prose-p:my-3 prose-p:leading-7 sm:prose-p:my-4 sm:prose-p:leading-8 prose-a:underline prose-a:underline-offset-4">
         <SmartField
           multiline
-          centerOnType
           value={bodyDraft}
           onChange={setBodyDraft}
           style={{ minHeight: '40vh' }}
@@ -111,8 +110,6 @@ export default function ChapterEditor({ page, number, onClose }: {
           Save
         </button>
       </div>
-      {/* MARK: - Spacer so caret can scroll to vertical center on the last line */}
-      <div aria-hidden style={{ height: '50vh' }} />
     </section>
   );
 }

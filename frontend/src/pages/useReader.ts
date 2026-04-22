@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useMemo, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { getProgress, useProgressStore } from '@/store/progress';
-import { getBookBySlug, getPageContent, type Book, type Page, type PageEntry } from '@/utils/markdown';
+import { getBookBySlug, getPageContent, type Book, type Page } from '@/utils/markdown';
 
 // MARK: - useReader: encapsulates book/page resolution + nav
 export function useReader(bookSlug: string | undefined, pageSlug: string | undefined) {
@@ -14,42 +14,38 @@ export function useReader(bookSlug: string | undefined, pageSlug: string | undef
     [bookSlug],
   );
 
-  const pageIndex = useMemo(() => {
-    if (!book) return -1;
+  // MARK: - Resolve current page entry (falls back to saved progress, then 0)
+  const { entry, pageIndex, total, hasPrev, hasNext } = useMemo(() => {
+    if (!book) return { entry: null, pageIndex: -1, total: 0, hasPrev: false, hasNext: false };
     const target = pageSlug || getProgress(book.bookSlug) || '';
-    const i = book.pages.findIndex((p) => p.pageSlug === target);
-    return i >= 0 ? i : 0;
+    const i = Math.max(0, book.pages.findIndex((p) => p.pageSlug === target));
+    const t = book.pages.length;
+    return {
+      entry: book.pages[i] ?? null,
+      pageIndex: i,
+      total: t,
+      hasPrev: i > 0,
+      hasNext: i < t - 1,
+    };
   }, [book, pageSlug]);
 
-  const total = book?.pages.length ?? 0;
-  const entry: PageEntry | null = book && pageIndex >= 0 ? book.pages[pageIndex] : null;
-  const hasPrev = pageIndex > 0;
-  const hasNext = pageIndex >= 0 && pageIndex < total - 1;
-
-  // MARK: - Redirect + URL sync
+  // MARK: - Single effect: redirect, persist progress, scroll-to-top, load page
+  const [page, setPage] = useState<Page | null>(null);
   useEffect(() => {
     if (!bookSlug) return;
     if (!book) { navigate('/', { replace: true }); return; }
-    if (entry && pageSlug !== entry.pageSlug) {
+    if (!entry) return;
+    if (pageSlug !== entry.pageSlug) {
       navigate(`/reader/${book.bookSlug}/${entry.pageSlug}`, { replace: true });
+      return;
     }
-  }, [bookSlug, book, entry, pageSlug, navigate]);
-
-  // MARK: - Load page content
-  const [page, setPage] = useState<Page | null>(null);
-  useEffect(() => {
-    if (!book || !entry) return;
+    setProgress(book.bookSlug, entry.pageSlug);
+    window.scrollTo({ top: 0, behavior: 'auto' });
     setPage(null);
     let alive = true;
     getPageContent(book.bookSlug, entry.pageSlug).then((p) => alive && setPage(p));
     return () => { alive = false; };
-  }, [book, entry]);
-
-  // MARK: - Side-effects on page change
-  useEffect(() => {
-    if (book && entry) setProgress(book.bookSlug, entry.pageSlug);
-    window.scrollTo({ top: 0, behavior: 'auto' });
-  }, [book, entry, setProgress]);
+  }, [bookSlug, book, entry, pageSlug, navigate, setProgress]);
 
   // MARK: - Navigation helpers
   const goTo = useCallback((i: number) => {
