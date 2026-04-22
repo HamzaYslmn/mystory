@@ -47,14 +47,16 @@ html[data-theme='amoled'] {
 }
 
 html[data-font='serif'] { --font: Georgia, 'Times New Roman', Times, serif; }
-html[data-font='comic'] { --font: 'Comic Sans MS', 'Comic Sans', cursive; }
+/* MARK: - Comic Neue Bold (700) is self-hosted via @fontsource (see main.tsx).
+   Default weight is bold for the playful look. */
+html[data-font='comic'] { --font: 'Comic Neue', 'Comic Sans MS', 'Chalkboard SE', cursive; font-weight: 700; }
 
 /* MARK: - Reader font scale (applied to .prose-mystory) */
-:root { --reader-scale: 1; }
-html[data-font-size='sm'] { --reader-scale: 0.92; }
-html[data-font-size='md'] { --reader-scale: 1; }
-html[data-font-size='lg'] { --reader-scale: 1.12; }
-html[data-font-size='xl'] { --reader-scale: 1.25; }
+:root { --reader-scale: 1.15; }
+html[data-font-size='sm'] { --reader-scale: 1.05; }
+html[data-font-size='md'] { --reader-scale: 1.20; }
+html[data-font-size='lg'] { --reader-scale: 1.40; }
+html[data-font-size='xl'] { --reader-scale: 1.65; }
 .prose-mystory { font-size: calc(1rem * var(--reader-scale)); }
 
 html, body { margin: 0; padding: 0; min-height: 100svh; }
