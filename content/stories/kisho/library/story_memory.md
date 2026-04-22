@@ -17,6 +17,12 @@ yer almışsa buraya yazılır.
 Kisho'nun rehberlik ettiği, dünyayı ve dili parça parça öğrendiği turuncu saçlı kız
 çocuğu. Kendi sınır lehçesini konuşur; ortak dil henüz öğrenmemiştir.
 
+### Hancı Marla
+
+Freygard Kasabası'ndaki hanı işleten, sert bakışlı ama ölçülü merhamet gösterebilen
+kadın. Kisho'nun tütsülenmiş balıklarını satın almış ve ona Ostragrad yolunu tarif
+etmiştir.
+
 ### Lord Valerius
 
 Elin'in babası ve kuzey sınırının güçlü derebeylerinden biridir. Sertliği ve askeri
@@ -24,12 +30,12 @@ nüfuzuyla tanınır.
 
 ### Kumandan Vorn
 
-Freygard garnizonunun amiri olan deneyimli komutan. Doğulu dilini akıcı konuşur ve
+Ostragrad garnizonunun amiri olan deneyimli komutan. Doğulu dilini akıcı konuşur ve
 yerel düzen ile dış tehdit arasında denge kurmaya çalışır.
 
 ### Boran Usta
 
-Freygard'da çalışan Ocak Kanlı demir ve devre ustası. Kisho'nun işlevsel sezgisini
+Ostragrad'da çalışan Ocak Kanlı demir ve devre ustası. Kisho'nun işlevsel sezgisini
 ilk fark eden yerel ustalardan biridir.
 
 ### Muhafız Yüzbaşısı Lyra
@@ -112,8 +118,13 @@ erik türlerini anımsatır.
 
 ### Freygard Kasabası
 
-Kuzey sınırında, dev ağaçların gölgesinde kurulmuş küçük kasaba. Kisho'nun hikayesi
-burada açılır.
+Kuzey sınırında bulunan küçük, sade bir kasaba. Toprak yolları, ahşap yapıları,
+merkezdeki yel değirmeni ve yabancılara karşı temkinli halkıyla görülür.
+
+### Ostragrad
+
+Kuzeyde yer alan, kılıç simgesiyle anılan önemli yerleşim. Freygard'ın kuzeyinde
+bulunur.
 
 ### Anakara
 
@@ -181,6 +192,20 @@ Sıradan insanların kristal yeteneğini araç üzerinden kullanmasını sağlay
 ### Doğulu Dili
 
 Doğulu savaşçıların konuştuğu dil için kullanılan yerel adlandırma.
+
+### Ortak Dil
+
+Geniş bölgelerde kullanılan ortak konuşma dili. Kisho, Freygard'da bunun kendi
+bildiği Türkçe olduğunu fark eder.
+
+### Rusça
+
+Kuzeydeki bazı sınır köylerinde ortak dilin yanında yaşamayı sürdüren yerel dil.
+Elin'in geldiği çevrenin konuşma dünyası bununla ilişkilendirilir.
+
+### Bakır
+
+Kasaba ve yol üstü ticarette kullanılan düşük değerli para birimi.
 
 ### Sisli Alem
 
