@@ -16,7 +16,7 @@ interface SettingsStore extends SettingsState {
   update: (patch: Partial<SettingsState>) => void;
 }
 
-const DEFAULTS: SettingsState = { theme: 'obsidian', font: 'default', fontSize: 'lg' };
+const DEFAULTS: SettingsState = { theme: 'obsidian', font: 'fancy', fontSize: 'lg' };
 
 // MARK: - DOM mapping (key -> attribute, optional default value to omit)
 const DOM_MAP: { [K in keyof SettingsState]: { attr: string; defaultValue?: SettingsState[K] } } = {
@@ -48,10 +48,10 @@ export const useSettingsStore = create<SettingsStore>()(
     }),
     {
       name: 'mystory_user_settings',
-      version: 5,
+      version: 6,
       storage: createJSONStorage(() => localStorage),
       partialize: (s) => ({ theme: s.theme, font: s.font, fontSize: s.fontSize }),
-      migrate: () => DEFAULTS, // bumped to v5: Sans (Inter) default + Serif + Fancy (Atkinson)
+      migrate: () => DEFAULTS, // bumped to v6: default font is now 'fancy' (Atkinson Hyperlegible / Easy read)
       onRehydrateStorage: () => (state) => { if (state) applySettingsToDOM(state); },
     },
   ),
