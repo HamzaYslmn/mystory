@@ -15,7 +15,9 @@ yer almışsa buraya yazılır.
 ### Elin
 
 Kisho'nun rehberlik ettiği, dünyayı ve dili parça parça öğrendiği turuncu saçlı kız
-çocuğu. Kendi sınır lehçesini konuşur; ortak dil henüz öğrenmemiştir.
+çocuğu. Kendi sınır lehçesini konuşur; ortak dilde yalnızca birkaç basit kelimeyi
+parça parça kullanmaya başlamıştır. Lord Valerius tarafından(babası) tehlikelerden uzak kalması
+için kuzeydeki köylerde büyütüldüğünden, ortak dili öğrenmeye fırsat bulamamıştır.
 
 ### Hancı Marla
 
@@ -30,8 +32,13 @@ arkasına saklayıp Kisho'ya işaret ederek çocuğun kurtulmasını sağlamış
 
 ### Lord Valerius
 
-Elin'in babası ve kuzey sınırının güçlü derebeylerinden biridir. Sertliği ve askeri
-nüfuzuyla tanınır.
+Elin'in babası, Kılıç Şehri Ostragrad'ın derebeyi ve kuzey sınırının güçlü
+soylularından biridir. Sertliği ve askeri nüfuzuyla tanınır. Elin'e saldırı
+gerçekleştiği sırada şehir dışında siyasi bir görüşmededir. Vorn, Valerius'un
+ertesi gün Ostragrad'a geleceğini ve bu yokluğun saldırganlar tarafından özellikle
+seçilmiş olabileceğini Kisho'ya açıklamıştır. Kızını tehlikelerden korumak için
+onu ortak dilin şehirlerdeki kadar yaygın konuşulmadığı kuzey köylerinde büyütmeyi
+seçmiştir.
 
 ### Kumandan Vorn
 
@@ -41,6 +48,9 @@ kayıt odasında sorgulamaya başlamış; Kisho ona hücreden nasıl çıktıkla
 için neredeyse boşalmış slime çekirdeğini göstermiştir. Slime çekirdeğini kanıt
 olarak almış, Kisho'yu zindana değil geçici emanet statüsüyle hekim avlusunun
 yanındaki eski nöbet odasına kapattırmıştır.
+Kisho'ya suçlu hükmü verilmediğini, şahit ve belirsiz yabancı olarak tutulduğunu
+açıklamıştır. Valerius gelene kadar Kisho'yu hem korumanın hem de tutmanın aynı
+emrin parçası olduğunu belirtmiştir.
 
 ### Boran Usta
 
@@ -52,7 +62,9 @@ ilk fark eden yerel ustalardan biridir.
 Lord Valerius'un kervanındaki komutanlardan biri. Pusuda Elin'i kaçırıp son anda
 Kisho'ya emanet etmiştir. Mavi üniformalı disiplinli birliklerin başında paralı
 asker kalesine saldırarak Elin'i geri almış, Kisho'ya ise temkinli ve güvensiz
-yaklaşmıştır. Zırhında hızını artıran küçük güçlendirici çekirdekler taşır.
+yaklaşmıştır. Zırhında hızını artıran küçük güçlendirici çekirdekler taşır. Hekim
+odasında Elin'in Kisho'ya güvenle tutunduğunu ve Kisho'nun kıza zarar vermeyeceğini
+ilk kez yakından görmüştür.
 
 ---
 

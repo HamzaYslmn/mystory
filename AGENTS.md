@@ -2,6 +2,9 @@
 
 This document serves as a standard ruleset for any developers or AI agents interacting with my personal storytelling platform. It explains the core rendering logic, MDX syntax, and folder structuring necessary to maintain my ecosystem.
 
+## 0. READ RULES FIRST, before editing or writing any content. 
+Rules path: `content/stories/kisho/library/rules.md`
+
 ## 1. Architecture: Books & Chapters
 
 The system operates strictly on a hierarchical **Books and Pages** approach located at `content/stories/`.
