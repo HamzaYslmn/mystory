@@ -237,6 +237,17 @@ dizildiği raf, yıkanma yerine ayrılan yakacak sepeti, karşı sokaktaki küç
 ve daha ilerideki çatı hattı görülür. Atölyeler lojmandan fırın yönüne inilip dış
 tamirliğin önünden sola dönülerek gidilen taraftadır; Boran Usta'nın ana atölyesi
 sura daha yakındır ve lojmandan çatısı görünmez, fakat çekiç sesleri duyulur.
+Lojmanda sabah ilk çandan sonra ortak odada kahvaltı dağıtılır. Kisho'nun ilk
+sabahında sıcak çorba, ekmek, beyaz peynir, tereyağı, koyu mor reçel, haşlanmış
+patates ve yumurta verilmiştir. Kisho bunu Anakara'daki besin hapları, tatsız jeller
+ve bayat ekmek düzeniyle karşılaştırıp neredeyse ziyafet gibi algılamıştır.
+Güney Lojmanı'nda dağıtım odası bulunur; burada kayıt malı tunikler, kalın keten
+gömlekler, iş pantolonları, deri kemerler, iş önlükleri ve botlar tutulur. Kisho
+atölyeye gitmeden önce burada koyu gri gömlek, kalın iş pantolonu, deri kemer ve
+koyu kahverengi iş önlüğü almıştır. Eski yıpranmış gömleğini dağıtım görevlisine
+vermiş; karşılığında lojman içinde giymek için açık renkli ince keten gömlek ve
+bağcıklı bol pantolondan oluşan sade bir takım istemiştir. Bu takımı odasındaki
+çekmeceye bırakmıştır.
 
 ### Anakara
 
