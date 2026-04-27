@@ -102,6 +102,13 @@ etmiş, Kisho'nun zekice kurgulanmış bir sızma planının parçası olabilece
 söylemiştir. Mara ve kaybettiği askerlerin acısıyla Kisho'ya güvenmemekte; tek bir
 şüpheli hareketinde onu kendi elleriyle öldüreceğini açıkça söylemiştir.
 
+### Sena
+
+Ostragrad'da görev yapan genç kadın asker. Valerius'un hükmünden sonra Vorn tarafından
+Kisho'ya kalacağı yeri, ortak kullanım düzenini ve atölye yolunu göstermekle
+görevlendirilmiştir. Disiplinli, kısa konuşan ve merakını asker terbiyesiyle
+sınırlayan biridir. Kisho'nun "komünizm" sözünü anlamamış, "Kommü ne?" diye sormuştur.
+
 ---
 
 ## Gruplar ve Topluluklar
@@ -198,6 +205,9 @@ Valerius'un dönüşüyle şehir sabahında devriye düzeni sıklaşmış, hekim
 temizlenmiş, yaralılar gözden uzaklaştırılmış ve kapı eşiklerine nizami askerler
 yerleştirilmiştir. İç kalenin ana kulesinde ağır meşe kapılı, haritalar ve eski
 kılıçlarla dolu pratik bir savaş odası bulunur.
+Şehirde ekmek, yemek, tamir ve bazı temel ihtiyaçlar görev, sıra, kayıt ve pay
+düzeniyle dağıtılır. Kisho bu düzeni kendi içinden komünizme benzetmiş, ancak bu
+terimin şehir halkı tarafından bilinmediğini görmüştür.
 
 ### Ana Kule Savaş Odası
 
@@ -210,6 +220,23 @@ Kisho'yu Elin, Vorn ve Lyra'nın huzurunda burada sorgulamıştır.
 
 Ostragrad hekim avlusunun yanında bulunan, zindan kadar ağır olmayan ama kilitli ve
 gözetimli küçük oda. Kisho, Vorn'un emriyle burada geçici emanet olarak tutulur.
+
+### Güney Lojmanı
+
+Ostragrad'da askerler, atölye çırakları ve geçici işçiler için kullanılan iki katlı
+ortak yaşam binası. Alt katta ortak oda, depo, yıkanma yeri ve arka çıkış; üst katta
+küçük kişisel yatak odaları bulunur. Herkesin küçük de olsa ayrı odası vardır; bu
+düzen kavga ve hırsızlığı azaltmak için korunur. Kisho'ya burada bir oda verilmiştir.
+Odasında bir yatak, masa, sandalye, dar giysi dolabı ve küçük çekmece vardır. Bina
+yaklaşık yirmi kişiyi barındırır; tuvalet ve banyo ortak kullanılır. Odaların basit
+anahtarlı kilitleri vardır; bu kilitler mahremiyet ve sınır için yeterlidir, ancak
+usta bir demirci tarafından kopyalanabilecek ya da maymuncukla açılabilecek kadar
+basit düzeneklerdir.
+Kisho'nun odasının penceresinden lojmanın arka avlusu, odun yığını, su kovalarının
+dizildiği raf, yıkanma yerine ayrılan yakacak sepeti, karşı sokaktaki küçük fırın
+ve daha ilerideki çatı hattı görülür. Atölyeler lojmandan fırın yönüne inilip dış
+tamirliğin önünden sola dönülerek gidilen taraftadır; Boran Usta'nın ana atölyesi
+sura daha yakındır ve lojmandan çatısı görünmez, fakat çekiç sesleri duyulur.
 
 ### Anakara
 
