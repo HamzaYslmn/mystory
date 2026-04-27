@@ -87,6 +87,18 @@ Büyük kervan kristali üzerindeki incelemesi tamamlanmış; taşın Valerius k
 çalınan mühürlü sandıktaki nadir üstü ağır sınıf devir artırıcı güçlendirici olduğunu
 tespit etmiştir. Kayıtlarda Kisho için "Gözü iyi" dediği yazılıdır. Valerius, Kisho'yu
 gözetim altında ağır işlerde çalışması için Boran Usta'nın atölyesine vermiştir.
+Kisho'nun atölyedeki ilk gününde onu çırak değil, önce yük taşıyacak gözetimli işçi
+olarak kabul etmiş; kömür taşıma, cüruf ayırma ve kırık lamba başlıklarını sayma
+görevleri vermiştir. Kisho'nun kömür taşırken rota ve yük dengesini, cüruf ayırırken
+renk ve kırık yüzey farkını, lamba başlıklarında ise tekrar eden bağlantı kulağı
+çatlağını sistemli biçimde okuması üzerine "Gözün iyi olabilir, elin yavaş" diyerek
+ona sınırlı biçimde dikkat etmiştir.
+
+### Toma
+
+Boran Usta'nın atölyesinde çalışan uzun boylu, burnu kırık kalfa. Kisho'nun ilk
+gününde ona mesafeli yaklaşmış ve laf atmıştır. Boran'ın tek sözüyle susacak kadar
+atölye hiyerarşisine bağlıdır.
 
 ### Muhafız Yüzbaşısı Lyra
 
@@ -248,6 +260,18 @@ koyu kahverengi iş önlüğü almıştır. Eski yıpranmış gömleğini dağı
 vermiş; karşılığında lojman içinde giymek için açık renkli ince keten gömlek ve
 bağcıklı bol pantolondan oluşan sade bir takım istemiştir. Bu takımı odasındaki
 çekmeceye bırakmıştır.
+
+### Boran Usta'nın Ana Atölyesi
+
+Ostragrad'da sura daha yakın konumda bulunan, dış tamirlikten daha büyük ve ağır
+işleyen ana demir ve kristal devre atölyesi. Kapısında is kararmış demir plaka,
+kabartma çekiç ve donmuş mavi damar izleri bulunur. İçeride birden fazla ocak,
+ayakla çalışan körükler, cüruf çukuru, metal tezgahlar, kırık lamba başlıkları,
+boş kristal yuvaları, sönük çekirdekli parçalar ve kilitli rafta sarı rünlü
+Manipülatör aletler vardır. Kisho ilk gününde burada kömür taşımış, cürufları
+renk, parlaklık ve kırık yüzey sesine göre ayırmış; kırık lamba başlıklarında aynı
+bağlantı kulağından başlayan çatlakları mekanik gerilim, sıkı bağlantı, ısı ve
+titreşim ihtimali üzerinden değerlendirmiştir.
 
 ### Anakara
 
