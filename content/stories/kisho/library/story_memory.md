@@ -12,12 +12,27 @@ yer almışsa buraya yazılır.
 
 ## İnsanlar
 
+### Kisho
+
+Anakara'dan gelen, bu dünyayı mühendis refleksiyle gözlem, sökme ve deneme üzerinden
+anlamaya çalışan yabancı. Ostragrad'da Valerius tarafından hayatı bağışlanmış, ancak
+şehirden izinsiz çıkması yasaklanmıştır. Boran Usta'nın atölyesine ağır işlerde
+çalışmak ve gözetim altında tutulmak üzere verilmiştir. Valerius'a doğuda küçük bir
+kasabadan geldiğini, kasabanın uzun zaman önce yağmalanıp yakıldığını söylemiştir.
+Kemerinin iç dikişinde paralı asker demircisinin tezgahından aldığı küçük mor rünlü
+mana dönüştürücü taşı gizli tutmaktadır.
+
 ### Elin
 
 Kisho'nun rehberlik ettiği, dünyayı ve dili parça parça öğrendiği turuncu saçlı kız
 çocuğu. Kendi sınır lehçesini konuşur; ortak dilde yalnızca birkaç basit kelimeyi
 parça parça kullanmaya başlamıştır. Lord Valerius tarafından(babası) tehlikelerden uzak kalması
 için kuzeydeki köylerde büyütüldüğünden, ortak dili öğrenmeye fırsat bulamamıştır.
+Ostragrad'da babasının dönüşünden sonra temizlenmiş, saçları örülmüş ve kırık kolu
+göğsüne sabitlenmiş halde Valerius'un savaş odasında görülmüştür. Kisho'nun zincirli
+halini görünce ona doğru gitmek istemiş, fakat Valerius'un baskın varlığı yüzünden
+yerinde kalmıştır. Odadan çıkarken Kisho'ya minnet ve veda karışımı bir bakış
+bırakmıştır.
 
 ### Hancı Marla
 
@@ -39,6 +54,13 @@ ertesi gün Ostragrad'a geleceğini ve bu yokluğun saldırganlar tarafından ö
 seçilmiş olabileceğini Kisho'ya açıklamıştır. Kızını tehlikelerden korumak için
 onu ortak dilin şehirlerdeki kadar yaygın konuşulmadığı kuzey köylerinde büyütmeyi
 seçmiştir.
+Ostragrad'a döndüğünde şehir düzeni sert biçimde askeri hizaya çekilmiştir. Ana
+kulenin savaş odasında Kisho'yu zincirli olarak sorgulamış, Elin'i kurtarmasını
+ve taşı şehre getirmesini eylem kanıtı sayarak hayatını bağışlamıştır. Kisho'yu
+masum ilan etmemiş; borcun kapandığını, şehirden izinsiz çıkamayacağını ve işe
+yaramak zorunda olduğunu bildirmiştir. Kisho'yu Boran Usta'nın atölyesine vermiş,
+Elin'e yeniden yaklaşmasını açıkça yasaklamıştır. Mat siyah, kılıç çizikli zırh
+giyer; göğüs plakasında dövme çelikten çift çapraz kılıç arması bulunur.
 
 ### Kumandan Vorn
 
@@ -51,11 +73,20 @@ yanındaki eski nöbet odasına kapattırmıştır.
 Kisho'ya suçlu hükmü verilmediğini, şahit ve belirsiz yabancı olarak tutulduğunu
 açıklamıştır. Valerius gelene kadar Kisho'yu hem korumanın hem de tutmanın aynı
 emrin parçası olduğunu belirtmiştir.
+Valerius'un savaş odasındaki sorguda Kisho'nun orman güzergahı ve Freygard'a giriş
+anlatısını mantıklı bulmuş, fakat olay yerindeki asimetriye dikkat çekmiştir. Kisho'nun
+anlattıklarında boşluklar, pusuyu kuranların izleri ve olası ikinci ekip meselesinin
+toprakta araştırılması gerektiğini belirtmiştir. Valerius'un emriyle Kisho'nun
+zincirlerinin çözülmesini sağlamıştır.
 
 ### Boran Usta
 
 Ostragrad'da çalışan Ocak Kanlı demir ve büyülü devre ustası. Kisho'nun işlevsel sezgisini
 ilk fark eden yerel ustalardan biridir.
+Büyük kervan kristali üzerindeki incelemesi tamamlanmış; taşın Valerius konvoyundan
+çalınan mühürlü sandıktaki nadir üstü ağır sınıf devir artırıcı güçlendirici olduğunu
+tespit etmiştir. Kayıtlarda Kisho için "Gözü iyi" dediği yazılıdır. Valerius, Kisho'yu
+gözetim altında ağır işlerde çalışması için Boran Usta'nın atölyesine vermiştir.
 
 ### Muhafız Yüzbaşısı Lyra
 
@@ -65,6 +96,11 @@ asker kalesine saldırarak Elin'i geri almış, Kisho'ya ise temkinli ve güvens
 yaklaşmıştır. Zırhında hızını artıran küçük güçlendirici çekirdekler taşır. Hekim
 odasında Elin'in Kisho'ya güvenle tutunduğunu ve Kisho'nun kıza zarar vermeyeceğini
 ilk kez yakından görmüştür.
+Valerius'un dönüş sabahı Kisho'yu eski nöbet odasından zincirle alıp ana kuledeki
+savaş odasına götürmüştür. Valerius'un Kisho'nun zincirlerini çözdürmesine itiraz
+etmiş, Kisho'nun zekice kurgulanmış bir sızma planının parçası olabileceğini
+söylemiştir. Mara ve kaybettiği askerlerin acısıyla Kisho'ya güvenmemekte; tek bir
+şüpheli hareketinde onu kendi elleriyle öldüreceğini açıkça söylemiştir.
 
 ---
 
@@ -158,6 +194,17 @@ bulunur. "Kılıç Şehri" adı Ostragrad için kullanılan karşılıktır. Dev
 çift çapraz kılıç sancakları, kristal lambalı ana yolu, düzenli kapı kontrolü ve
 askeri avlusuyla görülmüştür. Kayıt binası, hekim binası ve eski nöbet odası sahnede
 görülmüştür.
+Valerius'un dönüşüyle şehir sabahında devriye düzeni sıklaşmış, hekim avlusu
+temizlenmiş, yaralılar gözden uzaklaştırılmış ve kapı eşiklerine nizami askerler
+yerleştirilmiştir. İç kalenin ana kulesinde ağır meşe kapılı, haritalar ve eski
+kılıçlarla dolu pratik bir savaş odası bulunur.
+
+### Ana Kule Savaş Odası
+
+Ostragrad iç kalesindeki ağır meşe kapılı savaş odası. Gösterişli bir taht odası
+değil; yüksek tavanlı, duvarlarında eski haritalar ve yıpranmış kılıçlar bulunan,
+ortasında parşömenlerle dolu devasa meşe masa duran askeri karar mekanıdır. Valerius,
+Kisho'yu Elin, Vorn ve Lyra'nın huzurunda burada sorgulamıştır.
 
 ### Eski Nöbet Odası
 
@@ -202,7 +249,9 @@ ailesi.
 ### Mana Dönüştürücü Taş
 Güneş ışığı gibi dış kaynakları manaya çevirerek başka çekirdekleri doldurmak için
 kullanılan dönüştürücü taş. Kisho, paralı asker demircisinin tezgahından mor rünlü
-küçük bir örneğini almıştır.
+küçük bir örneğini almıştır. Ostragrad'da eski nöbet odasında kaldığı sırada bu taşı
+kemerinin iç dikişinde saklamaya devam etmektedir; Kisho taş üzerinden mananın
+akışını ilk kez hissetmiştir.
 
 ### Büyük Kervan Kristali
 
@@ -210,7 +259,9 @@ Kisho'nun pusuya uğramış kervandan söktüğü büyük mavi kristal. İçinde
 rünler kan kırmızısı görünür; paralı asker kampında şarj edilmeye çalışılmış, Kisho
 kaçış sırasında onu yeniden ele geçirmiştir. Devir artıran Güçlendirici alt sınıfına
 aittir. Kisho, Ostragrad kayıt sorgusunda taşı saklayamamış; masaya koymak zorunda
-kalmış ve taş şüpheli askeri yük kaydıyla geçici korumaya alınmıştır.
+kalmış ve taş şüpheli askeri yük kaydıyla geçici korumaya alınmıştır. Boran Usta'nın
+incelemesiyle bu taşın Valerius konvoyundan çalınan mühürlü sandıktaki nadir üstü
+ağır sınıf devir artırıcı güçlendirici olduğu kesinleşmiştir.
 
 ### Askeri Sınıf Ağır Güçlendirici
 
@@ -227,11 +278,25 @@ mana hattı düzgün ve verimi yüksek kristaller için kullanılır.
 
 Lord Valerius'a bağlı ve saldırıya uğramış taşıma hattıdır. Lyra, kamp içinde görülen
 yüksek sınıf kristalin bu konvoydan açılan yüklerle ilişkili olabileceğini belirtir.
+Valerius'un değerlendirmesine göre saldırıda Elin hedef alınmış ama kaçırılmamış,
+yük alınmış ama arabalar tamamen yakılmamıştır. Bu asimetri, pusunun arkasında
+ikinci bir ekip veya daha karmaşık bir amaç olabileceği şüphesini güçlendirmiştir.
 
 ### Kayıp Ağır Mühürlü Sandık
 
 Valerius konvoyu saldırısında açıldığı belirtilen ve henüz bulunamayan yüksek değerli
 yük. Paralı asker kampındaki düzeneklerle bağlantılı şüpheli iz olarak anılmıştır.
+Sandığın içindeki nadir üstü ağır sınıf devir artırıcı güçlendiricinin Kisho'nun
+Ostragrad'a getirdiği büyük kervan kristali olduğu Boran Usta'nın incelemesiyle
+kesinleşmiştir.
+
+### Kisho'nun Ostragrad Statüsü
+
+Valerius'un hükmünden sonra Kisho'nun hayatı bağışlanmış, fakat Ostragrad'dan izinsiz
+çıkışı yasaklanmıştır. Suçlu ilan edilmeden zincirleri çözülmüş olsa da şehir içinde
+gözetim altındadır. Boran Usta'nın atölyesinde ocaklara kömür taşıma, cüruf temizleme
+ve ağır işlerde çalışma görevi verilmiştir; işe yaramazsa veya Elin'e yaklaşırsa
+Valerius tarafından ölümle tehdit edilmiştir.
 
 ### Slime Çekirdeği
 

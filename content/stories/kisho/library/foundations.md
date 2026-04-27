@@ -93,6 +93,8 @@ Mor rünleriyle tanınır.
 Dönüştürücü de alt sınıfa bağlı çalışır. Slime çekirdeği su ve benzeri uygun bir
 ortamı aside çeviren alt sınıftadır; ortamda dönüştüreceği madde yoksa, aktif halde
 kendi depoladığı manayı aside dönüştürerek çalışabilir.
+Kaynak dönüştürmeye ayarlı Dönüştürücüler de uygun dış kaynak bulamazsa kendi
+deposundaki manayı tüketmeye yönelebilir.
 
 #### Ruh Bağlayıcı/Yaratıcı (Conjuration)
 Ruh Bağlayıcı kristal hasarlı ya da eksik parçayı telafi eder. Uygun ham madde varsa
@@ -122,6 +124,9 @@ Sıradan koşullarda hiçbir kristal kendiliğinden şarj olmaz. Yeniden dolum i
 kaynağı manaya çeviren nadir bir Dönüştürücü gerekir; atölyelerde bu iş için ayrı
 şarj taşları kullanılır. Ocak Kanlılar, yeterli kontrol kurabildiklerinde kendi
 bedenlerinden doğrudan mana aktararak çekirdekleri besleyebilir.
+
+Eğitimsiz Ocak Kanlı bedeninden gelen mana ile kristalin işlediği mana aynı kaynağın farklı
+düzenleri gibi hissedilir; beden akışı daha ham, kristalden çıkan akış daha düzenlidir.
 
 ### Çekirdek yalnızca mana depolar
 Kristaller elektrik, alev, ısı ya da ışığı doğrudan depolamaz. Depoladıkları tek şey
