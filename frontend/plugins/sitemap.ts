@@ -20,6 +20,24 @@ interface UrlEntry {
   priority: string;
 }
 
+// MARK: - Skip non-chapter folders
+const SKIP_DIRS = new Set(['docs', 'library', 'assets']);
+
+function collectMdxPages(dir: string): { slug: string; mtime: string }[] {
+  const pages: { slug: string; mtime: string }[] = [];
+  for (const entry of readdirSync(dir, { withFileTypes: true })) {
+    if (entry.isDirectory()) {
+      if (SKIP_DIRS.has(entry.name) || entry.name.startsWith('.')) continue;
+      pages.push(...collectMdxPages(join(dir, entry.name)));
+    } else if (entry.isFile() && extname(entry.name) === '.mdx') {
+      const slug = basename(entry.name, '.mdx');
+      const mtime = statSync(join(dir, entry.name)).mtime.toISOString().slice(0, 10);
+      pages.push({ slug, mtime });
+    }
+  }
+  return pages;
+}
+
 function collectUrls(storiesDir: string, base: string): UrlEntry[] {
   const urls: UrlEntry[] = [];
   const today = new Date().toISOString().slice(0, 10);
@@ -27,19 +45,12 @@ function collectUrls(storiesDir: string, base: string): UrlEntry[] {
   // MARK: - Library root
   urls.push({ loc: `${base}/`, lastmod: today, changefreq: 'weekly', priority: '1.0' });
 
-  // MARK: - Each book + every chapter
+  // MARK: - Each book + every chapter (recursive scan)
   for (const bookDir of readdirSync(storiesDir, { withFileTypes: true })) {
     if (!bookDir.isDirectory() || bookDir.name.startsWith('.')) continue;
     const bookPath = join(storiesDir, bookDir.name);
-    const pages: { slug: string; mtime: string }[] = [];
+    const pages = collectMdxPages(bookPath);
 
-    for (const file of readdirSync(bookPath, { withFileTypes: true })) {
-      if (!file.isFile()) continue;
-      if (extname(file.name) !== '.mdx') continue;
-      const slug = basename(file.name, '.mdx');
-      const mtime = statSync(join(bookPath, file.name)).mtime.toISOString().slice(0, 10);
-      pages.push({ slug, mtime });
-    }
     pages.sort((a, b) => a.slug.localeCompare(b.slug, undefined, { numeric: true }));
     if (!pages.length) continue;
 

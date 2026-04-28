@@ -56,7 +56,11 @@ export default function mdxEditorPlugin(storiesDir: string): Plugin {
             res.statusCode = 400; res.end('Invalid payload'); return;
           }
 
-          const filePath = resolve(join(root, bookSlug, `${pageSlug}.mdx`));
+          // MARK: - Resolve into chapters/ subfolder if present, else book root
+          const chaptersDir = resolve(join(root, bookSlug, 'chapters'));
+          const bookDir = resolve(join(root, bookSlug));
+          const targetDir = existsSync(chaptersDir) ? chaptersDir : bookDir;
+          const filePath = resolve(join(targetDir, `${pageSlug}.mdx`));
           if (!filePath.startsWith(root)) {
             res.statusCode = 400; res.end('Invalid path'); return;
           }

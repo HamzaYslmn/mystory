@@ -54,7 +54,7 @@ function parseRaw(raw: string): { meta: Partial<PageMetadata>; body: string } {
   return { meta, body: m[2] ?? '' };
 }
 
-// MARK: - Globs (MDX only)
+// MARK: - Globs (MDX only — recursive scan covers chapters/ subfolders)
 const mdxFiles = import.meta.glob('../../../content/stories/**/*.mdx', { query: '?raw', import: 'default' });
 const assetFiles = import.meta.glob('../../../content/stories/**/assets/*.{png,jpg,jpeg,gif,webp,svg}', {
   eager: true,
@@ -80,6 +80,8 @@ function buildAll(): { loaders: Map<string, LoaderEntry>; books: Book[] } {
     const bookSlug = rel[0];
     const fileName = rel[rel.length - 1];
     if (!fileName.endsWith('.mdx')) continue;
+    // MARK: - Skip docs/ and other non-chapter folders
+    if (rel.includes('docs') || rel.includes('library')) continue;
     const pageSlug = fileName.slice(0, -4);
 
     loaders.set(`${bookSlug}/${pageSlug}`, { bookSlug, pageSlug, load: mdxFiles[path] });

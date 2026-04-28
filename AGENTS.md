@@ -3,7 +3,7 @@
 This document serves as a standard ruleset for any developers or AI agents interacting with my personal storytelling platform. It explains the core rendering logic, MDX syntax, and folder structuring necessary to maintain my ecosystem.
 
 ## 0. READ RULES FIRST, before editing or writing any content. 
-Rules path: `content/stories/kisho/library/rules.md`
+Rules path: `content/stories/kisho/docs/rules.md`
 
 ## 1. Architecture: Books & Chapters
 
@@ -12,9 +12,10 @@ The system operates strictly on a hierarchical **Books and Pages** approach loca
 - **Books (Folders):** Every subfolder inside the `content/stories/` directory acts as a discrete "Book". 
   - The folder's name acts as the system's `bookSlug` (e.g., `the-wizard-of-oz`). 
   - The platform automatically formats this slug into a readable title ("The Wizard Of Oz") for the Library UI.
-- **Pages (MDX Files):** The `.mdx` files nested inside the books act as the "Pages" or "Chapters". 
-  - The file name acts as the `pageSlug` (e.g., `01-hello.mdx` -> `01-hello`).
-  - Prefixing file names with logical numbers (e.g., `01-`, `02-`) enables natural, alphabetical sorting, allowing the Table of Contents & Pagination logic to traverse seamlessly.
+- **Chapters Subfolder:** Finished `.mdx` chapter files live inside a `chapters/` subfolder of each book (e.g., `content/stories/kisho/chapters/chapter1.mdx`).
+  - The file name acts as the `pageSlug` (e.g., `chapter1.mdx` -> `chapter1`).
+  - The system recursively scans book folders for `.mdx` files, skipping `docs/`, `library/`, and `assets/` directories.
+  - Prefixing file names with logical numbers enables natural sorting for the Table of Contents & Pagination.
 
 ## 2. Frontmatter Properties
 
@@ -43,14 +44,15 @@ cover: "url_to_image"
 - **Minimalism:** No heavy images are used on the Home screen. Pure typography and precise spacing are prioritized locally to focus on my writing.
 
 ## 4. Maintenance Notes
+- Place `.mdx` chapter files inside the `chapters/` subfolder of each book, not at the book root.
 - Avoid inserting arbitrary standalone `.mdx` files into the `stories/` root folder. They will not be rendered by my Library unless wrapped inside a dedicated book folder. 
 - Avoid quotes with inline commas or unescaped strings in my frontmatter unless strictly necessary; keep parsing simple.
 - **Cover Images:** When generating AI cover images for chapters, ALWAYS draw the pure environment. DO NOT include characters, human figures, or silhouettes in the generated cover art.
 
-## 5. Kisho Library Files
+## 5. Kisho Docs Files
 
-When working inside `content/stories/kisho/`, always check the canon library files in
-`content/stories/kisho/library/` and keep each file scoped correctly.
+When working inside `content/stories/kisho/`, always check the canon docs files in
+`content/stories/kisho/docs/` and keep each file scoped correctly.
 
 - `foundations.md`: World rules, crystal-system canon, social structure, and the
   story's baseline foundations.
