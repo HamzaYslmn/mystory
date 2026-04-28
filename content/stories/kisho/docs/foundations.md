@@ -146,6 +146,12 @@ Bağlı bir çekirdek ya Manipülasyon ile temiz biçimde sökülür ya da nesne
 Çekirdek tek başına dayanıklıdır, ancak bağlı olduğu parça hasar alırsa ondan o da
 etkilenir. Bağın kurulduğu bölgenin kırılması, çekirdeği de çatlatabilir.
 
+### Yuva payı bırakılmalıdır
+Çalışan çekirdek yalnız çıktı üretmez; iç mana hattı da gerilebilir. Bazı çekirdekler
+ısı veya yoğun mana akışı altında çok küçük genleşme davranışı gösterebilir. Metal
+yuva bu gerilmeye pay bırakmazsa çekirdek yüzeyinde kılcal çatlak oluşabilir ya da
+bağlantı kulağı gibi zayıf metal noktalar kırılabilir.
+
 ### Aktif ve deaktif tetik anahtar gibidir
 Bir kişi avucunu bağlı çekirdeğe değdirip az miktarda mana vererek onu açıp kapatır.
 Bu işlem komut yazmak değil, yalnızca çalıştırma anahtarını çevirmek gibidir.

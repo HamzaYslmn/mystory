@@ -1,12 +1,8 @@
 # Kisho Dünyası - Story Memory
 
-Bu belge, hikayede fiilen karşılaşılan ya da açıkça anılan kişi, hayvan, bitki, yer
-ve kavramları tutar. Bir şey sahnenin içinde görünmüş, anılmış ya da olay örgüsünde
-yer almışsa buraya yazılır.
-
-> Düzen kuralı: Yeni kayıt eklerken uygun `##` başlığını bul ve altına `###` ile
-> ekle. Dünya işleyişi `foundations.md` içindir. Hikayede geçen kişiler, canlılar,
-> yerler, kavramlar ve kullanılan terimler burada tutulur.
+Hikayede fiilen görülen/anılan kişi, canlı, yer, eşya, terim ve olay notları.
+Kısa tutulur; dünya kuralı gerekiyorsa `foundations.md`, yazım kuralı gerekiyorsa
+`rules.md` güncellenir.
 
 ---
 
@@ -14,112 +10,82 @@ yer almışsa buraya yazılır.
 
 ### Kisho
 
-Anakara'dan gelen, bu dünyayı mühendis refleksiyle gözlem, sökme ve deneme üzerinden
-anlamaya çalışan yabancı. Ostragrad'da Valerius tarafından hayatı bağışlanmış, ancak
-şehirden izinsiz çıkması yasaklanmıştır. Boran Usta'nın atölyesine ağır işlerde
-çalışmak ve gözetim altında tutulmak üzere verilmiştir. Valerius'a doğuda küçük bir
-kasabadan geldiğini, kasabanın uzun zaman önce yağmalanıp yakıldığını söylemiştir.
-Kemerinin iç dikişinde paralı asker demircisinin tezgahından aldığı küçük mor rünlü
-mana dönüştürücü taşı gizli tutmaktadır.
+- Anakara'dan gelen yabancı; dünyayı mühendis refleksiyle gözlem, sökme, deneme ve sonuç üzerinden okur.
+- Ostragrad'da Valerius tarafından hayatı bağışlandı; şehirden izinsiz çıkması yasak.
+- Boran Usta'nın atölyesine ağır iş/gözetim altında verildi.
+- Valerius'a doğuda küçük, yakılıp yağmalanmış bir kasabadan geldiğini söyledi.
+- Kemerinin iç dikişinde küçük mor rünlü mana dönüştürücü taşı gizli tutuyor.
 
 ### Elin
 
-Kisho'nun rehberlik ettiği, dünyayı ve dili parça parça öğrendiği turuncu saçlı kız
-çocuğu. Kendi sınır lehçesini konuşur; ortak dilde yalnızca birkaç basit kelimeyi
-parça parça kullanmaya başlamıştır. Lord Valerius tarafından(babası) tehlikelerden uzak kalması
-için kuzeydeki köylerde büyütüldüğünden, ortak dili öğrenmeye fırsat bulamamıştır.
-Ostragrad'da babasının dönüşünden sonra temizlenmiş, saçları örülmüş ve kırık kolu
-göğsüne sabitlenmiş halde Valerius'un savaş odasında görülmüştür. Kisho'nun zincirli
-halini görünce ona doğru gitmek istemiş, fakat Valerius'un baskın varlığı yüzünden
-yerinde kalmıştır. Odadan çıkarken Kisho'ya minnet ve veda karışımı bir bakış
-bırakmıştır.
+- Turuncu saçlı kız çocuğu; Kisho tarafından ormanda korunup Ostragrad'a ulaştırıldı.
+- Kendi sınır lehçesini konuşur; ortak dili kırık ve az kullanır.
+- Valerius'un kızıdır; kuzey köylerinde büyütüldüğü için ortak dili şehir çocukları kadar bilmez.
+- Ostragrad'da temizlenmiş, saçları örülmüş, kırık kolu göğsüne sabitlenmiş halde görüldü.
+- Kisho'nun zincirli halini görünce ona gitmek istedi ama Valerius'un varlığı yüzünden durdu.
 
 ### Hancı Marla
 
-Freygard Kasabası'ndaki hanı işleten, sert bakışlı ama ölçülü merhamet gösterebilen
-kadın. Kisho'nun tütsülenmiş balıklarını satın almış ve ona Ostragrad yolunu tarif
-etmiştir.
+- Freygard Kasabası'ndaki hanı işleten sert ama ölçülü kadın.
+- Kisho'nun tütsülenmiş balıklarını satın aldı; Ostragrad yolunu tarif etti.
 
 ### Mara
 
-Valerius'un hane muhafızlarından biri. Pusu sırasında ağır yaralı halde Elin'i çuval
-arkasına saklayıp Kisho'ya işaret ederek çocuğun kurtulmasını sağlamıştır.
+- Valerius'un hane muhafızlarından biri.
+- Pusuda ağır yaralıyken Elin'i çuval arkasına sakladı ve Kisho'ya işaret etti.
 
 ### Lord Valerius
 
-Elin'in babası, Kılıç Şehri Ostragrad'ın derebeyi ve kuzey sınırının güçlü
-soylularından biridir. Sertliği ve askeri nüfuzuyla tanınır. Elin'e saldırı
-gerçekleştiği sırada şehir dışında siyasi bir görüşmededir. Vorn, Valerius'un
-ertesi gün Ostragrad'a geleceğini ve bu yokluğun saldırganlar tarafından özellikle
-seçilmiş olabileceğini Kisho'ya açıklamıştır. Kızını tehlikelerden korumak için
-onu ortak dilin şehirlerdeki kadar yaygın konuşulmadığı kuzey köylerinde büyütmeyi
-seçmiştir.
-Ostragrad'a döndüğünde şehir düzeni sert biçimde askeri hizaya çekilmiştir. Ana
-kulenin savaş odasında Kisho'yu zincirli olarak sorgulamış, Elin'i kurtarmasını
-ve taşı şehre getirmesini eylem kanıtı sayarak hayatını bağışlamıştır. Kisho'yu
-masum ilan etmemiş; borcun kapandığını, şehirden izinsiz çıkamayacağını ve işe
-yaramak zorunda olduğunu bildirmiştir. Kisho'yu Boran Usta'nın atölyesine vermiş,
-Elin'e yeniden yaklaşmasını açıkça yasaklamıştır. Mat siyah, kılıç çizikli zırh
-giyer; göğüs plakasında dövme çelikten çift çapraz kılıç arması bulunur.
+- Elin'in babası; Ostragrad'ın derebeyi, kuzey sınırının güçlü soylularından.
+- Saldırı sırasında şehir dışında siyasi görüşmedeydi; yokluğu özellikle seçilmiş olabilir.
+- Mat siyah, kılıç çizikli zırh giyer; göğsünde dövme çelik çift çapraz kılıç arması vardır.
+- Kisho'yu savaş odasında sorguladı; Elin'i kurtarmasını ve taşı getirmesini eylem kanıtı saydı.
+- Kisho'yu masum ilan etmedi; hayatını bağışladı, şehirden izinsiz çıkışını yasakladı.
+- Kisho'yu Boran Usta'nın atölyesine verdi; Elin'e yaklaşmasını yasakladı.
 
 ### Kumandan Vorn
 
-Ostragrad garnizonunun amiri olan deneyimli komutan. Doğulu dilini akıcı konuşur ve
-yerel düzen ile dış tehdit arasında denge kurmaya çalışır. Kisho'yu Ostragrad'daki
-kayıt odasında sorgulamaya başlamış; Kisho ona hücreden nasıl çıktıklarını açıklamak
-için neredeyse boşalmış slime çekirdeğini göstermiştir. Slime çekirdeğini kanıt
-olarak almış, Kisho'yu zindana değil geçici emanet statüsüyle hekim avlusunun
-yanındaki eski nöbet odasına kapattırmıştır.
-Kisho'ya suçlu hükmü verilmediğini, şahit ve belirsiz yabancı olarak tutulduğunu
-açıklamıştır. Valerius gelene kadar Kisho'yu hem korumanın hem de tutmanın aynı
-emrin parçası olduğunu belirtmiştir.
-Valerius'un savaş odasındaki sorguda Kisho'nun orman güzergahı ve Freygard'a giriş
-anlatısını mantıklı bulmuş, fakat olay yerindeki asimetriye dikkat çekmiştir. Kisho'nun
-anlattıklarında boşluklar, pusuyu kuranların izleri ve olası ikinci ekip meselesinin
-toprakta araştırılması gerektiğini belirtmiştir. Valerius'un emriyle Kisho'nun
-zincirlerinin çözülmesini sağlamıştır.
+- Ostragrad garnizonunun amiri; deneyimli, sakin, dikkatli.
+- Doğulu dilini akıcı konuşur.
+- Kisho'yu kayıt odasında sorguladı; slime çekirdeğini kanıt olarak aldı.
+- Kisho'yu zindana değil eski nöbet odasına geçici emanet olarak koydurdu.
+- Valerius gelene kadar Kisho'yu hem korumanın hem tutmanın aynı emrin parçası olduğunu söyledi.
+- Valerius sorgusunda olay yerindeki asimetriye ve olası ikinci ekibe dikkat çekti.
+- Valerius'un emriyle Kisho'nun zincirlerini çözdürdü.
 
 ### Boran Usta
 
-Ostragrad'da çalışan Ocak Kanlı demir ve büyülü devre ustası. Kisho'nun işlevsel sezgisini
-ilk fark eden yerel ustalardan biridir.
-Büyük kervan kristali üzerindeki incelemesi tamamlanmış; taşın Valerius konvoyundan
-çalınan mühürlü sandıktaki nadir üstü ağır sınıf devir artırıcı güçlendirici olduğunu
-tespit etmiştir. Kayıtlarda Kisho için "Gözü iyi" dediği yazılıdır. Valerius, Kisho'yu
-gözetim altında ağır işlerde çalışması için Boran Usta'nın atölyesine vermiştir.
-Kisho'nun atölyedeki ilk gününde onu çırak değil, önce yük taşıyacak gözetimli işçi
-olarak kabul etmiş; kömür taşıma, cüruf ayırma ve kırık lamba başlıklarını sayma
-görevleri vermiştir. Kisho'nun kömür taşırken rota ve yük dengesini, cüruf ayırırken
-renk ve kırık yüzey farkını, lamba başlıklarında ise tekrar eden bağlantı kulağı
-çatlağını sistemli biçimde okuması üzerine "Gözün iyi olabilir, elin yavaş" diyerek
-ona sınırlı biçimde dikkat etmiştir.
+- Ostragrad'da Ocak Kanlı demir ve büyülü devre ustası.
+- Büyük kervan kristalini Valerius konvoyundan çalınan nadir üstü ağır devir artırıcı güçlendirici olarak teşhis etti.
+- Kisho için kayıtlara "Gözü iyi" dedi.
+- Kisho'yu çırak değil, önce gözetimli ağır işçi olarak kabul etti.
+- Kisho'ya kömür taşıma, cüruf ayırma, kırık lamba başlığı sınıflandırma işleri verdi.
+- Kisho'nun sistemli arıza gözlemini fark etti; "Gözün iyi olabilir/iyi, elin yavaş" dedi.
+- Manipülatör aletin işlevini Kisho'ya gösterdi: bağ, sökme, yoklama, sınırlı komut.
+- Arızalı lambada ışığı kapattı, bağ hattını yokladı, yuvayı gevşetti, çekirdek kılcal çatlağını gösterdi.
 
 ### Toma
 
-Boran Usta'nın atölyesinde çalışan uzun boylu, burnu kırık kalfa. Kisho'nun ilk
-gününde ona mesafeli yaklaşmış ve laf atmıştır. Boran'ın tek sözüyle susacak kadar
-atölye hiyerarşisine bağlıdır.
+- Boran'ın atölyesinde uzun boylu, burnu kırık kalfa.
+- Kisho'ya mesafeli ve laf sokarak yaklaşır.
+- Boran'ın tek sözüyle susacak kadar atölye hiyerarşisine bağlıdır.
 
 ### Muhafız Yüzbaşısı Lyra
 
-Lord Valerius'un kervanındaki komutanlardan biri. Pusuda Elin'i kaçırıp son anda
-Kisho'ya emanet etmiştir. Mavi üniformalı disiplinli birliklerin başında paralı
-asker kalesine saldırarak Elin'i geri almış, Kisho'ya ise temkinli ve güvensiz
-yaklaşmıştır. Zırhında hızını artıran küçük güçlendirici çekirdekler taşır. Hekim
-odasında Elin'in Kisho'ya güvenle tutunduğunu ve Kisho'nun kıza zarar vermeyeceğini
-ilk kez yakından görmüştür.
-Valerius'un dönüş sabahı Kisho'yu eski nöbet odasından zincirle alıp ana kuledeki
-savaş odasına götürmüştür. Valerius'un Kisho'nun zincirlerini çözdürmesine itiraz
-etmiş, Kisho'nun zekice kurgulanmış bir sızma planının parçası olabileceğini
-söylemiştir. Mara ve kaybettiği askerlerin acısıyla Kisho'ya güvenmemekte; tek bir
-şüpheli hareketinde onu kendi elleriyle öldüreceğini açıkça söylemiştir.
+- Valerius'un kervanındaki komutanlardan biri; koyu mavi birlikleri yönetir.
+- Paralı asker kalesine saldırıp Elin ve Kisho'nun kurtulmasına yol açtı.
+- Zırhında hız/fiziksel kapasite artıran küçük güçlendirici çekirdekler taşır.
+- Hekim odasında Elin'in Kisho'ya güvenini yakından gördü.
+- Mara ve kaybettiği askerler yüzünden Kisho'ya güvenmez; tek şüpheli harekette öldürmekle tehdit etti.
+- Valerius'un Kisho'nun zincirlerini çözdürmesine itiraz etti.
 
 ### Sena
 
-Ostragrad'da görev yapan genç kadın asker. Valerius'un hükmünden sonra Vorn tarafından
-Kisho'ya kalacağı yeri, ortak kullanım düzenini ve atölye yolunu göstermekle
-görevlendirilmiştir. Disiplinli, kısa konuşan ve merakını asker terbiyesiyle
-sınırlayan biridir. Kisho'nun "komünizm" sözünü anlamamış, "Kommü ne?" diye sormuştur.
+- Ostragrad'da genç kadın asker.
+- Vorn tarafından Kisho'ya kalacağı yeri, ortak düzeni ve atölye yolunu göstermekle görevlendirildi.
+- Disiplinli, kısa konuşur; toplum içinde Kisho'yu küçük düşürmemeye dikkat eder.
+- Kisho'nun "komünizm" sözünü anlamadı; "Kommü ne?" diye sordu.
+- 27. bölümde sarı rünlü aletlere "Manipülatör aletler" dedi.
 
 ---
 
@@ -127,14 +93,13 @@ sınırlayan biridir. Kisho'nun "komünizm" sözünü anlamamış, "Kommü ne?" 
 
 ### Doğulu Savaşçılar
 
-Kurt mührü kullanan, disiplinli ve gizemli savaşçı topluluk. Kisho, ele geçirdiği
-bıçak nedeniyle yanlışlıkla onlardan biri sanılmıştır.
+- Kurt mührü kullanan gizemli savaşçı topluluk.
+- Kisho, ele geçirdiği bıçak yüzünden yanlışlıkla onlardan biri sanıldı.
 
 ### Mavi Üniformalı Birlikler
 
-Lyra'nın komuta ettiği, koyu mavi üniformalı ve ağır kalkanlı disiplinli askeri
-birlik. Paralı asker kalesine düzenli bir saldırı yaparak Elin ve Kisho'nun
-kurtulmasına yol açmıştır.
+- Lyra'nın komuta ettiği koyu mavi üniformalı, ağır kalkanlı disiplinli birlik.
+- Paralı asker kalesine düzenli saldırı yaptı.
 
 ---
 
@@ -142,37 +107,37 @@ kurtulmasına yol açmıştır.
 
 ### Slime
 
-Mavi, yarı saydam ve asidik bedene sahip yaratık. Çekirdeği su ve benzeri uygun
-ortamları aside dönüştüren bir Dönüştürücü alt sınıfı gibi davranır.
+- Mavi, yarı saydam, asidik yaratık.
+- Çekirdeği su/uygun ortamı aside çeviren Dönüştürücü alt sınıfı gibi davranır.
 
 ### Zırhlı Böcek
 
-Kitin zırhlı, pusu kuran tehlikeli canlı. Kuzeyliler arasında "Kabuk-Kemiren" adıyla
-da anılır.
+- Kitin zırhlı, pusu kuran tehlikeli canlı.
+- Kuzeyliler arasında "Kabuk-Kemiren" diye de anılır.
 
 ### Dev Tavşan
 
-Av köpeği boyutunda, pofuduk kuyruklu ve besin değeri yüksek bozkır canlısı.
+- Av köpeği boyutunda, pofuduk kuyruklu, besleyici bozkır canlısı.
 
 ### Tüylü Kertenkele
 
-Yosun yeşili tüylere ve saydam plaka dişlere sahip, sıra dışı sıçrama yetenekli canlı.
+- Yosun yeşili tüylü, saydam plaka dişli, güçlü sıçrayan canlı.
 
 ### Takırtılı Hayvan
 
-Tilki boyutunda, maymun ayaklı ve ağaç gövdelerine vurarak ritim çıkaran orman sakini.
+- Tilki boyutunda, maymun ayaklı; ağaç gövdelerine vurarak ritim çıkarır.
 
 ### Zırhlı Domuz
 
-Sırtında bıçak gibi kemik çıkıntılar taşıyan, ağır yapılı yabani hayvan.
+- Sırtında bıçak gibi kemik çıkıntılar taşıyan ağır yabani hayvan.
 
 ### Mor Pullu Balık
 
-Göl havzalarında yaşayan, iri ve besleyici balık türü.
+- Göl havzalarında yaşayan iri, besleyici balık.
 
 ### Zebra Balığı
 
-Zebra desenli, uzun ve hızlı hareket eden göl balığı.
+- Zebra desenli, uzun, hızlı göl balığı.
 
 ---
 
@@ -180,22 +145,19 @@ Zebra desenli, uzun ve hızlı hareket eden göl balığı.
 
 ### Eflatun Kökler
 
-Mor renkli, kalın, şekerli ve besleyici yabani kök. Kisho'nun bu dünyadaki ilk
-besinlerinden biridir.
+- Mor, kalın, şekerli ve besleyici yabani kök.
 
 ### Dev Ağaçlar
 
-Yüz elli metreyi aşan boyları ve çok geniş gövdeleriyle gökdelen hissi veren dev
-bitki yapıları.
+- 150 metreyi aşan, gökdelen hissi veren dev bitkiler.
 
 ### Sert Kabuklu Meyve
 
-Dış yüzeyi lifli, içi boşaltıldığında kap gibi kullanılabilen dayanıklı meyve.
+- Lifli dış yüzeyli; içi boşaltılınca kap gibi kullanılabilir.
 
 ### Yeşil Pürüzsüz Meyve
 
-Tatlı, sulu ve hafif mayhoş tada sahip ağaç meyvesi. Kisho'ya eski dünyanın bazı
-erik türlerini anımsatır.
+- Tatlı, sulu, hafif mayhoş; Kisho'ya eski dünya eriğini anımsatır.
 
 ---
 
@@ -203,79 +165,56 @@ erik türlerini anımsatır.
 
 ### Freygard Kasabası
 
-Kuzey sınırında bulunan küçük, sade bir kasaba. Toprak yolları, ahşap yapıları,
-merkezdeki yel değirmeni ve yabancılara karşı temkinli halkıyla görülür.
+- Kuzey sınırında küçük kasaba; toprak yollar, ahşap yapılar, merkezde yel değirmeni.
+- Halk yabancılara temkinli.
 
 ### Ostragrad
 
-Kuzeyde yer alan, kılıç simgesiyle anılan önemli yerleşim. Freygard'ın kuzeyinde
-bulunur. "Kılıç Şehri" adı Ostragrad için kullanılan karşılıktır. Dev gri surları,
-çift çapraz kılıç sancakları, kristal lambalı ana yolu, düzenli kapı kontrolü ve
-askeri avlusuyla görülmüştür. Kayıt binası, hekim binası ve eski nöbet odası sahnede
-görülmüştür.
-Valerius'un dönüşüyle şehir sabahında devriye düzeni sıklaşmış, hekim avlusu
-temizlenmiş, yaralılar gözden uzaklaştırılmış ve kapı eşiklerine nizami askerler
-yerleştirilmiştir. İç kalenin ana kulesinde ağır meşe kapılı, haritalar ve eski
-kılıçlarla dolu pratik bir savaş odası bulunur.
-Şehirde ekmek, yemek, tamir ve bazı temel ihtiyaçlar görev, sıra, kayıt ve pay
-düzeniyle dağıtılır. Kisho bu düzeni kendi içinden komünizme benzetmiş, ancak bu
-terimin şehir halkı tarafından bilinmediğini görmüştür.
+- Kuzeydeki "Kılıç Şehri"; dev gri surlar ve çift çapraz kılıç sancaklarıyla bilinir.
+- Kristal lambalı ana yol, düzenli kapı kontrolü, askeri avlu, kayıt binası ve hekim binası görüldü.
+- Valerius dönünce devriye sıklaştı; hekim avlusu temizlendi, kapılar askeri hizaya girdi.
+- Temel ihtiyaçlar görev, sıra, kayıt ve pay düzeniyle dağıtılır.
+- Kisho bu düzeni komünizme benzetti; şehir halkı bu terimi bilmiyor.
 
 ### Ana Kule Savaş Odası
 
-Ostragrad iç kalesindeki ağır meşe kapılı savaş odası. Gösterişli bir taht odası
-değil; yüksek tavanlı, duvarlarında eski haritalar ve yıpranmış kılıçlar bulunan,
-ortasında parşömenlerle dolu devasa meşe masa duran askeri karar mekanıdır. Valerius,
-Kisho'yu Elin, Vorn ve Lyra'nın huzurunda burada sorgulamıştır.
+- Ostragrad iç kalesinde ağır meşe kapılı askeri karar odası.
+- Haritalar, eski kılıçlar, büyük meşe masa bulunur; taht odası değildir.
+- Valerius, Kisho'yu burada Elin, Vorn ve Lyra önünde sorguladı.
 
 ### Eski Nöbet Odası
 
-Ostragrad hekim avlusunun yanında bulunan, zindan kadar ağır olmayan ama kilitli ve
-gözetimli küçük oda. Kisho, Vorn'un emriyle burada geçici emanet olarak tutulur.
+- Hekim avlusunun yanında, zindan kadar ağır olmayan kilitli oda.
+- Kisho burada geçici emanet olarak tutuldu.
 
 ### Güney Lojmanı
 
-Ostragrad'da askerler, atölye çırakları ve geçici işçiler için kullanılan iki katlı
-ortak yaşam binası. Alt katta ortak oda, depo, yıkanma yeri ve arka çıkış; üst katta
-küçük kişisel yatak odaları bulunur. Herkesin küçük de olsa ayrı odası vardır; bu
-düzen kavga ve hırsızlığı azaltmak için korunur. Kisho'ya burada bir oda verilmiştir.
-Odasında bir yatak, masa, sandalye, dar giysi dolabı ve küçük çekmece vardır. Bina
-yaklaşık yirmi kişiyi barındırır; tuvalet ve banyo ortak kullanılır. Odaların basit
-anahtarlı kilitleri vardır; bu kilitler mahremiyet ve sınır için yeterlidir, ancak
-usta bir demirci tarafından kopyalanabilecek ya da maymuncukla açılabilecek kadar
-basit düzeneklerdir.
-Kisho'nun odasının penceresinden lojmanın arka avlusu, odun yığını, su kovalarının
-dizildiği raf, yıkanma yerine ayrılan yakacak sepeti, karşı sokaktaki küçük fırın
-ve daha ilerideki çatı hattı görülür. Atölyeler lojmandan fırın yönüne inilip dış
-tamirliğin önünden sola dönülerek gidilen taraftadır; Boran Usta'nın ana atölyesi
-sura daha yakındır ve lojmandan çatısı görünmez, fakat çekiç sesleri duyulur.
-Lojmanda sabah ilk çandan sonra ortak odada kahvaltı dağıtılır. Kisho'nun ilk
-sabahında sıcak çorba, ekmek, beyaz peynir, tereyağı, koyu mor reçel, haşlanmış
-patates ve yumurta verilmiştir. Kisho bunu Anakara'daki besin hapları, tatsız jeller
-ve bayat ekmek düzeniyle karşılaştırıp neredeyse ziyafet gibi algılamıştır.
-Güney Lojmanı'nda dağıtım odası bulunur; burada kayıt malı tunikler, kalın keten
-gömlekler, iş pantolonları, deri kemerler, iş önlükleri ve botlar tutulur. Kisho
-atölyeye gitmeden önce burada koyu gri gömlek, kalın iş pantolonu, deri kemer ve
-koyu kahverengi iş önlüğü almıştır. Eski yıpranmış gömleğini dağıtım görevlisine
-vermiş; karşılığında lojman içinde giymek için açık renkli ince keten gömlek ve
-bağcıklı bol pantolondan oluşan sade bir takım istemiştir. Bu takımı odasındaki
-çekmeceye bırakmıştır.
+- Askerler, çıraklar ve geçici işçiler için iki katlı ortak yaşam binası.
+- Alt katta ortak oda, depo, yıkanma yeri, arka çıkış; üst katta küçük kişisel odalar.
+- Herkesin küçük de olsa ayrı odası vardır; tuvalet ve banyo ortaktır.
+- Odalarda basit anahtarlı kilit vardır; mahremiyet sağlar ama usta demirci kopyalayabilir/maymuncukla açabilir.
+- Kisho'nun odasında yatak, masa, sandalye, dar dolap, küçük çekmece vardır.
+- Pencereden arka avlu, odun yığını, su kovaları, yakacak sepeti, karşı fırın ve çatı hattı görünür.
+- Atölye yolu: fırın yönüne in, dış tamirliğin önünden sola dön; Boran'ın ana atölyesi sura daha yakındır.
+- Sabah kahvaltısı: sıcak çorba, ekmek, peynir, tereyağı, koyu mor reçel, patates, yumurta.
+- Dağıtım odası: kayıt malı tunik/gömlek/iş pantolonu/kemer/önlük/bot verir.
+- Kisho atölye için koyu gri gömlek, kalın iş pantolonu, deri kemer, koyu kahverengi önlük aldı.
+- Eski gömleğini verdi; lojman içi için ince keten gömlek ve bağcıklı bol pantolon aldı.
 
 ### Boran Usta'nın Ana Atölyesi
 
-Ostragrad'da sura daha yakın konumda bulunan, dış tamirlikten daha büyük ve ağır
-işleyen ana demir ve kristal devre atölyesi. Kapısında is kararmış demir plaka,
-kabartma çekiç ve donmuş mavi damar izleri bulunur. İçeride birden fazla ocak,
-ayakla çalışan körükler, cüruf çukuru, metal tezgahlar, kırık lamba başlıkları,
-boş kristal yuvaları, sönük çekirdekli parçalar ve kilitli rafta sarı rünlü
-Manipülatör aletler vardır. Kisho ilk gününde burada kömür taşımış, cürufları
-renk, parlaklık ve kırık yüzey sesine göre ayırmış; kırık lamba başlıklarında aynı
-bağlantı kulağından başlayan çatlakları mekanik gerilim, sıkı bağlantı, ısı ve
-titreşim ihtimali üzerinden değerlendirmiştir.
+- Ostragrad'da sura yakın, dış tamirlikten büyük ana demir/kristal devre atölyesi.
+- Kapıda is kararmış demir plaka, kabartma çekiç, donmuş mavi damar izleri vardır.
+- İçeride ocaklar, ayak körükleri, cüruf çukuru, metal tezgahlar, kırık lamba başlıkları, boş kristal yuvaları bulunur.
+- Kilitli rafta sarı rünlü Manipülatör aletler tutulur.
+- Kisho ilk gün kömür taşıdı, cürufu renk/parlaklık/kırık yüzey sesine göre ayırdı.
+- Kisho lamba başlıklarında bağlantı kulağı çatlağı, sıkı yuva, ısı/titreşim ve mekanik gerilim ihtimalini okudu.
+- Sabit lamba arızasında Kisho çekirdek zayıflığından çok sıkı yuvanın taşta kılcal çatlak oluşturduğunu düşündü; Boran büyük ölçüde doğruladı.
 
 ### Anakara
 
-Kisho'nun geldiği, gri bulutların ve asit yağmurlarının boğduğu eski dünya.
+- Kisho'nun geldiği eski dünya; gri bulutlar, asit yağmurları, teknolojik enkaz.
+- Kisho'nun yemek hafızası besin hapı, tatsız jel, bayat ekmek ve karne düzeniyle şekillenmiştir.
 
 ---
 
@@ -283,164 +222,155 @@ Kisho'nun geldiği, gri bulutların ve asit yağmurlarının boğduğu eski dün
 
 ### Çekirdek
 
-Hikayede kristal teknoloji birimlerinin temel adı olarak kullanılır. "Kristal"
-fiziksel yapıyı, "jeton" ise yalnızca biçim benzetmesini vurgulayan yan kullanımlardır.
+- Kristal teknoloji birimlerinin temel adı.
+- "Kristal" fiziksel yapıyı, "jeton" biçim benzetmesini vurgular.
 
 ### Aktif Çekirdek
 
-Enerji taşıyan, parlayan ve çalışır durumdaki çekirdek.
+- Enerji taşıyan, parlayan, çalışır çekirdek.
 
 ### Zayıf Çekirdek
 
-Enerjisi düşmüş, sönükleşmiş ama tamamen ölmemiş çekirdek.
+- Enerjisi düşmüş, sönükleşmiş ama ölmemiş çekirdek.
 
 ### Siyah Çekirdek
 
-Ölü ya da işlevsiz hale gelmiş çekirdek. "Ölü Çekirdek" aynı kavramın açıklayıcı
-karşılığı olarak kullanılabilir.
+- Ölü/işlevsiz çekirdek; "Ölü Çekirdek" açıklayıcı karşılık olabilir.
 
 ### Güçlendirici
 
-Var olan tekil bir özelliği, alt sınıfına göre büyüten kristal ailesi.
+- Var olan tekil özelliği alt sınıfına göre büyüten kristal ailesi.
 
 ### Dönüştürücü
 
-Alt sınıfına göre bir enerji, madde ya da özelliği başka bir türe çeviren kristal
-ailesi.
+- Enerji/madde/özelliği alt sınıfına göre başka türe çeviren kristal ailesi.
 
-### Mana Dönüştürücü Taş
-Güneş ışığı gibi dış kaynakları manaya çevirerek başka çekirdekleri doldurmak için
-kullanılan dönüştürücü taş. Kisho, paralı asker demircisinin tezgahından mor rünlü
-küçük bir örneğini almıştır. Ostragrad'da eski nöbet odasında kaldığı sırada bu taşı
-kemerinin iç dikişinde saklamaya devam etmektedir; Kisho taş üzerinden mananın
-akışını ilk kez hissetmiştir.
+### Mana Dönüştürücü Taş / Şarj Taşı
+
+- Aynı sınıf taş için iki ad: teknik olarak mana dönüştürücü, atölye dilinde şarj taşı.
+- Dış kaynağı manaya çevirip boş/zayıf çekirdeğe basar.
+- Aşırı nadir ve pahalıdır; usta söylemeden kimse elini sürmez.
+- Kisho şans eseri küçük mor rünlü bir örneği gizli tutuyor.
+- Kisho bu taşla manayı ilk kez saf akış gibi hissetti.
+- Güneş, ocak ısısı veya hazır mana hattı gibi kaynağa göre türleri olabilir.
+- Bağ hattı sağlamsa çekirdek sökülmeden doldurulabilir; bağ kötüyse önce sökmek gerekir.
 
 ### Büyük Kervan Kristali
 
-Kisho'nun pusuya uğramış kervandan söktüğü büyük mavi kristal. İçindeki karmaşık
-rünler kan kırmızısı görünür; paralı asker kampında şarj edilmeye çalışılmış, Kisho
-kaçış sırasında onu yeniden ele geçirmiştir. Devir artıran Güçlendirici alt sınıfına
-aittir. Kisho, Ostragrad kayıt sorgusunda taşı saklayamamış; masaya koymak zorunda
-kalmış ve taş şüpheli askeri yük kaydıyla geçici korumaya alınmıştır. Boran Usta'nın
-incelemesiyle bu taşın Valerius konvoyundan çalınan mühürlü sandıktaki nadir üstü
-ağır sınıf devir artırıcı güçlendirici olduğu kesinleşmiştir.
+- Kisho'nun pusuya uğramış kervandan söktüğü büyük mavi/kırmızı rünlü kristal.
+- Devir artıran Güçlendirici alt sınıfı.
+- Valerius konvoyundan çalınan mühürlü sandıktaki nadir üstü ağır sınıf taş olduğu kesinleşti.
 
 ### Askeri Sınıf Ağır Güçlendirici
 
-Vorn'un Ostragrad sorgusunda büyük kervan kristali için kullandığı sınıflandırmadır.
-Boran Usta yoklamasında taşın Güçlendirici ailede, ağır sınıfta ve devir ya da itki
-hattına yakın bir çıktı verdiğini belirtmiştir.
+- Vorn'un büyük kervan kristali için kullandığı sınıflandırma.
+- Boran yoklamasında ağır sınıf, devir/itki hattına yakın çıktı verdiğini söyledi.
 
 ### Nadir Üstü
 
-Boran Usta'nın kalite tanımıdır. Sınır taşlarından yüksek sınıfta; kesimi temiz,
-mana hattı düzgün ve verimi yüksek kristaller için kullanılır.
+- Boran'ın kalite tanımı; sınır taşlarından yüksek, kesimi/mana hattı/verimi iyi.
 
 ### Valerius Konvoyu
 
-Lord Valerius'a bağlı ve saldırıya uğramış taşıma hattıdır. Lyra, kamp içinde görülen
-yüksek sınıf kristalin bu konvoydan açılan yüklerle ilişkili olabileceğini belirtir.
-Valerius'un değerlendirmesine göre saldırıda Elin hedef alınmış ama kaçırılmamış,
-yük alınmış ama arabalar tamamen yakılmamıştır. Bu asimetri, pusunun arkasında
-ikinci bir ekip veya daha karmaşık bir amaç olabileceği şüphesini güçlendirmiştir.
+- Valerius'a bağlı saldırıya uğramış taşıma hattı.
+- Elin hedef alınmış ama kaçırılmamış; yük alınmış ama arabalar tamamen yakılmamış.
+- Asimetri, ikinci ekip veya daha karmaşık amaç şüphesi doğurdu.
 
 ### Kayıp Ağır Mühürlü Sandık
 
-Valerius konvoyu saldırısında açıldığı belirtilen ve henüz bulunamayan yüksek değerli
-yük. Paralı asker kampındaki düzeneklerle bağlantılı şüpheli iz olarak anılmıştır.
-Sandığın içindeki nadir üstü ağır sınıf devir artırıcı güçlendiricinin Kisho'nun
-Ostragrad'a getirdiği büyük kervan kristali olduğu Boran Usta'nın incelemesiyle
-kesinleşmiştir.
+- Valerius konvoyundan kayıp değerli yük.
+- İçindeki taşın Kisho'nun getirdiği büyük kervan kristali olduğu anlaşıldı.
 
 ### Kisho'nun Ostragrad Statüsü
 
-Valerius'un hükmünden sonra Kisho'nun hayatı bağışlanmış, fakat Ostragrad'dan izinsiz
-çıkışı yasaklanmıştır. Suçlu ilan edilmeden zincirleri çözülmüş olsa da şehir içinde
-gözetim altındadır. Boran Usta'nın atölyesinde ocaklara kömür taşıma, cüruf temizleme
-ve ağır işlerde çalışma görevi verilmiştir; işe yaramazsa veya Elin'e yaklaşırsa
-Valerius tarafından ölümle tehdit edilmiştir.
+- Hayatı bağışlandı; şehirden izinsiz çıkamaz.
+- Suçlu ilan edilmedi ama gözetim altında.
+- Boran'ın atölyesinde ağır iş yapacak; işe yaramazsa veya Elin'e yaklaşırsa ölümle tehdit edildi.
 
 ### Slime Çekirdeği
 
-Kisho'nun slime'dan aldığı küçük mavi çekirdek. Hücre kapısını eritmek için kullanılmış,
-Ostragrad kayıt odasında Vorn'a gösterilmiş ve kanıt olarak şehir kayıtlarına
-geçmiştir.
+- Kisho'nun slime'dan aldığı küçük mavi çekirdek.
+- Hücre kapısını eritmekte kullanıldı; Vorn tarafından kanıt olarak alındı.
 
 ### Zırh Güçlendirici Kristalleri
 
-Zırhın eklem ya da omuz parçalarına işlenerek taşıyıcının hızını ve fiziksel
-kapasitesini artıran küçük güçlendirici çekirdekler. Lyra'nın zırhında görülmüştür.
+- Zırh eklem/omuzlarına işlenen, hız ve fiziksel kapasite artıran küçük çekirdekler.
+- Lyra'nın zırhında görüldü.
 
 ### Ruh Bağlayıcı
 
-Eksik ya da kırık parçayı telafi eden kristal ailesi.
+- Eksik/kırık parçayı telafi eden kristal ailesi.
+- Kisho, bunun alet değil yeşil rünlü taş ailesi olduğunu Boran'dan öğrendi.
+- Sokak lambası gibi küçük işlerde çatlak çekirdeği Ruh Bağlayıcı ile desteklemek pahalı/verimsiz sayılır.
 
 ### Manipülasyon
 
-Otomasyon, bağlama, sökme ve düzenek kontrolünde kullanılan sarı rünlü kristal ailesi.
-Alt sınıfına göre sınırlı komut verir.
+- Sarı rünlü aile; otomasyon, bağlama, sökme, düzenek kontrolü.
+- Alt sınıfa göre sınırlı komut verir.
 
 ### Özel
 
-Sabit bir aileye tam oturmayan, efsanevi nitelikteki nadir kristaller.
+- Sabit aileye tam oturmayan nadir/efsanevi kristaller.
 
 ### Mana
 
-Kristallerin depoladığı ve canlıların taşıdığı temel enerji.
+- Kristallerin depoladığı ve canlıların taşıdığı temel enerji.
 
 ### Mavi Sıvı
 
-Canlı bedenlerde dolaşan mana yüklü biyolojik iletken.
+- Canlı bedenlerde dolaşan mana yüklü biyolojik iletken.
 
 ### Ocak Kanlılar
 
-Dünyadaki nadir yüksek mana taşıyıcı zanaatkar sınıfının temel adı. "Hearth-Blooded"
-yalnızca çeviri gerektiğinde kullanılabilir.
+- Nadir yüksek mana taşıyıcı zanaatkar sınıfı.
+- "Hearth-Blooded" yalnız çeviri gerektiğinde kullanılabilir.
 
 ### Manipülatör Aletler
 
-Sıradan insanların kristal yeteneğini araç üzerinden kullanmasını sağlayan alet sınıfı.
+- Sıradan insanların kristal yeteneğini araç üzerinden kullanmasını sağlayan sarı rünlü aletler.
+- Kisho terimi önce Sena'dan duydu; işlevini Boran'dan öğrendi.
+- Boran'a göre bağ, sökme, yoklama ve sınırlı komut işlerinde araya girer.
+- Çekirdeği elle yoklamanın tehlikesini azaltır.
 
 ### Kristal Sokak Lambaları
 
-Ostragrad yolunda ve şehir girişinde görülen, mavi çekirdekleri metal başlıklara
-oturtulmuş sabit ışık düzenekleri. Kisho, bir askerin kısa saplı kristal bir aletle
-arızalı lambanın ışığını dengelediğini görmüştür.
+- Mavi çekirdekleri metal başlıklara oturtulmuş sabit ışık düzenekleri.
+- Boran'ın atölyesinde benzer lambalarda sıkı yuva, bağlantı kulağı kırığı, koyu bağ izi ve çekirdek kılcal çatlağı görüldü.
 
 ### Doğulu Dili
 
-Doğulu savaşçıların konuştuğu dil için kullanılan yerel adlandırma.
+- Doğulu savaşçıların konuştuğu dil için yerel adlandırma.
 
 ### Ortak Dil
 
-Geniş bölgelerde kullanılan ortak konuşma dili. Kisho, Freygard'da bunun kendi
-bildiği Türkçe olduğunu fark eder.
+- Geniş bölgelerde kullanılan ortak konuşma dili.
+- Kisho, Freygard'da bunun kendi bildiği Türkçe olduğunu fark etti.
 
 ### Rusça
 
-Kuzeydeki bazı sınır köylerinde ortak dilin yanında yaşamayı sürdüren yerel dil.
-Elin'in geldiği çevrenin konuşma dünyası bununla ilişkilendirilir.
+- Kuzey sınır köylerinde ortak dil yanında yaşayan yerel dil.
+- Elin'in çevresi bununla ilişkilidir.
 
 ### Bakır
 
-Kasaba ve yol üstü ticarette kullanılan düşük değerli para birimi.
+- Kasaba/yol üstü ticarette kullanılan düşük değerli para birimi.
 
 ### Sisli Alem
 
-Yaşam ve ölüm arasındaki, zaman ve mekanın çözündüğü sisli boyut.
+- Yaşam ve ölüm arasında, zaman/mekanın çözündüğü sisli boyut.
 
 ### Kozmik Gürültü
 
-Sisli Alem'de duyulan, parçalanan zihinlerin ve ruhların yankısını andıran ses.
+- Sisli Alem'de duyulan, parçalanan zihin ve ruh yankılarını andıran ses.
 
 ### Smert
 
-Elin'in dilinde ölüm anlamı taşıyan ifade.
+- Elin'in dilinde ölüm anlamına gelen ifade.
 
 ### Mogila bogov
 
-Tanrıların Mezarı anlamına gelen ifade; düşmüş dev makine harabeleriyle ilişkilidir.
+- "Tanrıların Mezarı"; düşmüş dev makine harabeleriyle ilişkili ifade.
 
 ### Tanrıların Mezarı
 
-`Mogila bogov` ifadesinin Türkçe karşılığı.
+- `Mogila bogov` ifadesinin Türkçe karşılığı.
