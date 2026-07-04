@@ -40,6 +40,12 @@ bir ad gerekiyorsa önce `story_memory.md` ile hizala.
 Yerleşmiş bir terim varken aynı kavram için rastgele yeni karşılık üretme. Zorunlu
 bir yeni ad çıkarsa önce sözlüğe ekle, sonra metinde kullan.
 
+### Çeviri kokusu taşıma
+Metin, İngilizceden Türkçeye çevrilmiş gibi durmamalıdır. Cümle kuruluşu, deyimler,
+vurgu sırası ve karakter sesleri native Türkçe yazan bir yazarın doğal tercihlerine
+yakın olmalıdır. Eser seinen tonundadır; dil olgun, ölçülü, doğrudan ve sahnenin
+duygusal ağırlığını taşıyacak kadar yerli hissettirmelidir.
+
 ### Ortak dili kusursuz yapma
 Dünyanın ortak dili Türkçe olsa da her karakter onu kusursuz, pürüzsüz ve aynı
 seviyede konuşmaz. Özellikle sınır köylerinden gelenler zaman zaman kendi ana

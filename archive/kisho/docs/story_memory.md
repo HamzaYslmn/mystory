@@ -63,6 +63,7 @@ Kısa tutulur; dünya kuralı gerekiyorsa `foundations.md`, yazım kuralı gerek
 - Kisho'nun sistemli arıza gözlemini fark etti; "Gözün iyi olabilir/iyi, elin yavaş" dedi.
 - Manipülatör aletin işlevini Kisho'ya gösterdi: bağ, sökme, yoklama, sınırlı komut.
 - Arızalı lambada ışığı kapattı, bağ hattını yokladı, yuvayı gevşetti, çekirdek kılcal çatlağını gösterdi.
+- Kisho, Boran'a karşı atölye hiyerarşisini gözeterek saygılı davranır; itirazlarını ve teknik şüphelerini doğrudan meydan okumak yerine ölçülü sorularla açar.
 
 ### Toma
 
@@ -111,33 +112,29 @@ Kısa tutulur; dünya kuralı gerekiyorsa `foundations.md`, yazım kuralı gerek
 - Çekirdeği su/uygun ortamı aside çeviren Dönüştürücü alt sınıfı gibi davranır.
 
 ### Zırhlı Böcek
-
 - Kitin zırhlı, pusu kuran tehlikeli canlı.
 - Kuzeyliler arasında "Kabuk-Kemiren" diye de anılır.
 
 ### Dev Tavşan
-
 - Av köpeği boyutunda, pofuduk kuyruklu, besleyici bozkır canlısı.
 
 ### Tüylü Kertenkele
-
 - Yosun yeşili tüylü, saydam plaka dişli, güçlü sıçrayan canlı.
 
 ### Takırtılı Hayvan
-
 - Tilki boyutunda, maymun ayaklı; ağaç gövdelerine vurarak ritim çıkarır.
 
 ### Zırhlı Domuz
-
 - Sırtında bıçak gibi kemik çıkıntılar taşıyan ağır yabani hayvan.
 
 ### Mor Pullu Balık
-
 - Göl havzalarında yaşayan iri, besleyici balık.
 
 ### Zebra Balığı
-
 - Zebra desenli, uzun, hızlı göl balığı.
+
+### Yürüyen Mantar
+- Kısa bacaklı, mantar gövdeli, yavaş hareket eden canlı. Zehirli sporları vardır.
 
 ---
 
@@ -336,6 +333,7 @@ Kısa tutulur; dünya kuralı gerekiyorsa `foundations.md`, yazım kuralı gerek
 
 - Mavi çekirdekleri metal başlıklara oturtulmuş sabit ışık düzenekleri.
 - Boran'ın atölyesinde benzer lambalarda sıkı yuva, bağlantı kulağı kırığı, koyu bağ izi ve çekirdek kılcal çatlağı görüldü.
+- Kisho, gömülü taşlı mevcut başlık yerine dikey taş yerleşimi, V biçimli esnek yuva, hava payı, koruma kafesi ve bağ kilidi içeren alternatif bir lamba taslağı çizdi.
 
 ### Doğulu Dili
 

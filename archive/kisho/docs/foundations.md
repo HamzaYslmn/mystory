@@ -138,6 +138,8 @@ Bir çekirdeği bir nesneye bağlamak için Manipülasyon kristali taşıyan bir
 nesneye darbe uygulanır. Yalın çekirdek çoğu durumda tek başına iş görmez; asıl
 işlevini bir nesneye bağlanınca kazanır.
 
+Bağ hattı (bağlantı izi), aynı zamanda bir kontrol köprüsüdür. Bütün taşlar bu sistemle tasarlanmıştır. Nesneye bağlanan bir çekirdeği açıp kapatmak için doğrudan taşa dokunmaya gerek kalmaz; bağ sayesinde nesnenin dış yüzeyine (örneğin lambanın gövdesine) dokunmak, açma/kapama isteğini çekirdeğin içine iletmeye yeterlidir.
+
 ### Sökme temiz ya da yıkıcı olabilir
 Bağlı bir çekirdek ya Manipülasyon ile temiz biçimde sökülür ya da nesne parçalanarak
 çıkarılır. İkinci yol çekirdeğe zarar verme riski taşır.
@@ -153,7 +155,7 @@ yuva bu gerilmeye pay bırakmazsa çekirdek yüzeyinde kılcal çatlak oluşabil
 bağlantı kulağı gibi zayıf metal noktalar kırılabilir.
 
 ### Aktif ve deaktif tetik anahtar gibidir
-Bir kişi avucunu bağlı çekirdeğe değdirip az miktarda mana vererek onu açıp kapatır.
+Bir kişi avucunu bağlı çekirdeğin kendisine ya da çekirdeğin bağlandığı nesnenin dış yüzeyine değdirip az miktarda mana vererek onu açıp kapatır.
 Bu işlem komut yazmak değil, yalnızca çalıştırma anahtarını çevirmek gibidir.
 Aktif edilen çekirdek, dış mana akışı kesilse bile iptal sinyali almadıkça son
 komutu kendi iç manasını harcayarak sürdürmeye çalışır.
