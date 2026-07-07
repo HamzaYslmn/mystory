@@ -13,8 +13,8 @@ export interface DocMeta {
   keywords?: string[];
 }
 
-const SITE_URL = 'https://hamzayslmn.github.io/mystory';
-const SITE_NAME = 'MyStory by hamzayslmn';
+export const SITE_URL = 'https://hamzayslmn.github.io/mystory';
+export const SITE_NAME = 'MyStory by hamzayslmn';
 
 function setMeta(selector: string, attr: string, value: string) {
   let el = document.head.querySelector<HTMLMetaElement | HTMLLinkElement>(selector);

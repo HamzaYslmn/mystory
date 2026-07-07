@@ -4,7 +4,52 @@ import { BookMarked, ChevronRight } from 'lucide-react';
 import OptimizedImage from '@/components/OptimizedImage';
 import { enrichBookMeta, getAllBooks, type Book } from '@/utils/markdown';
 import { useProgressStore } from '@/store/progress';
-import { useDocumentMeta } from '@/hooks/useDocumentMeta';
+import { useDocumentMeta, SITE_URL } from '@/hooks/useDocumentMeta';
+
+// MARK: - Author identity, reused across structured data
+const AUTHOR = {
+  '@type': 'Person',
+  name: 'hamzayslmn',
+  url: 'https://github.com/hamzayslmn',
+  sameAs: ['https://github.com/hamzayslmn'],
+} as const;
+
+// MARK: - schema.org CollectionPage + ItemList of every book, built from the live catalog.
+// This is what lets Google rich results and AI answer engines understand "who wrote what".
+function buildLibraryJsonLd(books: Book[]) {
+  const origin = typeof window !== 'undefined' ? window.location.origin : 'https://hamzayslmn.github.io';
+  const abs = (p: string) => (p.startsWith('http') ? p : new URL(p, origin).href);
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'CollectionPage',
+    '@id': `${SITE_URL}/#library`,
+    url: `${SITE_URL}/`,
+    name: 'hamzayslmn — Hikâyeler',
+    description: 'hamzayslmn tarafından yazılan özgün distopik-fantastik hikâyelerin arşivi.',
+    inLanguage: 'tr-TR',
+    isPartOf: { '@id': `${SITE_URL}/#website` },
+    about: AUTHOR,
+    author: AUTHOR,
+    mainEntity: {
+      '@type': 'ItemList',
+      numberOfItems: books.length,
+      itemListElement: books.map((b, i) => ({
+        '@type': 'ListItem',
+        position: i + 1,
+        item: {
+          '@type': 'Book',
+          name: b.title,
+          description: b.description,
+          url: `${SITE_URL}/reader/${b.bookSlug}/${b.pages[0]?.pageSlug ?? ''}`,
+          ...(b.cover ? { image: abs(b.cover) } : {}),
+          inLanguage: 'tr-TR',
+          bookFormat: 'https://schema.org/EBook',
+          author: AUTHOR,
+        },
+      })),
+    },
+  };
+}
 
 // MARK: - Library
 export default function Library() {
@@ -24,6 +69,20 @@ export default function Library() {
     Promise.all(books.map(enrichBookMeta)).then(setBooks);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
+
+  // MARK: - Inject the catalog structured data (updates once covers/descriptions enrich).
+  useEffect(() => {
+    const id = 'ld-library';
+    let el = document.getElementById(id) as HTMLScriptElement | null;
+    if (!el) {
+      el = document.createElement('script');
+      el.id = id;
+      el.type = 'application/ld+json';
+      document.head.appendChild(el);
+    }
+    el.textContent = JSON.stringify(buildLibraryJsonLd(books));
+    return () => { document.getElementById(id)?.remove(); };
+  }, [books]);
 
   return (
     <div className="min-h-svh bg-[var(--bg)] text-[var(--text)]">
@@ -51,9 +110,14 @@ function Header() {
   return (
     <header className="mb-10 sm:mb-14">
       <h1 className="animate-[fade-in-down_0.4s_ease-out_both] text-3xl font-bold tracking-tight sm:text-4xl">
-        Library
+        hamzayslmn <span className="font-normal text-[var(--muted)]">— Hikâyeler</span>
       </h1>
-      <p className="mt-2 text-sm text-[var(--muted)]">My published stories.</p>
+      <p className="mt-3 max-w-2xl text-sm leading-relaxed text-[var(--muted)]">
+        <strong className="font-medium text-[var(--text)]">hamzayslmn</strong> tarafından yazılan
+        özgün distopik-fantastik hikâyeler. Başrolde{' '}
+        <strong className="font-medium text-[var(--text)]">Kisho</strong>: 2053 Anakara'da, kristal
+        manaya ve mühendis aklına dayanan yeni bir dünya. Hepsi burada, ücretsiz okunur.
+      </p>
     </header>
   );
 }

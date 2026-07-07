@@ -16,6 +16,11 @@ here). They override any default instinct toward rich or literary prose.
   mostly measured sentences, then one short blunt line to land a turn. State even the strange and
   enormous matter-of-factly, with authority. The grandeur comes from the stakes and the certainty
   of the telling, never from ornate language.
+- **Through Kaiser's eyes.** We live the story from inside Kaiser's experience — immediate, in the
+  moment, in what he senses and works out right now; keep the reader there by default. The narrator's
+  wider, explaining voice (the grave chronicle register above) steps forward only for the sequences
+  that *explain* something — the world, the metaphysics, how a thing works — and then recedes back
+  into his point of view.
 - **Show the vast by a glimpse, not a catalog.** Name ordinary things plainly (above) — but for
   the huge, the dreadful, or the wondrous, give one clear impression and stop. A thing half-seen,
   or a pointed silence, unsettles more than a full inventory. Don't pile on detail to prove scale;
@@ -48,11 +53,13 @@ here). They override any default instinct toward rich or literary prose.
   carry it.
 - **When in doubt, cut.** A plain, concrete sentence beats a rich, ornate one.
 
-Working docs are in English; final published chapters are Turkish. Chapters are written as **bare
-outlines** — plain numbered beats that capture the events and key details, not connected prose.
-Leave the connecting sentences, transitions, and full wording for later (the Turkish draft). A beat
-is a skeleton to expand, not a paragraph to polish; terse fragments and arrows (→) are fine for
-quick notes. But wherever a beat is written out in sentences, those sentences must connect and
-flow — the bare-outline format is never an excuse for choppy, disjointed prose. See
+The story wiki and working docs stay in English, but **write the chapters themselves directly in
+Turkish.** Do not draft a chapter in English and translate it — English-first prose comes out stiff
+and unidiomatic. Compose in Turkish from the start, with natural Turkish phrasing and idioms
+(*yerelleştir* — a Turkish reader should never feel a translation underneath). Chapters may be
+written as **bare outlines** — plain numbered beats that capture the events and key details; terse
+fragments and arrows (→) are fine for quick notes, and a beat is a skeleton to expand, not a
+paragraph to polish. But wherever a beat is written out in sentences, those sentences must connect
+and flow — the outline format is never an excuse for choppy, disjointed prose. See
 `content/stories/kaiser/docs/` for the story wiki (characters, magic system, arc map, narrative
 rules).
