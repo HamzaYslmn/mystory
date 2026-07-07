@@ -24,6 +24,14 @@ here). They override any default instinct toward rich or literary prose.
   line or image, and bring it back only when its return will mean *more* than the first time — at
   its strongest, something first read as ordinary pays off later as literal. If a repeat doesn't
   deepen, cut it.
+- **Cut accidental repetition.** The refrain above is the *only* licensed repeat. Everything else —
+  a word, an image, a sentence shape echoed within a few lines or across neighboring beats — is
+  noise, and it dulls the prose. Hunt for it always, not only while writing: whenever you write,
+  revise, edit, or even just read a passage, watch for the same word twice close together (three
+  "cold"s, two "soul"s in a sentence), a doubled image (two things "thinning" a beat apart), or the
+  same construction repeated — and when you spot it, fix it on the spot. Vary the word or, better,
+  cut the weaker instance. When a phrase must recur, make sure it *earns* the recurrence as a
+  refrain; if it doesn't, it's an accident — fix it.
 - **Keep it simple.** Short, clear sentences. Minimal description — only what the scene needs.
   Avoid piled-up metaphors, stacked clauses, doubled adjectives, and ornate phrasing that slows
   the reader down.

@@ -18,8 +18,9 @@ first foothold on a dead machine.
 - [Ch6 — The Dead Component](../chapters/chapter6.mdx) — dim ≠ dead; the foothold hypothesis.
 
 **Arc 1 exit state.** Kaiser has a body patched by first principles, a survival kit, one
-**dormant blue Enhancer** he can't yet switch on, one **dead black crystal** as a contrast
-sample, and one driving hypothesis: *these are machines, and machines can be restarted.*
+**dormant blue Enhancer** he can't yet switch on, the hard-won lesson that a dead crystal
+crumbles to dust while his only ran down, and one driving hypothesis: *these are machines, and
+machines can be restarted.*
 
 ## Arc 2 — Cracking the system (Ch8–12) — *not yet scened*
 

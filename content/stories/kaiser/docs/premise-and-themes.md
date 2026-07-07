@@ -48,7 +48,7 @@ on the page, but it is the deep link between the two worlds.
 - **Recurring motif:** *the man who can fix anything, in a world that won't let him.* Old
   world: forbidden to fix. New world: finally free to — at mortal cost.
 - **Numbness → agency arc.** Kaiser opens as a numb observer (learned helplessness, not
-  apathy). His single act of agency kills him (Ch2). Rebirth forces him into pure agency
+  apathy). His single act of agency kills him (Ch3). Rebirth forces him into pure agency
   (survival). The new-world story is him *relearning that intervening is worth the cost* —
   the opposite of the lesson Anakara beat into him.
 - **What survives death is method, not memory** (Ch4). His identity is his diagnostic
