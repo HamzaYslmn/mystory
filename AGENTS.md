@@ -35,3 +35,8 @@ cover: "url_to_image"
 
 - **Yerelleştirme (Localization):** Sadece dil çevirisi yapmakla kalmayıp, içeriği hedef kitlenin kültürüne, geleneklerine, deyimlerine ve günlük alışkanlıklarına (örneğin ölçü birimleri, mizah, kültürel referanslar) uygun hale getirme işlemidir. İçeriğin o kültüre aitmiş gibi doğal hissettirmesini sağlar.
 
+## 4. Resim Çizme Kuralları (Image Generation Rules)
+
+- **Karakter Çizmeme Kuralı (No Characters/Humans):** Bölüm kapakları veya diğer görseller üretilirken kesinlikle hikaye karakterleri, insanlar veya insan siluetleri çizilmemelidir.
+- **Ortam ve Atmosfer Odaklılık (Ambient & Environment Focus):** Çizimler tamamen ambient (ortam), manzara, mekan ve atmosfer odaklı olmalıdır. Hikayenin o anki duygu durumunu ve çevresel detaylarını yansıtmalıdır.
+

@@ -63,3 +63,24 @@ paragraph to polish. But wherever a beat is written out in sentences, those sent
 and flow — the outline format is never an excuse for choppy, disjointed prose. See
 `content/stories/kaiser/docs/` for the story wiki (characters, magic system, arc map, narrative
 rules).
+
+**Writing in Turkish — craft notes.** The concrete conventions behind the *yerelleştir* rule above,
+so the voice stays consistent across chapters:
+
+- **Tense (kip).** The grave chronicle runs in the present. Geniş zaman (aorist, *-ir*) is the spine
+  — *durur, yürür, bilir, çıkarır*. Use şimdiki zaman (*-yor* / *-maktadır*) only for a genuinely
+  in-the-moment action or state. Past tense (*-di* / *-mış*) is reserved for backstory told as
+  backstory (how İzzet took Kaiser in, years earlier); keep the present-tense frame around it, and
+  never flip a whole beat's tense while polishing.
+- **Hunt translationese (*çeviri kokusu*).** The enemy is Turkish that reads like English
+  underneath. Rebuild, in native word order, any: heavy nominal chain (*…olmasının sebebi …ayarlanmış
+  olmasıdır* → a plain active sentence), an English "whether…or not" rendered as *…olup olmadığını*, a
+  dangling demonstrative (*bu / şu / o*) with no clear referent, or a causative forced where a simple
+  verb fits.
+- **Use real idioms, where they land.** Reach for the genuine Turkish *deyim* when it fits the beat —
+  *taş kesilmek, sırra kadem basmak, kılını kıpırdatmamak, tabana kuvvet, gözü dönmek, beş para
+  etmemek, posası çıkmak* — but never shoehorn one; a plain sentence beats a forced idiom.
+- **How we work a chapter.** Compose/rewrite Turkish-first, then pass it sentence by sentence for
+  flow, idiom, and accidental repetition (the rules above). When several chapters need the same pass,
+  one editor per chapter in parallel is fine — but re-read each result yourself against the
+  glossary, tense, refrains, and cross-chapter consistency before trusting it.
