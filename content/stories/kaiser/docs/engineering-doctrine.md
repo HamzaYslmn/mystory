@@ -4,8 +4,8 @@ The fix for "we misrepresented the engineering." The old chapters portrayed engi
 *technobabble flavor* (HTTP masking, VPN bridges) and as *knowledge stated, not method
 shown*; solutions arrived too easily and mystically. These rules correct that.
 
-**Every crystal / engineering scene must obey them.** Pair with the constraints in the
-[Magic System](magic-system.md) and the knowledge boundary in [Narrative Rules](narrative-rules.md).
+**Every engineering / magic scene must obey them.** Pair with the constraints in the
+[Power System](power-system.md) and the knowledge boundary in [Narrative Rules](narrative-rules.md).
 
 ## DON'T
 
@@ -15,28 +15,32 @@ shown*; solutions arrived too easily and mystically. These rules correct that.
   *Demonstrate* it through a diagnosis and let the reader conclude it.
 - **Don't let solutions arrive by epiphany.** No "he suddenly realized." Understanding is
   earned by test and cost.
-- **Don't treat crystals as spellbooks** or let Kaiser already know the answer. His edge is
-  *how he thinks*, not *what he knows.*
+- **Don't let magic be a spellbook Kaiser reads off.** His modern physics *does* transfer and
+  is a real edge — but the world's specifics (how to feel mana, each discipline's logic, which
+  materials take an etching) he still has to learn by observation and test. The edge is *how he
+  thinks plus the physics he knows*, never a rote answer handed to him.
 
 ## DO
 
-- **Diagnosis before power.** He characterizes a component first: family? sub-class? state
-  (charge)? operating envelope (limits)? failure mode? Power is the payoff of understanding,
-  never the shortcut past it.
-- **Constraints are the plot.** The interesting problem is always a *budget* — mana (finite
-  charge), thermal (heat / expansion / socket clearance), material (lattice fatigue),
-  command-cost (complexity scales mana), chaining (exponential). Scenes are about hitting a
-  limit and engineering around it, not raw output.
+- **Diagnosis before power.** He characterizes the problem first: what physical process is
+  this? which discipline? what does it cost in real energy, and what efficiency can he hit? what
+  are the physical limits and the failure mode? Power is the payoff of understanding, never the
+  shortcut past it.
+- **Constraints are the plot.** The interesting problem is always a *budget* — mana (a finite
+  Wh reserve), efficiency (how little of it actually converts — a novice bleeds 95%), the hard
+  physics (thermodynamics, the real energy a change costs), concentration (shaping can lock him
+  still), material (for etching), and the years each discipline takes to learn. Scenes are about
+  hitting a limit and engineering around it, not raw output.
 - **Be wrong first.** He misdiagnoses, wastes a resource, gets hurt by his own experiment.
   Cost teaches. *One success is not knowledge until it repeats.*
 - **"Insufficient data" over mysticism.** When he can't crack something, he files it as an
   unknown input and moves on — he does not invent a magical answer. That restraint IS the
   characterization.
-- **The engineer's eye as characterization.** Even with no crystals in frame (Anakara),
+- **The engineer's eye as characterization.** Even with no magic in frame (Anakara),
   render the world through his diagnostic gaze — he *cannot not* see failure modes. This
-  establishes the mind before the powers, so crystal-cracking reads as the same man, not a
+  establishes the mind before the powers, so his first real magic reads as the same man, not a
   new toy.
-- **Cargo-cult contrast.** Locals know *that* a shape works; Kaiser asks *why.* That single
+- **Cargo-cult contrast.** Locals know *that* a formula works; Kaiser asks *why.* That single
   question — the one no one else asks — is his whole advantage. Show the gap.
 
 ## Quick self-check per scene

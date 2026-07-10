@@ -13,8 +13,11 @@ docs in English; published chapters are Turkish (see [Narrative Rules](narrative
 |------|---------------|
 | [Premise & Themes](premise-and-themes.md) | The inversion-of-worth spine, the central question, tone. |
 | [Characters](characters.md) | Kaiser (method, flaw, hidden canon) and the cast. |
-| [Magic System](magic-system.md) | **Protected canon** — the crystal engineering system. Do not break. |
-| [Engineering Doctrine](engineering-doctrine.md) | How to write crystal/engineering scenes (the "misrepresented engineering" fix). |
+| [Power System](power-system.md) | **Canon** — the mana-engineering system (quantified physics; no crystals). |
+| [Machines](machines.md) | Invention log — the magic machines, each with its spell file (`magics/`) and cost. |
+| [Economics](economics.md) | Coin, crystal prices, and cost of living anchored to bread and the kilowatt-hour. |
+| [Bestiary](bestiary.md) | The creature roster (dragons, walking mushrooms, …); rules live in Power System. |
+| [Engineering Doctrine](engineering-doctrine.md) | How to write engineering/magic scenes (the "misrepresented engineering" fix). |
 | [Narrative Rules](narrative-rules.md) | POV, reveal discipline, tone, style, localization. |
 | [Voice Study](voice-study.md) | Worked craft breakdown of an exemplar story — the techniques behind the prose-style rules. |
 | [Arc Map](arc-map.md) | The five arcs and where each chapter sits. |
@@ -30,7 +33,8 @@ docs in English; published chapters are Turkish (see [Narrative Rules](narrative
 
 ## Continuity with old canon
 
-Everything the archived `archive/kisho/docs/foundations.md` and `story_memory.md`
-established still holds — the crystal system on [Magic System](magic-system.md) is that
-same system, reproduced and protected. The rename is **Kisho → Kaiser**; the deeper
-premise and the engineering doctrine are new.
+The rename is **Kisho → Kaiser**. The **old rune-crystal system has been retired** — the world no
+longer runs on found functional cores. Power is now the mana-engineering system on
+[Power System](power-system.md): an internal skill plus real, quantified physics. (Crystals survive
+only as **single-use energy cells** — blue mined, purple harvested from creatures.) The premise (inversion of worth)
+and the engineering doctrine carry over unchanged; the mechanics do not.

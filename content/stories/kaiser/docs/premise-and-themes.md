@@ -21,12 +21,12 @@ Everything hangs on this single reversal between the two worlds.
   he sees exactly how everything is broken and is powerless to fix the one machine that
   matters — society itself.
 
-- **New world (the crystal / mana world).** The exact inversion. Here competence is the
-  *scarcest resource in existence.* The world runs on crystals nobody understands
-  theoretically — craftsmen memorize working shapes (cargo-cult engineering), guilds
-  hoard secrets, academies gatekeep. It is a civilization starving for the one thing
-  Kaiser is: a first-principles diagnostician. **The trait that made him worthless makes
-  him singular.**
+- **New world (the mana world).** The exact inversion. Here competence is the
+  *scarcest resource in existence.* The world runs on mana that nobody understands
+  scientifically — mages memorize working formulas by rote (cargo-cult engineering) on a
+  pre-modern picture of physics, guilds hoard secrets, the few academies gatekeep. It is a
+  civilization starving for the one thing Kaiser is: someone who reasons magic from real
+  physics. **The trait that made him worthless makes him singular.**
 
 ## The central question (seed early, answer late)
 
@@ -37,7 +37,7 @@ thesis he measures himself against: a *fair* system that still cages you.
 
 ## Cosmology (permanent, unrevealed)
 
-The Realm of Mist dissolves pure information; the crystal world runs on mana. They may be
+The Realm of Mist dissolves pure information; the new world runs on mana. They may be
 the **same substance** — soul, mana, and information as one recycled thing. Never confirmed
 on the page, but it is the deep link between the two worlds.
 

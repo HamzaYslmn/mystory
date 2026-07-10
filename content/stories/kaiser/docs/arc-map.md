@@ -3,6 +3,13 @@
 The five arcs, retargeted onto the deeper [premise](premise-and-themes.md). Only **Arc 1**
 is broken into scenes so far (one file per chapter).
 
+> **⚠ STALE — needs replotting.** The beats below were built on the **retired crystal system**
+> (found cores, dormant Enhancer, slime-core, Converter, runes-as-program, streetlamp socket
+> clearance). The world now runs on the [Power System](power-system.md) (mana as an internal
+> skill; no crystals), so the Arc 1 exit state and the Arc 2–5 beats need to be re-plotted:
+> what Kaiser *finds and does* is different when there are no crystals to restart. Left intact
+> below only as a record until re-plotted.
+
 ## Arc 1 — Collapse · Purgatory · Rebirth (Ch1–6) — *detailed*
 
 Establish the worth-inversion and Kaiser's method in Anakara, and the one bond that gives his
@@ -44,5 +51,5 @@ gets its first real test.)
 ## Arc 5 — The workshop & the engineer's test (Ch28–32) — *not yet scened*
 
 Bottom-rung labor; he out-diagnoses the masters on the streetlamp failure (socket clearance
-/ thermal — see [Magic System](magic-system.md)); redesigns the lamp; is challenged to
+/ thermal — see [Power System](power-system.md)); redesigns the lamp; is challenged to
 build a *working prototype* by evening. The test of fire and steel begins.

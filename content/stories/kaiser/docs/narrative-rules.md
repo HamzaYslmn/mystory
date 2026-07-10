@@ -6,8 +6,8 @@ story-specific things. When any guideline fights readability, readability wins.
 
 ## Reveal discipline
 
-- The reader learns the crystal system only as fast as Kaiser can observe and deduce it. The
-  [Magic System](magic-system.md) page holds the full truth; each scene shows a sliver, and the
+- The reader learns the power system only as fast as Kaiser can observe and deduce it. The
+  [Power System](power-system.md) page holds the full truth; each scene shows a sliver, and the
   reader shouldn't get certainty ahead of Kaiser.
 - Don't pre-explain a mechanic before the scene that earns it — no forward hints, no early
   diagnostic language for something not yet discovered.
@@ -29,7 +29,7 @@ story-specific things. When any guideline fights readability, readability wins.
   to see answered.
 - The core payoff is the inversion: the engineering method the old world called worthless becomes
   his one real power. Let the reader feel the powerlessness first, then feel the win.
-- Deliver the world through Kaiser's eye and dry asides, not exposition blocks. Keep the crystals
+- Deliver the world through Kaiser's eye and dry asides, not exposition blocks. Keep the magic
   and this world as open questions, paid off on a delay.
 
 ## Language
@@ -43,7 +43,7 @@ story-specific things. When any guideline fights readability, readability wins.
 
 ## Which file gets what
 
-- How the crystal system works → [Magic System](magic-system.md).
+- How the power system works → [Power System](power-system.md).
 - How to write engineering scenes → [Engineering Doctrine](engineering-doctrine.md).
 - Story-specific writing guidance → this page.
 - People → [Characters](characters.md); other fixed terms → the glossary.
