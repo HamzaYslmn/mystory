@@ -18,7 +18,7 @@ def siper(d, tehdit_j=OK):
 
 if __name__ == "__main__":
     assert abs(OK - 49) < 1 and abs(KURSUN - 490) < 5   # balistikten
-    assert siper(Devre(100, 0.5)) > 1000
+    assert siper(Devre(100, 0.4)) > 1000
     guc = guclendirilmis(OK, 1)                          # +1 Wh KE @20% -> ~769 J
-    assert siper(Devre(100, 0.5), guc) < siper(Devre(100, 0.5)) / 10   # guclendirme sayiyi cokertir
-    print(round(siper(Devre(100, 0.5))), "sade ok /", round(siper(Devre(100, 0.5), guc)), "guclu ok")
+    assert siper(Devre(100, 0.4), guc) < siper(Devre(100, 0.4)) / 10   # guclendirme sayiyi cokertir
+    print(round(siper(Devre(100, 0.4))), "sade ok /", round(siper(Devre(100, 0.4), guc)), "guclu ok")

@@ -9,8 +9,10 @@ story-specific things. When any guideline fights readability, readability wins.
 - The reader learns the power system only as fast as Kaiser can observe and deduce it. The
   [Power System](power-system.md) page holds the full truth; each scene shows a sliver, and the
   reader shouldn't get certainty ahead of Kaiser.
-- Don't pre-explain a mechanic before the scene that earns it — no forward hints, no early
-  diagnostic language for something not yet discovered.
+- Don't pre-explain a mechanic before the scene that earns it — no **explanatory** forward hint or
+  early diagnostic language for something not yet discovered. Diegetic foreshadowing is allowed: an
+  odd object, joke, ritual, or failed behavior may be planted before anyone understands what it means
+  (see [Voice Study](voice-study.md)); the clue must not give the reader the diagnosis for free.
 
 ## Tone & voice
 
@@ -46,4 +48,4 @@ story-specific things. When any guideline fights readability, readability wins.
 - How the power system works → [Power System](power-system.md).
 - How to write engineering scenes → [Engineering Doctrine](engineering-doctrine.md).
 - Story-specific writing guidance → this page.
-- People → [Characters](characters.md); other fixed terms → the glossary.
+- People → [Characters](characters.md); other fixed terms → the [Glossary](glossary.md).

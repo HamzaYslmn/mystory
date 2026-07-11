@@ -24,5 +24,5 @@ if __name__ == "__main__":
     assert duyulur_isi(1, 1) == C_SU                                  # 1 kg'i 1 K = c
     m = kaynat(Devre(100, 1.0)) / 1000
     assert abs(buhar_maliyeti(m) - Devre(100, 1.0).is_j()) < 1        # forward o inverse = E
-    assert abs(kaynat(Devre(100, 1.0)) - 140) < 10                    # ~140 ml @100% (doc §21)
-    print(round(kaynat(Devre(100, 1.0))), "ml buhar")
+    assert abs(kaynat(Devre(100, 1.0)) - 112) < 8                     # %80 cizili cihaz; ideal ~140 ml
+    print(round(kaynat(Devre(100, 1.0))), "ml cihaz (%80); 140 ml ideal")

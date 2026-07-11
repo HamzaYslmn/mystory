@@ -13,5 +13,8 @@ def isik(d, lumen=250):
 
 if __name__ == "__main__":
     assert optik_guc(683, K_MAX) == 1.0            # tanim: 683 lm @555nm = 1 W
-    assert abs(isik(Devre(100, 0.05)) - 6) < 0.5   # ~6 saat @5% (doc §21)
-    print(isik(Devre(100, 0.05)), "saat")
+    assert abs(isik(Devre(100, 0.05)) - 6) < 0.5   # yapilandirilmamis acemi el-isigi
+    assert abs(isik(Devre(100, 0.30)) - 36) < 0.5  # dusuk kalite cizili lamba
+    assert abs(isik(Devre(100, 0.80)) - 96) < 0.5  # recine tavaninda cizili lamba
+    print("el-isigi", round(isik(Devre(100, 0.05)), 1), "saat; devre",
+          round(isik(Devre(100, 0.30))), "-", round(isik(Devre(100, 0.80))), "saat")

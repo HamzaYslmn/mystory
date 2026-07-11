@@ -49,6 +49,31 @@ the southeast waters.
 - Deep, dark open ocean everywhere not listed above.
 - A visible spiraling current (gyre) in the southeast, near the ring island.
 
+## Settled geography (canon even while continent names are TODO)
+
+- **Humans:** densest across the Central Continent's temperate center — grain plains, rivers, market
+  towns, and the roads linking every other people. They are not the largest territorial spread, but
+  have the highest settled density and most cities.
+- **Dwarves:** the Central Continent's northwest snow mountains and the valleys immediately below.
+  Mines, metal, and devices pay for imported grain and cloth.
+- **Elves:** the deep western forests and the green west island. Their borders restrict foreign land
+  ownership and long-lived capital accumulation outside treaty enclaves.
+- **Beastmen:** the enormous eastern highlands, northeast land-arm, and river margins. Mixed gardens,
+  small grain fields, herds, and hunting — not hunting alone — support the largest total head-count
+  across the widest territory.
+- **Synthora:** a few isolated enclaves beside **echo-crystal caves** — remote coasts and small islands,
+  the **southeast ring island** foremost. Each is sealed to outsiders; the colonies are few and far
+  between, and they hold no territory beyond their own ground.
+- **Ostragrad:** north-central frontier of the human plains, south of the dwarven mountain approaches;
+  a military-communal gate between settled farmland and the dangerous north.
+- **Northungard:** inside the northwest mountain system on the only Mana Well held permanently by a
+  city. It is the natural resin, assay, and high circuit-work capital; the Well also makes it a fortress
+  under constant monster pressure.
+
+Trade follows the food-energy gradient: human grain moves north, dwarf devices move south and east,
+beast hides/animals/timber move west, and elven patterns/medicines move rarely under treaty. Blocking
+one of those routes is a strategic act, not background color.
+
 ## How to extend this
 
 - Add a `### Region` block for any new place: describe where it sits relative to the existing regions, plus terrain, climate, and a name.

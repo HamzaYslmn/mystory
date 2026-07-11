@@ -9,10 +9,17 @@ Crystal rules live in [Power System §18](power-system.md#18-storage-crystals--t
 
 | Coin | Worth | Feel |
 |------|-------|------|
-| **Bronze** (*tunç*) | — | smallest coin, ~half a loaf |
+| **Bronze** (*tunç*) | — | smallest token coin, ~half a loaf |
 | **Silver** (*gümüş*) | 100 bronze | a kilowatt-hour of power |
-| **Gold** (*altın*) | 10 silver (1,000 bronze) | ~three months' floor wages |
+| **Gold** (*altın*) | 10 silver (1,000 bronze) | ~three to five months' floor cash wages |
 | **Magic Platinum** (*Büyülü Platin*) | 100 gold (1,000 silver) | a sealed bearer-cheque; a magic seal proves it genuine |
+
+**Coin standard.** Bronze is fiduciary token money (about 2 g; its face value exceeds its scrap).
+Silver and gold are heavy trade coins of about **10 g gross** at the issuing mint's standard alloy,
+matching the raw-metal anchors below closely enough that clipping and debasement matter. Local small
+silver fractions exist, but the table quotes the full coin. Magic Platinum is not a metal coin: the
+seal is a claim on the mint/treasury that issued it. Every scene using one must know **whose seal** it
+carries; rival states discount one another's notes.
 
 ## Anchors
 
@@ -22,14 +29,18 @@ Everything below is priced off these. Bronze (br) unless a coin is named.
 |--------|-------|
 | Wheaten loaf, 200 g | **2 br** (~1 br per 100 g) |
 | Cheese, 100 g | **5 br** |
-| Minimum wage, per day | **10 br** (~5 loaves); everyone works |
-| Skilled artisan, per day | **50–100 br** |
+| Floor cash wage, per hired day | **10 br** (~5 loaves); annual servants also receive board/in-kind pay |
+| Free urban laborer, per day | **15 br** |
+| Ordinary journeyman / artisan, per day | **18–30 br** |
+| Rare mana specialist, per commissioned day | **50–100 br** |
 | 1 kWh of magic energy | **1 silver** (= 100 br = 50 loaves = 10 days at the floor) |
 | Pepper, 100 g | **1 silver** — spice and energy cost the same |
 
-**Everyone works.** No idle poor, no dole — society finds a task for every pair of hands: clearing
-cow-dung and night-soil, hauling water, sweeping streets. The floor feeds a person; skill climbs from
-there. Merchants deal in gold, nobles in platinum.
+**Work is not 360 paid days.** There is no dole, but harvest cycles, holy days, weather, sickness, and
+missing contracts make a normal cash work-year about **220–260 days**. Annual farm and household
+servants receive part of their wage as meals, a bed, grain, cloth, or fuel; cottagers add a garden,
+chickens, gleaning, and gathered wood. A city day-laborer without those supports commands the higher
+15-br cash rate. Merchants deal in gold, nobles in platinum.
 
 **A working household needs two wages.** A floor family is two adults and two children. The adults eat
 **two meals** a day — breakfast and supper; the children eat **three**. On subsistence fare (pottage
@@ -40,12 +51,36 @@ and coarse bread, meat a rare treat) a grown meal runs ~**2 br** and a child's ~
 | 2 adults × 2 meals × 2 br | 8 br/day |
 | 2 children × 3 meals × 1 br | 6 br/day |
 | **Food** | **14 br/day ≈ 420 br/month** |
+| + fuel & light | 80 br/month |
+| + cottage rent | 100 br/month |
+| **Full basket** | **600 br/month ≈ 7,200 br/year** |
 
-Two adults at the floor bring in ~**600 br/month**. After food (~420) and fuel and light (~80), a family
-cottage rents for ~**1 silver** (100 br) — and that is the whole wage gone. They eat gruel, burn wood,
-make rent; a bad month means the adults skip a meal so the children keep theirs. Saving to *buy* is out
-of reach at the floor — a cottage sells for ~25 gold, about a year of an artisan's wage — so only the
-skilled and up ever own their walls.
+Two adults at the 10-br floor working 250 paid days each bring **5,000 br cash/year** (~417/month), not
+600 every month. Their garden, gathered fuel, children's seasonal work, and in-kind pay must cover the
+remaining ~**2,200 br/year** of the 7,200-br subsistence basket above. A landless city household needs
+the 15-br labor rate, a lodger, or skipped meals. A bad harvest breaks either model. Saving to *buy* is
+out of reach at the floor — a cottage sells for ~25 gold, several gross years even for an ordinary
+artisan — so ownership usually comes by inheritance, a guild loan, or long marriage saving.
+
+## Price engine
+
+Every number below is a **normal-year central-market anchor**, not a universal price. In a scene:
+
+`scene price = anchor × region × season × scarcity × quality × tax`
+
+| Condition | Typical multiplier |
+|-----------|--------------------|
+| Producing district / farm gate | ×0.7–0.9 |
+| Normal town market | ×1 |
+| Remote import | ×1.5–3 |
+| Winter perishables / fodder | ×1.2–1.8 |
+| Failed harvest or closed road | ×2–4 |
+| Siege | ×5–20 |
+| Poor or damaged quality | ×0.5–0.8 |
+| Guild-certified quality | ×1.2–2 |
+
+Wages move too, but late: food can double before a laborer's day rate catches up. That lag is where
+famine, debt, and unrest live.
 
 ---
 
@@ -476,6 +511,10 @@ skilled and up ever own their walls.
 | Kozak, sealed Bornmülleriana resin | 10 gold |
 | Blood-wolf crystal (30 kWh) | 15 gold |
 
+Purple crystal prices above are **energy-only base prices**. The sale certificate also records rated
+output (kW), estimated remaining charge, monthly leakage grade, and circuit quality; high-output
+stones earn an additional power premium. A half-spent nameplate is not sold as a full stone.
+
 ## Magic devices (scribed)
 
 | Item | Price |
@@ -493,6 +532,11 @@ skilled and up ever own their walls.
 | Ice-box (compressor, Kaiser-tier) | 50 gold |
 | Golem, war | 2 platinum |
 
+Device prices exclude fuel. A vial of mana-ink and a matched substrate plate are workshop bulk units,
+not one-device bills: a careful scriber gets several small circuits from each. State the yield when a
+scene prices manufacturing, so a 1-gold hand-lamp cannot appear to contain an entire 2-gold ink vial
+and 3-gold plate.
+
 ## Services & wages
 
 | Item | Price |
@@ -509,11 +553,42 @@ skilled and up ever own their walls.
 | Musician (evening) | 20 br |
 | Cart hire (day) | 30 br |
 | Horse hire (day) | 50 br |
-| Skilled artisan (day) | 50–100 br |
-| Mercenary (day) | 2 silver |
+| Journeyman / ordinary artisan (day) | 18–30 br |
+| Garrison soldier (day, plus rations) | 20 br |
+| Campaign infantry / archer (day, plus rations) | 30–40 br |
 | Healer visit | 3 silver |
-| Master craftsman (day) | 3 silver |
-| Mercenary, veteran (day) | 8 silver |
+| Mundane master craftsman (day) | 40–60 br |
+| Mana specialist / circuit-scriber (commissioned day) | 50–100 br |
+| Mounted elite / veteran campaigner (day, plus rations) | 1 silver |
+| Monster hunter | expedition share + bounty; 2–8 silver only for active lethal-contact days |
+
+## Master trades & what a shop clears
+
+**A master's day-rate is not his income.** The hire rate rents his hands for a day; a shop-owning
+master lives on the **margin** — materials marked up, journeymen paid, the difference kept. Materials
+are billed to the customer on top: iron, cloth, and for the magic trades the **crystal, ink, and
+substrate** ([devices exclude fuel](#magic-devices-scribed)). So no shop pays for crystal out of
+wages — it rides in the price of the thing it powers. And most trades never touch crystal: a forge
+burns charcoal, a mill turns on water, because bulk crystal runs ~**16×** the cost of muscle or fuel
+([Where energy sits](#where-energy-sits)).
+
+Poor to rich. **Hire** rents the master's hands; **the shop** is the owner's margin.
+
+| Trade | Hire (day) | The shop |
+|-------|-----------|----------|
+| **Potter** (*çömlekçi*) | 20–35 br | Cheap wares by the cartload; steady, thin margin |
+| **Baker** (*ekmekçi*) | 25–40 br | Thin margin, high volume — the town eats daily |
+| **Cobbler** (*ayakkabıcı*) | 25–40 br | Repairs pay the rent, new boots the profit |
+| **Weaver** (*dokumacı*) | 25–45 br | Cloth by the bolt; fine cloth for the rich |
+| **Tailor** (*terzi*) | 20–40 br | Common cloth thin; silk for nobles clears more, cloth billed on top |
+| **Cook** (*aşçı*) | 30–50 br | Tavern meals or a noble's kitchen; fed, housed, banks the pay |
+| **Carpenter** (*marangoz*) | 35–55 br | Furniture, roofs, carts; timber billed on top |
+| **Blacksmith** (*demirci*) | 40–60 br | Nails, tools, shoes; owns forge and anvil, keeps a striker, bills the iron |
+| **Apothecary** (*eczacı*) | 40–70 br | Salves and potions; reagents billed, high markup |
+| **Jeweler** (*kuyumcu*) | 50–80 br | Small labor, huge material — the gold dwarfs the wage |
+| **Armorer** (*zırh ustası*) | 50–70 br | Chain 15 gold, half-plate 60, full plate 2 platinum; knights and lords pay |
+| **Master mason / architect** (*mimar*) | by commission | Temples, bridges, walls; among the richest non-magic trades, a city keeps one on retainer |
+| **Magic-trade master** (scriber / enchanter / mana-smith) | 50–100 br | The money's in the goods, not the hire — a lamp at 1 gold, an enchanted blade at 30; crystal billed as material, so fuel never touches his wage. Quietly, structurally rich |
 
 ## Property, land & rent
 
@@ -597,7 +672,15 @@ pepper**, **a dozen chickens**, or **5 kg of beef**. Magic energy is a spice, no
 the whole point. The man who can wring more effect from the same crystal
 ([Power System](power-system.md)) is quietly, structurally rich.
 
-Devices sit above even that. The cheapest scribed thing — a **hand-lamp, 1 gold** — is still ~three
-months of floor wages, so the poor never own one: they burn a **1-bronze tallow candle** and share the
+It is also far dearer than bulk work. A fit laborer sustains roughly 75 W of mechanical output; a
+draft horse roughly 500 W. At the reference mana-engine's 36% end-to-end efficiency, a 1-kWh blue cell
+produces only **0.36 mechanical kWh** for 100 br — about **278 br per useful kWh**, versus roughly
+17 br from a 10-br labor-day or 10 br from a 50-br horse-hire day. Therefore water, wind, wood,
+charcoal, muscle, and animals turn mills and heat homes. Crystal pays for portability, exact control,
+automation, sensing, healing, silence, and combat. Any bulk-power scene must explain why the cheaper
+source is unavailable.
+
+Devices sit above even that. The cheapest scribed thing — a **hand-lamp, 1 gold** — is still roughly
+three to five months of floor cash wages, so the poor never own one: they burn a **1-bronze tallow candle** and share the
 village mill. A device is an artisan's or a noble's purchase, or a thing a village owns together and a
 tavern rents by the hour.

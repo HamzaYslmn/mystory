@@ -11,8 +11,8 @@ import math
 
 WH_PER_CM3        = 200.0   # mavi maden yogunlugu: 1 kWh / 5 cm3
 K_CIKIS_MAVI      = 7.08    # W / cm2 yuzey (5 cm3 tas -> 100 W'tan turetildi)
-HAM_W             = 5.0     # islenmemis kucuk tas: zayif yuk-cikisi ~5 W (#13; islenince ~10 W)
-RAF_SIZINTI_AYLIK = 0.05    # #11: raftaki tas ayda ~%5 kendiliginden sizar -> surekli talep
+HAM_W             = 5.0     # BAGLI ham tasin zayif kullanilabilir cikisi; raf sizintisi degildir
+RAF_SIZINTI_AYLIK = 0.05    # BAGLANTISIZ iyi tas ayda ~%5 sizar; kalite/hasar bunu degistirir
 KESIM_CARPAN      = 2.0     # #13: tasi kes -> cikis 2x ama kapasite ~yariya (5W->10W ornegi)
 RECINE_VERIM_MAX  = 0.80    # #6: en iyi kozak %80; direnc yuzunden mesafeyle duser
 RECINE_YARI_M     = 20.0    # verimin RECINE_VERIM_MAX/2'ye dustugu kablo boyu [m]
@@ -26,7 +26,9 @@ GUMUS  = 100
 ALTIN  = 10 * GUMUS
 PLATIN = 100 * ALTIN
 EKMEK_TUNC   = 2       # bir ekmek ~2 tunc (yarim ekmek = en kucuk sikke); ekonomi capasi
-ASGARI_TUNC  = 10      # asgari gunluk ucret (herkes calisir; issizlik yok) ~5 ekmek
+ASGARI_TUNC  = 10      # taban nakit gunlugu; yillik hizmette yemek/yatak/ayni odeme ayrica
+SEHIR_ISCI_TUNC = 15   # ayni destegi olmayan serbest kent gundeligi
+NAKIT_CALISMA_GUNU = 250
 KIRA_AY_TUNC       = 100   # aile kulubesi aylik kira (2 asgari, 4 kisilik hane: ucu ucuna)
 YAKIT_AY_TUNC      = 80    # aylik yakit + isik
 OGUN_YETISKIN_TUNC = 2     # yetiskin ogunu (gunde 2 ogun: kahvalti + aksam)
@@ -46,8 +48,14 @@ def maden_fiyat_tunc(hacim_cm3):
     return hacim_cm3 * (GUMUS // 5)
 
 def biyo_fiyat_tunc(kapasite_kwh):
-    """Mor (biyolojik) fiyat: 5 gumus/kWh."""
+    """Mor enerji TABAN fiyati: 5 gumus/kalan-kWh. kW cikis primi ve assay ayrica eklenir."""
     return kapasite_kwh * 5 * GUMUS
+
+def kristal_sertifika(kalan_kwh, cikis_kw, sizinti_aylik, kalite):
+    """Pazar tasini tek sayiya ezmez: E(kWh), P(kW), aylik sizinti ve iscilik notu birlikte yazilir."""
+    assert kalan_kwh >= 0 and cikis_kw >= 0 and 0 <= sizinti_aylik < 1
+    return {"kalan_kwh": kalan_kwh, "cikis_kw": cikis_kw,
+            "sizinti_aylik": sizinti_aylik, "kalite": kalite}
 
 def biyo_sure_saat(kapasite_kwh, cikis_kw):
     """Mor tas tam cikista kac saat surer: kapasite / cikis [saat]. Kurt: 30/2 = 15 saat."""
@@ -84,10 +92,14 @@ if __name__ == "__main__":
     assert maden_fiyat_tunc(5) == GUMUS                        # 5 cm3 = 1 kWh = 1 gumus
     assert maden_fiyat_tunc(5) // EKMEK_TUNC == 50             # 1 kWh = 1 gumus = 50 ekmek
     assert maden_fiyat_tunc(5) // ASGARI_TUNC == 10           # 1 kWh = 10 gunluk asgari ucret
-    # hane (2 yetiskin 2 cocuk): yetiskin 2 ogun, cocuk 3 ogun; 2 asgari = yemek+yakit+kira, ucu ucuna
+    # hane (2 yetiskin 2 cocuk): 250 nakit gun + bahce/yakit/cocuk/ayni odeme, ucu ucuna
     yemek_ay = (2 * 2 * OGUN_YETISKIN_TUNC + 2 * 3 * OGUN_COCUK_TUNC) * 30   # 14/gun -> 420/ay
-    assert yemek_ay == 420 and 2 * ASGARI_TUNC * 30 == yemek_ay + YAKIT_AY_TUNC + KIRA_AY_TUNC
+    gider_yil = (yemek_ay + YAKIT_AY_TUNC + KIRA_AY_TUNC) * 12
+    nakit_yil = 2 * ASGARI_TUNC * NAKIT_CALISMA_GUNU
+    ayni_ve_hane_uretimi = gider_yil - nakit_yil
+    assert gider_yil == 7200 and nakit_yil == 5000 and ayni_ve_hane_uretimi == 2200
     assert biyo_fiyat_tunc(30) == 15 * ALTIN                  # 30 kWh = 150 gumus = 15 altin
+    assert kristal_sertifika(30, 2, 0.05, "lonca")["cikis_kw"] == 2
     assert biyo_sure_saat(30, 2) == 15                         # 2 kW cikis -> 15 saat
     c1, k1 = kure_cikis_kapasite(1); c2, k2 = kure_cikis_kapasite(2)
     assert abs(c2/c1 - 4) < 1e-9 and abs(k2/k1 - 8) < 1e-9     # r 2x -> cikis 4x, kapasite 8x

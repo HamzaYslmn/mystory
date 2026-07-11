@@ -34,4 +34,7 @@ if __name__ == "__main__":
     assert abs(integral - is_strok(F, r)) < 1e-3
     W = is_strok(F, r)                                                 # 3) P = tau_ort * omega
     assert abs(tork_ort(W) * omega(600) - W * 600 / 60) < 1e-9
-    print(round(saft_gucu(100), 1), "W saft;", round(tork_ort(is_strok(1000, 0.1)), 2), "N m")
+    assert saft_gucu(100) < 75                   # mavi 100 W: yarim insan gucunden az, cart assist
+    assert 500 < saft_gucu(2000) < 1000         # kurt moru 2 kW: at sinifi, ama cok pahali
+    print(round(saft_gucu(100), 1), "W mavi-assist;", round(saft_gucu(2000)), "W mor;",
+          round(tork_ort(is_strok(1000, 0.1)), 2), "N m")

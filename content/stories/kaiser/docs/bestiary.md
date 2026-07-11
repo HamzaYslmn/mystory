@@ -60,17 +60,26 @@ Fields below — **Size** on every entry, and some add a **Numbers** line for th
 - Magic: one trick — an explosive **~5 m leap** (bodily enhancement, fuelled by its crystal)
 - Danger: high in a pack; each pounce closes fast, then it must recover
 - Numbers: at ~1% a 5 m leap costs ~4.9 kJ of muscle → ~**490 kJ** of crystal. Every leap **loads the body**, so no back-to-back pounces — ~**4 min** to recover (crystal refill at 2 kW plus muscle fatigue). Good for ~**220** leaps; between them it runs on ordinary legs.
-- Hunting: they run in **packs**, so a party that takes one takes several — a good expedition brings home a **handful of 15-gold stones**, well clear of the veteran mercenaries' wages ([Economics](economics.md)). One wolf alone barely pays; the pack is the point.
+- Hunting: they run in **packs**, so a party that takes one takes several — a successful expedition can
+  bring home a **handful of fresh 15-gold nameplate stones**, but assay, remaining charge, license,
+  tax, wounded shares, and deaths come out before profit ([Economics](economics.md)). Hunters are paid
+  by expedition share and bounty, not a year-round 8-silver wage. One wolf barely covers a serious
+  party's risk; the pack is the point.
 
 ## Troll
 
-- What: a heavy brute (~400 kg) that knits its wounds shut as fast as you open them
+- What: a heavy, low-cunning brute (~400 kg) that can dump a buffered healing burst into fresh wounds
 - Size: **large**
 - Habitat: caves, damp gorges, under old bridges
 - Crystal: **purple**, ~20 kWh — the well it heals from; ~10 gold
-- Magic: one trick — **rapid self-regeneration** (self-Medical, [§14](power-system.md#medical)), painless because it is its own mana
-- Danger: near-unkillable by cuts — you must **out-damage the healing or destroy the crystal**
-- Numbers: tissue costs ~5 kJ/g, so its ~20 kWh stone can regrow ~**14 kg** of flesh in all before it is spent and the troll turns mortal. Burn it down faster than it mends, or take the stone.
+- Magic: one trick — **rapid self-regeneration** (self-Medical, [§14](power-system.md#medical)),
+  painless because it is its own mana. Its low cunning shapes this one evolved pattern at ~**20%**,
+  better than a mindless 1% enhancement but far below a true intelligent beast
+- Danger: cuts close in a buffered burst, then the troll must slow while its body reloads; you must
+  **out-damage the burst, force repeated healing, or destroy the crystal**
+- Numbers: tissue costs ~5 kJ/g, so its ~20 kWh stone at 20% can regrow ~**2.9 kg** of flesh in all
+  before it is spent and the troll turns mortal. The body can heal briefly above the stone's steady
+  output, then must pause to refill the buffer. Burn it down faster than it mends, or exhaust it.
 
 ## Basilisk
 
@@ -113,9 +122,36 @@ Fields below — **Size** on every entry, and some add a **Numbers** line for th
 - What: a horse-like beast with a single crystalline **horn**; elusive, near-mythical
 - Size: **medium · Special**
 - Habitat: deep old forest, Well fringes
-- Crystal: the **horn itself** — a rare **near-perfect mana conductor**, passing mana with almost no loss where even the best resin leaks (~80%, [§18](power-system.md#18-storage-crystals--the-mana-economy)). Set as a **staff** or a **weapon-haft**, it delivers a caster's full output undimmed; it is also the finest reagent for healing-alchemy and mana-ink; ~50 platinum
-- Magic: intelligent (~50%): one trick, **uncanny speed and evasion**. Its healer's legend comes from the *horn's* use in medicine, not from the beast mending anyone — a living body is closed to it too ([§6](power-system.md#6-the-three-laws))
+- Crystal: a separate **purple chest-stone** fuels the beast (~20 kWh); the **horn** is a rare
+  **near-perfect mana conductor**, not the battery. It passes mana with almost no loss where even the
+  best resin tops out near ~80% ([§18](power-system.md#18-storage-crystals--the-mana-economy)). Set as a
+  **staff** or **weapon-haft**, it delivers a caster's output undimmed; it is also the finest reagent
+  for healing-alchemy and mana-ink; the horn alone is ~50 platinum
+- Magic: intelligent (~50%): one trick, **uncanny speed and evasion**, drawing from the chest-stone
+  through the horn's natural channel. Its healer's legend comes from the *horn's* use in medicine, not
+  from the beast mending anyone — a living body is closed to it too ([§6](power-system.md#6-the-three-laws))
 - Danger: low in a fight — it flees; the danger is that catching one is all but impossible
+
+## Hortlak (Revenant)
+
+- What: a **brain-dead corpse still walking**. Where a person dies in mana-rich ground — a battlefield, a
+  Well's fringe — death releases the body's spin-lock and the thick ambient mana floods the empty flesh and
+  drives it ([closed body, §6](power-system.md#6-the-three-laws): the living reject outside mana, the dead
+  cannot). A mindless puppet, no crystal
+- Size: **medium**
+- Habitat: battlefields and mana-dense ground; it stiffens and stops where the mana thins, so it never
+  strays far from what feeds it
+- Crystal: **none** — it runs on the **ambient mana** around it, not a stored stone
+- Magic: none it wills; the raw mana only animates it, a brute's ~1% — slow, clumsy, tireless. Alone it is
+  barely a threat
+- Danger: low one at a time, but they **drift together**, and the crowd is the problem. Two fungi take the
+  standing dead: **mushrama**, a poisonous mana-feeding fungus that pumps the corpse full of crude
+  **steroids** to strengthen it, and the **fly-fungus** (*sinek mantarı*), which feeds on the body to keep
+  it moving and draws **biting flies and their diseases**. A gathered horde **drips a heavy toxic sap** that
+  **blights the ground barren**, and carries plague wherever it shambles
+- The mercy: a driven body **rots past use within a few years** and falls for good — it cannot go on. But a
+  corpse left **unburned** keeps the fly-fungus fruiting and the flies coming, so the dead in mana-rich
+  country are **burned**, not buried
 
 ## Tamed & mundane beasts
 
@@ -126,4 +162,4 @@ warmer lands, ~60 gold) and the **messenger-hawk** (drilled to carry notes with 
 
 ## To design
 
-Add more as scenes demand, each with the same five fields.
+Add more as scenes demand, each with the same six fields.

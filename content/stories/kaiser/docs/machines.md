@@ -20,20 +20,24 @@ balancing biped costs ~1000× the CPU and staggers when its maker's attention br
 only what is scribed.
 
 **Hand-lamp / flashlight.** Light projection ([§13](power-system.md#projection)), `isik.py`. A scribed
-light-circuit, best on a matched perovskite substrate. ~250 lm for ~6 hours off 100 Wh at a novice's
-5%; a city's set lamp holds ~50 Wh and burns all night. Kaiser's first small machine — light on
-demand, no flame.
+light-circuit, best on a matched perovskite substrate. At the circuit range (**30–80%**), 100 Wh gives
+~250 lm for roughly **36–96 hours**; the old 6-hour figure belongs to a novice's 5% unstructured
+hand-light, not a device. A city's set lamp can hold ~50 Wh and burn all night. Kaiser's first small
+machine — light on demand, no flame.
 
 **Piston / mana-engine.** Motive power ([§13](power-system.md#motive-power--the-mana-engine)),
 `motor.py`. A force-circuit drives a piston, a spring or double-acting stroke returns it — a
 solenoid-style reciprocator — and a crank and flywheel turn the stroke into shaft rotation. ~36 W of
-shaft-work at ~36% end-to-end. This is how mana becomes *rotation*: the cart hub, the mill, the pump.
+shaft-work from a 100 W blue feed at ~36% end-to-end. That is an **assist**, not a cart engine: bulk
+rotation still belongs to water, wind, animals, and muscle. Kilowatt purple can propel a cart or pump,
+but its fuel price reserves that for war, rescue, mines, and nobles.
 
 ## In the world
 
 **Storage crystal — single-use cell.** `kristal.py`, [§18](power-system.md#18-storage-crystals--the-mana-economy).
 The world's fuel, not a battery: a fixed charge spent once, no recharge — and it **slowly leaks on the
-shelf**, so stock must keep moving (constant demand). **Blue** mineral (a ~5 cm³ cube ≈ 1 kWh, ≤100 W
+shelf** by a grade measured in percent per month, so stock must keep moving (constant demand). Its weak
+connected raw output is not the same as its much slower disconnected shelf leakage. **Blue** mineral (a ~5 cm³ cube ≈ 1 kWh, ≤100 W
 worked, ~1 silver/kWh) runs daily devices; **purple** biological is denser and delivers kilowatts (a
 blood-wolf stone ~30 kWh at 2 kW). Output rises with a stone's surface area, capacity with its volume —
 big stone, big power — and **cutting** a stone raises its output at the cost of capacity. Wiring too many
@@ -46,18 +50,23 @@ distance, or carries the feed while a circuit is scribed onto something out of r
 conductor. (A unicorn's horn conducts near-perfectly, but it's a rare relic, not wire.)
 
 **Ward-stone / shield.** Wards ([§13](power-system.md#wards)), `siper.py`. A scribed barrier that
-absorbs or deflects — ~2,900 *plain* arrows off 100 Wh, or a handful of kJ-class bullets; deflection
+absorbs or deflects — ~2,900 *plain* arrows off 100 Wh at 40%, or roughly **50–140** 1–3 kJ bullets if
+it foolishly absorbs them head-on; deflection
 stretches it far further. But fighters **enhance their weapons** ([Projection](power-system.md#projection),
 `kuvvet.py`) — a boosted arrow carrying kilojoules collapses that count, so a ward is a **budget duel**,
 not a fixed wall. A caravan mage turns plain arrows all day; one boulder, or one well-fed swing, empties
 him. Gate-wards outlast their makers.
 
 **Heater / kettle / forge.** Heat projection ([§13](power-system.md#projection)), `isi.py`. Q = mcΔT
-plus the cost to *hold* a temperature. ~140 ml of water boiled to steam off 100 Wh at full efficiency.
-A smith heats iron with no forge; a kitchen warms a pot with no fire.
+plus the cost to *hold* a temperature. ~140 ml of water boils to steam off 100 Wh only at ideal 100%;
+an 80% circuit manages ~110 ml. Wood and charcoal are far cheaper for bulk heat. Mana belongs to
+smokeless noble rooms, field medicine, ignition, and a smith's small precision hot-spot — not replacing
+the whole forge or kitchen fire.
 
-**Ice-box (naive).** Alteration/cold ([§13](power-system.md#alteration)), `buz.py`. The local way dumps
-the heat straight out — ~0.86 kg of ice off 100 Wh. Kaiser's compressor triples it (below).
+**Ice-box (naive).** Alteration/cold ([§13](power-system.md#alteration)), `buz.py`. The ideal local way
+dumps heat straight out — ~0.86 kg of ice off 100 Wh before circuit loss (~0.69 kg at 80%). Kaiser's
+compressor triples the same-efficiency result (below). Crystal price keeps both in medicine, luxury,
+and valuable cargo rather than mass food storage.
 
 **Illusion projector / decoy.** Illusionism ([§13](power-system.md#illusionism)), `yanilsama.py`. Real
 light and sound tuned to the eye — matching noon (~100,000 lux) is dear, night nearly free. Fools eyes
@@ -77,21 +86,24 @@ Sound is cheap and it is only noise: good for signaling and warning, never for w
 brittle then cracked with a tap; ~7,200 cm³ of steel bent off 100 Wh at 10% strain.
 
 **Healing device.** Medical ([§14](power-system.md#medical)), `sifa.py`. Feeds mana a body takes up —
-~72 g of tissue rebuilt off 100 Wh at best. Painless self-cast; on another it burns, the flesh forced
+the biological ideal is ~72 g of tissue per 100 Wh, but a best 80% scribed feed delivers at most
+~**58 g** before biological rate and information limits. Painless self-cast; on another it burns, the flesh forced
 to re-spin the flood. Field medics and their screaming patients.
 
 ## Kaiser's edge
 
-**Compressor ice-box.** `buz.py`, COP 3. A refrigeration cycle instead of dumping heat — ~2.6 kg of ice
-off the same 100 Wh, three times the local yield. Same mana, better physics: the whole thesis in one
-machine.
+**Compressor ice-box.** `buz.py`, COP 3. A refrigeration cycle instead of dumping heat — the ideal is
+~2.6 kg of ice off 100 Wh, or ~2.1 kg at an 80% circuit, three times the same-efficiency local yield.
+Same mana, better physics: the whole thesis in one machine, first valuable to healers, caravans carrying
+rare goods, and nobles rather than every household.
 
 **Better mana-engine.** `motor.py`. Crank throw, flywheel, valve timing, compounding, gearing — the
 mechanism the locals never optimize. The same Wh yields far more shaft-work than their build. Paired
 with a **flywheel or raised-weight store** ([§13](power-system.md#motive-power--the-mana-engine)), it
-banks work with no crystal decay — the one store that doesn't leak.
+banks work without mana decay. A raised weight has negligible standing loss; a flywheel still loses to
+bearing drag and air.
 
-**Exoskeleton.** Enhancement + Animation ([§14](power-system.md#enhancement)), `animasyon.py`. A worn
+**Exoskeleton.** Animation + force Projection ([§13](power-system.md#animation)), `animasyon.py`. A worn
 animated frame that carries what the skeleton can't bear — the answer when flesh caps out. Costly to
 run (a golem's full muscle-and-CPU bill), but it doesn't break you. He builds one when he has no other
 way.

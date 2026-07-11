@@ -18,6 +18,7 @@ def buz(d, cop=1.0, dT=20.0):
 
 if __name__ == "__main__":
     assert abs(carnot_cop() - 13.65) < 0.1 and carnot_cop() > 3   # gercek cop=3 << ideal tavan
-    assert abs(buz(Devre(100, 1.0), 1) - 0.86) < 0.05            # kaba (doc §21)
-    assert abs(buz(Devre(100, 1.0), 3) - 2.6) < 0.1             # kompresor
-    print(round(buz(Devre(100, 1.0), 1), 2), "/", round(buz(Devre(100, 1.0), 3), 2), "kg")
+    assert abs(buz(Devre(100, 1.0), 1) - 0.69) < 0.05           # %80 cizili kaba
+    assert abs(buz(Devre(100, 1.0), 3) - 2.07) < 0.1            # %80 cizili kompresor
+    print(round(buz(Devre(100, 1.0), 1), 2), "/", round(buz(Devre(100, 1.0), 3), 2),
+          "kg cihaz (%80); ideal 0.86 / 2.59 kg")

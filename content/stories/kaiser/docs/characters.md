@@ -21,8 +21,9 @@ See also: [Premise & Themes](premise-and-themes.md) · [Power System](power-syst
   growth is learning that people are not badly-written code to route around. **Elin**
   cracks this open; **Ostragrad's** genuine fairness confuses him.
 - **Hidden canon (Kaiser does NOT know this; reveal is much later).** Kaiser is actually
-  an **Ocak Kanlı / Hearth-Blooded** — his body *generates* mana on its own, a passive,
-  standing regeneration no one else has. He has no idea. Keep it subtextual. It quietly
+  an **Ocak Kanlı / Hearth-Blooded** — his body *channels* mana from the Mist on its own, a passive,
+  standing regeneration **almost no one else has**: the Ocak Kanlı are a scant handful in all the world,
+  born once in a great while into any people, and Kaiser is one. He has no idea. Keep it subtextual. It quietly
   explains why his compressed spark *ignited* instead of dissolving in the Mist (Ch4), and it
   is the eventual key to a self-renewing mana supply that lets him outlast people who must
   wait to refill. Do not tip this before he earns it.
@@ -57,11 +58,9 @@ not clear him; confines him to the city.
 ### Commander Vorn
 Ostragrad garrison commander; experienced, calm, careful.
 
-### Master smith — Boran / "Kazgrim Steelhand"
-Hearth-Blooded iron-and-circuit master; Kaiser is assigned to his workshop as a watched
-heavy laborer. **Naming note:** the old `characters.md` listed *Kazgrim Steelhand* —
-treated here as the reimagined English-facing name for the Boran role. **Confirm before
-it ships.**
+### Master smith — Boran
+An exacting iron-and-circuit master; Kaiser is assigned to his workshop as a watched heavy
+laborer. An ordinary mortal caster — his reserve refills only with rest, like everyone's.
 
 ### Captain Lyra
 One of Valerius's commanders; distrusts Kaiser. Her **sword** carries scribed **impact** and

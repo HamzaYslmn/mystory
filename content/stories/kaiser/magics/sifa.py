@@ -11,5 +11,6 @@ def sifa(d):
     return d.is_j() / E_DOKU
 
 if __name__ == "__main__":
-    assert abs(sifa(Devre(100, 1.0)) - 72) < 2   # ~72 g @100% (doc §21)
-    print(round(sifa(Devre(100, 1.0))), "g")
+    # 72 g fiziksel %100 ideali; cizili cihaz recine tavani %80 -> ~58 g
+    assert abs(sifa(Devre(100, 1.0)) - 57.6) < 2
+    print(round(sifa(Devre(100, 1.0))), "g cihaz (%80); 72 g ideal")

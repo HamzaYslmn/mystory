@@ -18,6 +18,8 @@ docs in English; published chapters are Turkish (see [Narrative Rules](narrative
 | [Economics](economics.md) | Coin, crystal prices, and cost of living anchored to bread and the kilowatt-hour. |
 | [Peoples](races.md) | The sentient races (elves, dwarves, humans, beastmen) and how mana divides them; balance in numbers. |
 | [Bestiary](bestiary.md) | The creature roster (dragons, walking mushrooms, …); rules live in Power System. |
+| [World Map](world-map.md) | Machine-readable geography and the fixed placement of peoples, cities, and resource regions. |
+| [Glossary](glossary.md) | Fixed Turkish/English terms, materials, institutions, and unresolved naming decisions. |
 | [Engineering Doctrine](engineering-doctrine.md) | How to write engineering/magic scenes (the "misrepresented engineering" fix). |
 | [Narrative Rules](narrative-rules.md) | POV, reveal discipline, tone, style, localization. |
 | [Voice Study](voice-study.md) | Worked craft breakdown of an exemplar story — the techniques behind the prose-style rules. |

@@ -54,11 +54,12 @@ compute; every limit here falls out of that.
 
 A person stores mana **in the body**.
 
-- **Capacity is trained up to a born ceiling.** You are born with a **racial-and-talent limit**;
-  training grows your reserve toward it, then it stops — no drill lifts you past it
-  ([§5](#5-what-separates-casters)). An ordinary human tops out near ~**10 Wh** however hard he works, a
-  talented one higher; an elf at **300**, a beastman low ([Peoples](races.md)). Efficiency and
-  throughput keep improving past that; capacity does not.
+- **Capacity is trained up off a racial base.** You are born into a people's **base** reserve; drilling
+  lifts you to ~**2–3× base** trained and a **master** to ~**5–10×**, then a **racial-and-talent ceiling**
+  stops it — one or two prodigies a generation reach past 10×, and no drill goes further
+  ([§5](#5-what-separates-casters), [Peoples](races.md)). So a common human sits near his ~**10 Wh** base
+  and a human master at 50–100; an elf, drilled from birth, already stands at the trained tier, and its
+  archmages reach ~**300 Wh**. Efficiency and throughput keep improving past the ceiling; capacity does not.
 - **The spark is common; using it is taught.** You live inside mana like a fish in water, but *feeling*
   and shaping it has to be learned, and who learns is set by people ([Peoples](races.md)): elves are
   drilled from birth, so every elf casts; dwarves take to it easily; beastmen pick it up hunting. Humans
@@ -86,9 +87,11 @@ The reservoir refills **slowly**, and for almost everyone there is only one way:
   just a tired man. This is the quiet governor on the world: magic lights kitchens instead of leveling
   cities.
 - **The fast paths — two only.** **Potions** ([Alchemy](#alchemy)) are refined Mist drunk straight — the
-  quickest refill, and dear (Wh-per-dose and price deliberately unset, [§23](#23-open-threads)). And the
+  quickest refill, and dear. A common restorative currently retails near **2 gold**
+  ([Economics](economics.md)); its exact Wh-per-dose remains unset until a scene needs it
+  ([§23](#23-open-threads)). And the
   **Ocak Kanlı** ([§20](#20-ocak-kanlı)) carry a **standing Mist-channel** that refills them on the move
-  — the one people who never has to stop, which is exactly what makes them rare and coveted.
+  — the only mortals who need not stop to begin refilling, which is exactly what makes them rare and coveted.
 
 ## 4. How a cast works
 
@@ -105,14 +108,15 @@ Every cast, from lighting kindling to raising a golem, is the same four steps:
 **Efficiency belongs to the pattern, not the mana.** A crude image is a leaky mold: most mana pours
 past and disperses. A novice converts ~**1%** — of 100 Wh, 1 Wh becomes effect and 99 drift back to
 the Mist. Tightening that mold is the master's whole art, so **two casters with equal reserves can
-differ a hundredfold** in what they do. The material never converts — a matched substrate only
-amplifies a chosen output, a wrong one only leaks or breaks ([§9](#9-magical-circuit)).
+differ a hundredfold** in what they do. The material never converts or adds energy — a matched
+substrate only **reduces avoidable loss** for a chosen output, while a wrong one leaks or breaks
+([§9](#9-magical-circuit)).
 
 ## 5. What separates casters
 
 | Axis | Innate / learned | Meaning |
 |------|------------------|---------|
-| **Capacity** | born ceiling, trained toward it | How much mana the body holds. Training grows it **up to a racial-and-talent ceiling** (~10 Wh ordinary human, up to 300+ elf; [Peoples](races.md)); past the ceiling nothing lifts it. |
+| **Capacity** | born ceiling, trained toward it | How much mana the body holds. Training grows it off a racial **base** — ~2–3× trained, 5–10× master — **up to a racial-and-talent ceiling** (~10 Wh common human, ~300 archmage elf; [Peoples](races.md)); past the ceiling nothing lifts it. |
 | **Efficiency** (*verim*) | learned | What fraction of spent mana becomes effect. Starts ~1%. **The master's real lever.** |
 | **Throughput** (*debi*) | learned | Instantaneous draw rate — one caster sustains 100 W, another 10 W. |
 | **Regeneration rate** | innate + trained | How fast the reservoir refills. Base: whole reserve over ~a day (~4%/h). A trained **breathing** technique roughly doubles that (~10%/h, halving recovery); only **potions** and the **Ocak Kanlı** channel are faster ([§3](#3-regeneration)). |
@@ -152,8 +156,10 @@ stopping hearts. Harm comes the ordinary way — the stone, the fire, the broken
 **healing** reaches in, because it *adds* mana the body takes up and directs. But mana fed from
 outside arrives spin-neutral, and the flesh must **re-spin it to its own polarity** before it can use
 it — done to you by another, at healing speed, that forced conversion **burns like fire**. Only your
-own hand, feeding and directing in one act, heals you painlessly. Forcing mana into an unwilling body
-is therefore a **torture, never a kill** — it overloads, it cannot destroy.
+  own hand, feeding and directing in one act, heals you painlessly. Without a coherent Medical pattern
+  the body reflexively rejects almost all incoming mana; the tiny accepted fraction burns, then the
+  rest spills neutral. Forcing mana into an unwilling body is therefore **torture, never a scalable
+  kill** — ordinary fire, force, and weapons remain the way magic harms flesh.
 
 ---
 
@@ -169,6 +175,11 @@ discipline, any method; the method sets **efficiency**.
 | [Unstructured](#7-unstructured-casting) | ~1–10% (ceiling ~20%) | Crude image → effect. Everyone's everyday magic. |
 | [Shaping](#8-shaping) | up to ~40% | A pattern built deliberately in the mind. Costs concentration. |
 | [Magical circuit](#9-magical-circuit) | ~30–80% | A conductive-mana circuit drawn into an object. A craft. |
+
+**Racial affinity — the one born exception.** A few **separate species** are tuned from birth to a single
+domain — sound, heat, water, cold — and cast *that one thing* at ~**100%**, past every ceiling above;
+everywhere else they cast like anyone. It is their **spin**, not their craft, so it never carries into a
+circuit they scribe (that still caps ~80%). See [Peoples](races.md).
 
 ## 7. Unstructured casting
 
@@ -204,28 +215,33 @@ it does the conversion — **no catalyst material is required** ([§4](#4-how-a-
 - **Losses are like wire resistance.** A broken, thin, or smeared trace leaks; a **longer** circuit
   loses more along its length — and, like resistance, also caps **throughput**
   ([§5](#5-what-separates-casters)). All of it spills as **raw mana**, never heat ([§1](#1-what-mana-is)).
-- **Mana-ink.** Powdered storage crystal worked into **Bornmülleriana resin** — the resin is the
-  **conductor** that carries the mana, the crystal powder the active body it runs through
-  ([§18](#18-storage-crystals--the-mana-economy)). Ink grade — set by the resin — sets how near that
-  ~**80%** ceiling a circuit can get; the resin's resistance also means a **longer** trace loses more.
+- **Mana-ink.** **Spent, neutral crystal powder** worked into **Bornmülleriana resin**. The resin is the
+  **conductor**; the depleted powder controls geometry, holds an edge, and gives a stable surface for
+  the pattern, but supplies no charge and is not consumed as fuel
+  ([§18](#18-storage-crystals--the-mana-economy)). Fresh charged crystal is never ground into a
+  permanent trace. Ink grade — set by resin purity, grain, and sealing — sets how near the ~**80%**
+  ceiling a circuit can get; the resin's resistance also means a **longer** trace loses more. The
+  surrounding varnish or substrate is the **insulator**, never the resin itself.
 - **The substrate must make sense.** It has to be **solid** (a trace won't hold on sand), and it must
   **survive the output** — a heat circuit on wood burns the wood, a force circuit cracks a brittle
   block, an electric circuit shorts a conductor. A **matched** substrate raises that output's
   efficiency: **perovskite** under a light circuit, refractory under heat, hard dense stone under
-  force. This is all the old "transducer material" ever was — an *optional amplifier and a survival
-  constraint*, never a required key.
+  force. This is all the old "transducer material" ever was — an *optional loss-reducer and a survival
+  constraint*, never an energy amplifier or a required key. Total circuit efficiency still cannot
+  exceed the resin-limited ~80% ceiling.
 - **A craft, learned as one** — [Spell Formula](#spell-formula), years of it. A sloppy circuit (~30%)
   loses to a good [shaper](#8-shaping) (~40%); it wins only by being **permanent and needing no
   concentration**. A bad circuit on the wrong substrate is a grenade with a handle.
 
 ## 10. Magical devices
 
-What circuits build: a real machine of **coils and capacitors** that runs its scribed circuit off a
+What circuits build: a real machine of **traces, switches, valves, and ordinary mechanisms** that runs its scribed circuit off a
 socketed **single-use crystal** ([§18](#18-storage-crystals--the-mana-economy)). No caster need stand
 over it — the crystal feeds the circuit until it is spent, then a fresh one drops in, like changing a
 battery. This is how the **many who never learned to cast** ([§17](#17-magic-in-daily-life)) use magic at all.
 
-*Example:* a magical lamp draws a few watts; a blue crystal (~1 kWh) runs it for weeks before it is
+*Example:* a 250-lumen magical lamp needs ~0.83 W of optical output; a 30–80% scribed circuit runs it
+for roughly **15–40 continuous days** from a blue crystal (~1 kWh) before it is
 spent. A city's luxury quarters burn through crystals to stay lit all night.
 
 ## 11. Sharing & combining mana
@@ -233,15 +249,18 @@ spent. A city's luxury quarters burn through crystals to stay lit all night.
 How mana moves between people and things, all under **contact** ([§6](#6-the-three-laws)) and **spin**
 ([§1](#1-what-mana-is)).
 
-- **Not person to person.** Two spins clash; the mana won't take. No pouring your reserve into a
-  wounded comrade.
+- **No reserve transfer person to person.** Two spins clash; neutral mana cannot become a second
+  person's stored, freely spendable reserve. A healer can still **spend** mana through a Medical
+  pattern that performs work immediately in the patient; that is an effect, not filling their tank.
 - **Not into a crystal, either.** Crystals don't recharge — they are single-use cells you spend, not
   batteries you fill ([§18](#18-storage-crystals--the-mana-economy)). A mage can drive a device's
   circuit **directly**, hand on it, in place of a socketed crystal; but there is no pouring mana into
   storage to save or sell.
-- **Healing another hurts.** A healer or device drives mana into a body not its own; it mends, but the
-  flesh must re-spin the flood and that is **agony** ([Medical](#medical)). Only self-healing is
-  painless.
+- **Healing another hurts.** A healer or device drives a controlled Medical pattern into a body not
+  its own; it mends, but the flesh must re-spin the flood and that is **agony**
+  ([Medical](#medical)). Without a valid healing pattern the body accepts almost none: pain and reflex
+  rejection dump the feed back as raw mana. Forced feeding therefore cannot be scaled into a hidden
+  kill spell. Only self-healing is painless.
 - **Many can feed one work — in phase.** Rituals and group casting are real, but the casters must push
   **in phase**, their throughput timed together like AC. Out of phase the flows beat and cancel — the
   device melts, a seal chars. And the error **grows with the count**: a choir of a few dozen holds
@@ -312,12 +331,15 @@ Reshape **inert matter** — melt, freeze, harden, cut, bend, phase. Never a liv
 
 **Temporary** shields and constructs.
 
-- **Physics.** A held force field, or gathered existing matter. Making matter is out forever — E=mc²
-  prices 1 g at ~**25 GWh**. Gathering what is there is cheap.
-- **Limits.** A field costs to *hold* — force × time, paid every second — and drops the instant you
-  stop. Conjured things are rented.
-- **In play.** A guard raises a stone lip from the flags to break a charge. A duelist's force-disc
-  holds a blade — and vanishes the moment his focus slips.
+- **Physics.** A held force field, or existing loose matter held in a temporary geometry. Making matter
+  is out forever — E=mc² prices 1 g at ~**25 GWh**. Moving matter pays ordinary work (`force ×
+  displacement`); maintaining the field then draws a defined **idle power in watts** set by area,
+  stiffness, and leakage. `Force × time` is impulse, not energy, and is not used as a bill.
+- **Limits.** A field costs every second and drops the instant you stop. Matter that was merely held
+  falls; matter permanently bent, cut, or fused stays changed and belongs to [Alteration](#alteration),
+  not Conjuration. Conjured things are rented.
+- **In play.** A guard pulls loose cobbles into a held lip to break a charge; they collapse when his
+  focus does. A duelist's force-disc holds a blade — and vanishes the moment his focus slips.
 
 ### Wards
 
@@ -371,10 +393,12 @@ Fake sights and sounds.
 
 - **Physics.** Real light and sound, perception-tuned. The bill is matching the surroundings — noon
   (~100,000 lux) is costly, night nearly free.
-- **Limits.** Fools eyes and ears, never touch, and it has tells — no shadow, no warmth, no parallax.
+- **Limits.** Fools eyes and ears, never touch. Light must scatter from something: a wall, cloth,
+  smoke, mist, dust, or a carried scribed emitter. Clean open air cannot hold a free-floating image at
+  a distance under the contact law. It also has tells — no warmth, wrong shadow, weak parallax.
   Quality is the budget spent hiding those.
-- **In play.** A thief throws his own image down an alley to draw the guards — good at night,
-  betrayed at noon by the missing shadow.
+- **In play.** A thief throws his image onto smoke at the far end of an alley to draw the guards —
+  good at night, betrayed at noon by the wrong shadow.
 
 ### Animation
 
@@ -416,11 +440,14 @@ How the world turns mana into **rotation**: not a spinning motor but a **push-pu
 - **Wear.** No waste-heat, so nothing melts ([§1](#1-what-mana-is)); it wears the **mechanical** way —
   bearings and crank fatigue, and the circuit erodes over millions of strokes like a worn cam, until
   it needs re-scribing. A machine that breaks and gets repaired — a mechanic's living.
-- **Mechanical storage.** A flywheel or a raised weight banks the shaft-work with **no crystal decay**
-  ([§18](#18-storage-crystals--the-mana-economy)) — the one store that doesn't leak. But it is bulky
-  and costly to build, so no one bothers at scale: magic is a **daily-life aid, not an industry**. That
-  gap is an opening Kaiser sees and the locals don't.
-- **In play.** A cart's wheel-hub is a small push-pull engine fed by a set crystal; the dead grey
+- **Mechanical storage.** A raised weight banks shaft-work with negligible standing loss; a flywheel
+  still bleeds through bearing drag and air resistance. Neither suffers a crystal's spontaneous mana
+  decay ([§18](#18-storage-crystals--the-mana-economy)), but both are bulky and costly. Water, wind,
+  animals, and fuel beat crystal on bulk work; mana wins where portability, precision, silence, or
+  immediate start is worth the premium.
+- **In play.** A cart's wheel-hub is a small **assist**, brake, or emergency push-pull engine fed by a
+  set crystal — a 100 W blue cell yields only ~36 W at the reference build, less than half a laborer's
+  sustained mechanical output. Full propulsion needs an expensive kilowatt purple stone. The dead grey
   lines scribed into old wagon wood are its spent mana-ink circuit. The engineer's edge is double — a
   better circuit **and** a better mechanism (crank throw, flywheel, timing, compounding, gearing) — so
   the same Wh yields far more shaft-work than the local build.
@@ -526,7 +553,8 @@ The walls every caster lives inside:
 - **Learning time.** Years per discipline, and no discipline grants another. No shortcut, no
   inheritance — a mage's disciplines are their life story.
 - **The body's ceiling.** Flesh caps everything. Enhancement past what the skeleton bears breaks it;
-  throughput past what the body channels burns it.
+  throughput past what the body channels — much past **~1 kW** — burns it. That ~1 kW is the hard mortal
+  draw ceiling ([§5](#5-what-separates-casters)).
 - **No harm to a living body** ([§6](#6-the-three-laws)) — every fight goes through the world between
   you, never the enemy directly.
 
@@ -539,17 +567,20 @@ From a village street:
   caster who *matters* — who can fight, enchant, or scribe — is somebody: a village has a few, a city its
   guilds. This is the quiet reason the world isn't chaos: the spark is cheap, but the capacity and skill
   to throw fire are not.
-- **But magic reaches everyone.** Even those who can't cast use scribed, crystal-fed devices — but a
-  device is a **luxury** ([Economics](economics.md)): a hand-lamp costs an artisan months of wages, so
-  the well-off keep private lamps and heaters, a village **shares** a mill or a pump, a tavern rents out
-  light — and the poor still burn tallow candles and wood. Magic energy is a thing you buy, not a talent
-  you need, but it is dear.
+- **But magic reaches everyone.** Even those who can't cast encounter scribed, crystal-fed devices —
+  but ownership is a **luxury** ([Economics](economics.md)): a hand-lamp costs a floor worker months of cash wages, so
+  the well-off keep private lamps and precision heaters, a village **shares** an emergency pump,
+  clinic tool, or mana governor fitted to its watermill, and a tavern rents out light — while the poor
+  still burn tallow candles and wood. Magic energy is a thing you buy, not a
+  talent you need, but it is dear.
 - **Mastery is rarer still.** Universities are few; most learn alone or under one teacher, and
   spellbooks cost a fortune. A trained shaper is somebody in a town, a circuit-scriber somebody in a
   city.
-- **Energy is fuel, not a wage.** You cannot sell your own mana — crystals don't recharge. You buy
-  crystals, **blue** mined and **purple** hunted, and burn them: rich households run kilowatt purple
-  stones, poor ones eke out a 100 W blue.
+- **Premium energy, not bulk power.** Water, wind, wood, charcoal, people, and animals do the cheap
+  continuous work. Crystals pay where portability, exact control, automation, healing, sensing, or
+  combat justifies a price measured in days of labor per kWh. You cannot bottle and sell your own mana
+  because crystals do not recharge, though casters sell on-site work. Rich households may own blue
+  lamps; kilowatt purple stones belong to workshops, gates, expeditions, and nobles, not ordinary homes.
 
 ## 18. Storage crystals & the mana economy
 
@@ -583,8 +614,10 @@ power** than the whole lump did — but the working spills part of the stored ch
 output with **lost capacity**. A scriber sizes the cut to the job: burst-power for a weapon, or the full
 reserve left intact for a lamp meant to last.
 
-**Raw vs. scribed.** Unworked, a crystal gives only a weak trickle (a few watts) and leaks it whether
-loaded or not. **Scribed** by [Spell Formula](#spell-formula), it delivers up to its rated output —
+**Raw vs. scribed.** Unworked, a crystal can deliver only a weak connected trickle (a few watts).
+Disconnected shelf leakage is much slower — a good sealed cell loses roughly a few percent per month,
+not a continuous multi-watt load — and grade, damage, and age change it. **Scribed** by
+[Spell Formula](#spell-formula), it delivers up to its rated output —
 ~100 W blue, kilowatts purple — and a **cut, worked** cell higher still, at the cost of capacity (above).
 Working a crystal is guild craft; the scribers sit at the center of the trade.
 
@@ -593,16 +626,24 @@ Working a crystal is guild craft; the scribers sit at the center of the trade.
 - **Currency.** 100 **bronze** (*tunç*) = 1 **silver** (*gümüş*); 10 silver = 1 **gold** (*altın*);
   100 gold = 1 **Magic Platinum** (*Büyülü Platin*), a cheque-like bearer-note carrying a magic seal
   that proves it genuine.
-- **Prices.** Mineral crystal runs about **1 silver per kWh** (a 5 cm³ stone = 1 kWh = 1 silver).
-  Biological runs about **5 silver per kWh** of charge — a ~30 kWh blood-wolf stone is ~**150 silver**
-  (15 gold). The premium isn't cheaper energy; it is **power** — only a purple crystal delivers
-  kilowatts. Full cost-of-living in [Economics](economics.md).
+- **Prices have two axes.** Mineral crystal energy runs about **1 silver per certified remaining kWh**
+  (a fresh 5 cm³ stone ≈ 1 kWh = 1 silver). Biological energy starts near **5 silver per remaining
+  kWh** — a fresh ~30 kWh blood-wolf stone is ~**150 silver** (15 gold) before unusual output premiums.
+  The certificate separately rates **energy (kWh), continuous output (kW), monthly leakage, and circuit
+  grade**. Power, not just charge, is why purple commands a premium. Full cost-of-living in
+  [Economics](economics.md).
+- **Assay makes the market possible.** Mana cannot be read directly, so licensed assay houses combine
+  mass/volume geometry, a calibrated brief discharge, leakage observation, and batch records; they
+  seal the estimate and accept liability. An uncertified hunting stone sells at a deep discount. A
+  beast that fought hard leaves a visibly valuable but economically disputed asset — ideal ground for
+  fraud, guild power, and Kaiser's eventual instruments.
 - **Two trades feed it.** **Miners** dig blue; **hunters** kill for purple. Both dangerous, neither
   farmable, and demand never stops — energy is consumed, so the world always needs more.
-- **No mana market.** You cannot sell your own mana — crystals don't recharge, and a person's whole
+- **No storable personal-mana market.** You cannot bottle your own mana or recharge a crystal, and a person's whole
   daily refill is only his own small reserve ([§3](#3-regeneration)), worth a coin or two and gone
   keeping himself topped up. Nobody grows rich as a living battery. Everyone buys crystal fuel and burns
-  it in devices.
+  it in devices. Casters still sell **services at the point of use** — healing, shaping, or directly
+  driving a circuit — but the energy cannot be warehoused after they leave.
 
 **Mana-ink & Bornmülleriana.** The resin is the world's one **workable mana conductor** — mana runs
 along it by contact, like current down a wire ([§6](#6-the-three-laws)), but it has real **resistance**:
@@ -628,7 +669,9 @@ air and it starves, and hand-feeding a plantation costs more than it ever yields
   (blue mined, purple hunted); but resin comes only off the deadly ground around a **Well**
   ([§3](#3-regeneration), [§19](#19-creatures)) — which is why circuits and devices stay a
   guild-and-city craft, expensive, and the world is not paved with golems. **Northungard**
-  ([§19](#19-creatures)), the one city on a Well, is the natural ink capital.
+  ([§19](#19-creatures)), the one city on a Well, is the natural ink capital — and therefore regulates
+  resin export, assay seals, and foreign workshops as instruments of state power. Transport leakage,
+  monster pressure, and smuggling keep that monopoly strong but incomplete.
 
 ## 19. Creatures
 
@@ -656,6 +699,12 @@ feeding a captive enough mana to grow one costs **more** than the crystal will e
 plus losses). Extraction beats husbandry — the trade runs on the hunt. (**Blue** mineral crystal has no
 such origin; it is simply mined, and rarer than ore.)
 
+**Why the hunt has law.** A valuable wild crystal is an open-access resource: without ownership and
+limits, every hunter is paid to kill now and leave extinction to everyone else. Well-lords therefore
+claim hunting rights, license expeditions, tax declared stones, close breeding seasons, and punish the
+sale of juvenile cores. Guild quotas are imperfect and smuggling is lucrative. Monster danger slows
+over-harvest; institutions are what keep it from becoming extermination.
+
 **Mana Wells belong to monsters.** A Well is where the planet's core seeps mana to the surface: it
 runs **densest in the first ~50 m**, almost unbearably rich, and its pull draws living things from as
 far as **~50 km** around — so it is ringed by the deadliest beasts, thickest at its heart. (Magical
@@ -666,9 +715,10 @@ are rare, lethal, and monster-held, not real estate.
 
 ## 20. Ocak Kanlı
 
-**Ocak Kanlı / Hearth-Blooded** — the rare few with a **direct bond to the Mist**. Where everyone else
+**Ocak Kanlı / Hearth-Blooded** — a rare cross-people **Mist-mark**, not a simple Mendelian bloodline,
+with a **direct bond to the Mist**. Where everyone else
 must eat, breathe, and rest a whole day to refill ([§3](#3-regeneration)), they pull mana **straight from
-the Mist into the heart** — the one people with a **standing regeneration**, refilling even mid-fight.
+the Mist into the heart** — the only marked mortals with **standing regeneration**, refilling even mid-fight.
 
 - **Numbers.** ~**+25 Wh/h** anywhere, needing no rich surroundings; trainable higher, up to ~**75 Wh/h**
   in a Well ([§3](#3-regeneration)) — many times what a full day's rest gives anyone else. A self-renewing
@@ -695,7 +745,7 @@ The glance-table for writing scenes. Full math in [§22](#22-worked-formulas).
 | Heal tissue | ~72 g @ 100% | barely a small wound closed |
 | Kinetic force | ~72 kJ @ 20% | a fist-sized stone at lethal speed |
 | Sound | ~140 dB at 10 m | deafening is cheap — it's only noise |
-| Shaft work (mana-engine) | ~36 W continuous @ 36% | reciprocator + flywheel ([§13](#motive-power--the-mana-engine)) |
+| Shaft work (mana-engine) | ~36 W shaft from a 100 W feed @ 36% | reciprocator + flywheel; blue-cell cart **assist**, not full propulsion ([§13](#motive-power--the-mana-engine)) |
 | Animate a grinder | hours on a sliver | one joint; a biped's CPU bill is ~1000× |
 | Electricity | 100 mA shock, ~30 kV/cm arc | **unknown — Kaiser's alone** |
 | Create matter | **~0** | 1 g ≈ 25 GWh — impossible |
@@ -751,12 +801,13 @@ recover_h   = reserve_Wh / breath_Wh_h   # ≈ 10 h — well under half the day-
 
 ## 23. Open threads
 
-**Nothing open on the physics** — every discipline reduces to worked numbers, each with an executable
-proof in `magics/`.
+**The core energy accounting is closed; application constants are not.** Worked examples in `magics/`
+must share the canon efficiencies below, while biological rates, field idle-power, material yields,
+and market grades remain explicit design variables until a scene fixes them.
 
 | Thread | Reduces to | Proof |
 |--------|-----------|-------|
-| Materials model | Pattern converts, not a catalyst; conductor = mana-ink, insulator = resin, substrate = optional amplifier. No god-machine — bounded by **budget**, not material specialism ([§4](#4-how-a-cast-works), [§9](#9-magical-circuit), [§18](#18-storage-crystals--the-mana-economy)) | design |
+| Materials model | Pattern converts; conductor = Bornmülleriana resin / mana-ink, insulator = surrounding varnish or substrate, substrate = optional loss-reducer. No god-machine — bounded by **budget**, not material specialism ([§4](#4-how-a-cast-works), [§9](#9-magical-circuit), [§18](#18-storage-crystals--the-mana-economy)) | partial design |
 | Sound | `I = P/4πr²` → `SPL = 10·log₁₀(I/I₀)`; −6 dB per doubling | `ses.py` |
 | Motive power | Reciprocator: peak `τ = F·r`, stroke work `2Fr`, shaft `τ̄·ω` | `motor.py` |
 | Animation | Muscle `τ = load·arm`, `P = τω·duty ÷ η`; CPU `DOF × rate × sensing` | `animasyon.py` (+ `robot.py`) |
@@ -773,5 +824,5 @@ is always throughput, information, or the *matching* that makes energy do work.
 - **Electricity as revolution.** The output is worked, but no one in this world has thought to make
   *current* ([§13](#13-physical-disciplines)). Electrolysis, the telegraph, electrochemistry — that is
   **Kaiser's long game**, unwritten until the story reaches it.
-- **Potion numbers.** Wh-per-dose and price are unset ([§3](#3-regeneration)); fix them when the plot
-  puts a price on a refill.
+- **Potion numbers.** Retail anchor is ~2 gold, but Wh-per-dose and grade spread are unset
+  ([§3](#3-regeneration)); fix them when the plot puts a measured refill on the page.
