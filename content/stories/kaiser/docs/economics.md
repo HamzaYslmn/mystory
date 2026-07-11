@@ -480,9 +480,9 @@ skilled and up ever own their walls.
 
 | Item | Price |
 |------|-------|
-| Hand-lamp (small) | 5 gold |
+| Hand-lamp (small) | 1 gold |
 | Heater-stone | 8 gold |
-| House-lamp (scribed) | 10 gold |
+| House-lamp (scribed) | 2 gold |
 | Night-lens (infrared) | 12 gold |
 | Cook-stove (scribed) | 15 gold |
 | Illusion-projector | 15 gold |
@@ -596,3 +596,8 @@ That 1 silver / kWh lands right among the luxuries: a kilowatt-hour costs about 
 pepper**, **a dozen chickens**, or **5 kg of beef**. Magic energy is a spice, not a staple — which is
 the whole point. The man who can wring more effect from the same crystal
 ([Power System](power-system.md)) is quietly, structurally rich.
+
+Devices sit above even that. The cheapest scribed thing — a **hand-lamp, 1 gold** — is still ~three
+months of floor wages, so the poor never own one: they burn a **1-bronze tallow candle** and share the
+village mill. A device is an artisan's or a noble's purchase, or a thing a village owns together and a
+tavern rents by the hour.

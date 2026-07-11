@@ -13,9 +13,10 @@ docs in English; published chapters are Turkish (see [Narrative Rules](narrative
 |------|---------------|
 | [Premise & Themes](premise-and-themes.md) | The inversion-of-worth spine, the central question, tone. |
 | [Characters](characters.md) | Kaiser (method, flaw, hidden canon) and the cast. |
-| [Power System](power-system.md) | **Canon** — the mana-engineering system (quantified physics; no crystals). |
+| [Power System](power-system.md) | **Canon** — the mana-engineering system (quantified physics; crystals only as single-use cells). |
 | [Machines](machines.md) | Invention log — the magic machines, each with its spell file (`magics/`) and cost. |
 | [Economics](economics.md) | Coin, crystal prices, and cost of living anchored to bread and the kilowatt-hour. |
+| [Peoples](races.md) | The sentient races (elves, dwarves, humans, beastmen) and how mana divides them; balance in numbers. |
 | [Bestiary](bestiary.md) | The creature roster (dragons, walking mushrooms, …); rules live in Power System. |
 | [Engineering Doctrine](engineering-doctrine.md) | How to write engineering/magic scenes (the "misrepresented engineering" fix). |
 | [Narrative Rules](narrative-rules.md) | POV, reveal discipline, tone, style, localization. |

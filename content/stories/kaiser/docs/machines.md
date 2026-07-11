@@ -11,10 +11,13 @@ no one.
 ## Built in the story
 
 **Robot / golem.** Animation ([§13](power-system.md#animation)), `robot.py` + `animasyon.py`. A worked
-object that runs a written loop — you speak a command, it matches the nearest scribed action and does
-it. Two bills: muscle (τ = load·arm, P = τω) and the coordination "CPU" (DOF × loop-rate × sensing). A
-one-joint grinder runs for hours off a sliver; a balancing biped costs ~1000× the CPU and staggers
-when its maker's attention breaks. No intelligence — only what is scribed.
+object that runs a written loop. Local masters trigger it with **exact key-words** — one spoken word,
+one scribed action — mostly for attack and defense; matching a *loose* phrase to the nearest command is
+information-processing no one here thinks of. **Kaiser can**, because he knows it as computation, and a
+programmable golem is one of his quiet edges. Two bills: muscle (τ = load·arm, P = τω) and the
+coordination "CPU" (DOF × loop-rate × sensing). A one-joint grinder runs for hours off a sliver; a
+balancing biped costs ~1000× the CPU and staggers when its maker's attention breaks. No intelligence —
+only what is scribed.
 
 **Hand-lamp / flashlight.** Light projection ([§13](power-system.md#projection)), `isik.py`. A scribed
 light-circuit, best on a matched perovskite substrate. ~250 lm for ~6 hours off 100 Wh at a novice's
@@ -29,15 +32,18 @@ shaft-work at ~36% end-to-end. This is how mana becomes *rotation*: the cart hub
 ## In the world
 
 **Storage crystal — single-use cell.** `kristal.py`, [§18](power-system.md#18-storage-crystals--the-mana-economy).
-The world's fuel, not a battery: a fixed charge spent once, no recharge, no decay. **Blue** mineral
-(~1 kWh per 5 cm³, ≤100 W, ~1 silver/kWh) runs daily devices; **purple** biological is denser and
-delivers kilowatts (a blood-wolf stone ~30 kWh at 2 kW). Output rises with a stone's surface area,
-capacity with its volume — big stone, big power. Wiring too many blue in series/parallel beats out of
-phase and can explode.
+The world's fuel, not a battery: a fixed charge spent once, no recharge — and it **slowly leaks on the
+shelf**, so stock must keep moving (constant demand). **Blue** mineral (a ~5 cm³ cube ≈ 1 kWh, ≤100 W
+worked, ~1 silver/kWh) runs daily devices; **purple** biological is denser and delivers kilowatts (a
+blood-wolf stone ~30 kWh at 2 kW). Output rises with a stone's surface area, capacity with its volume —
+big stone, big power — and **cutting** a stone raises its output at the cost of capacity. Wiring too many
+blue in series/parallel beats out of phase and can explode.
 
 **Mana cable.** Bornmülleriana resin, [§18](power-system.md#18-storage-crystals--the-mana-economy).
-The one mana wire — mana conducts along it by contact. Runs a device from a distance, or carries the
-feed while a circuit is scribed onto something out of reach. Not a store; a conductor.
+The one workable mana wire — mana conducts along it by contact, but the resin has **resistance**, so
+efficiency **falls with distance** and the finest kozak tops out near **80%**. Runs a device from a
+distance, or carries the feed while a circuit is scribed onto something out of reach. Not a store; a
+conductor. (A unicorn's horn conducts near-perfectly, but it's a rare relic, not wire.)
 
 **Ward-stone / shield.** Wards ([§13](power-system.md#wards)), `siper.py`. A scribed barrier that
 absorbs or deflects — ~2,900 *plain* arrows off 100 Wh, or a handful of kJ-class bullets; deflection

@@ -1,6 +1,9 @@
-"""kristal.py — Mana tasi (Storage crystal, §18). TEK KULLANIMLIK; sarj YOK, curume YOK.
-Iki tur: MAVI maden (~1 kWh/5 cm3, dusuk cikis) ve MOR biyolojik (yogun, yuksek cikis, canlidan).
+"""kristal.py — Mana tasi (Storage crystal, §18). TEK KULLANIMLIK; sarj YOK.
+Curume var: raftaki tas bile YAVAS SIZAR (#11, surekli talep) -> RAF_SIZINTI_AYLIK.
+Iki tur: MAVI maden (~1 kWh/5 cm3 KUP, dusuk cikis) ve MOR biyolojik (yogun, yuksek cikis, canlidan).
 CIKIS yuzey alaniyla, KAPASITE hacimle orantili -> buyuk tas: buyuk akim + buyuk kapasite.
+KESMEK cikisi artirir ama kapasiteyi dusurur (#13, yeni yuzey + islerken sarj kacar) -> kes_cikis_kapasite.
+Recine iletkenin DIRENCI var: verim mesafeyle duser, en iyi kozak ~%80 (#6) -> recine_verim.
 Bedensel guclendirme %1 verimle calisir (§14) -> feats pahalidir, kristali eritir.
 Cok fazlasini seri/paralel baglamak frekansi bozar (§11) -> patlar.
 """
@@ -8,7 +11,11 @@ import math
 
 WH_PER_CM3        = 200.0   # mavi maden yogunlugu: 1 kWh / 5 cm3
 K_CIKIS_MAVI      = 7.08    # W / cm2 yuzey (5 cm3 tas -> 100 W'tan turetildi)
-HAM_W             = 0.5     # islenmemis tas sizinti-cikisi
+HAM_W             = 5.0     # islenmemis kucuk tas: zayif yuk-cikisi ~5 W (#13; islenince ~10 W)
+RAF_SIZINTI_AYLIK = 0.05    # #11: raftaki tas ayda ~%5 kendiliginden sizar -> surekli talep
+KESIM_CARPAN      = 2.0     # #13: tasi kes -> cikis 2x ama kapasite ~yariya (5W->10W ornegi)
+RECINE_VERIM_MAX  = 0.80    # #6: en iyi kozak %80; direnc yuzunden mesafeyle duser
+RECINE_YARI_M     = 20.0    # verimin RECINE_VERIM_MAX/2'ye dustugu kablo boyu [m]
 GUVENLI_DIZI      = 4       # bu kadar tas guvenle baglanir; fazlasi faz cakisir -> patlar
 GUCLENDIRME_VERIM = 0.01    # bedensel guclendirme verimi (§14): akla bagli — brute icgudu ~%1
 ZEKI_VERIM        = 0.50    # zeki canli (ejderha) bedenini sekillendirir: ~%50
@@ -59,6 +66,19 @@ def dizi_guc_w(n, tekil_w=100.0):
     """n mavi tasi bagla: guvenliyse n*tekil_w [W], degilse None (faz cakisir, patlar)."""
     return n * tekil_w if n <= GUVENLI_DIZI else None
 
+def raf_kalan_oran(ay):
+    """#11: raftaki tasta 'ay' ay sonunda kalan sarj orani = (1-sizinti)^ay."""
+    return (1 - RAF_SIZINTI_AYLIK) ** ay
+
+def recine_verim(uzunluk_m):
+    """#6: recine kablonun verimi — tavan %80, direnc yuzunden mesafeyle duser."""
+    return RECINE_VERIM_MAX / (1 + uzunluk_m / RECINE_YARI_M)
+
+def kes_cikis_kapasite(cikis_w, kapasite_wh, carpan=KESIM_CARPAN):
+    """#13: tasi kes/isle -> cikis 'carpan' kati, kapasite ayni oranda duser.
+    Ornek: 5 W tas kesilince 10 W verir ama kapasitesi yarilanir."""
+    return cikis_w * carpan, kapasite_wh / carpan
+
 if __name__ == "__main__":
     assert maden_enerji_wh(5) == 1000                          # 5 cm3 = 1 kWh
     assert maden_fiyat_tunc(5) == GUMUS                        # 5 cm3 = 1 kWh = 1 gumus
@@ -73,6 +93,10 @@ if __name__ == "__main__":
     assert abs(c2/c1 - 4) < 1e-9 and abs(k2/k1 - 8) < 1e-9     # r 2x -> cikis 4x, kapasite 8x
     assert round(feat_maliyeti_j(4900) / 1000) == 490          # 100 kg, 5 m sicrama %1 -> 490 kJ
     assert dizi_guc_w(4) == 400 and dizi_guc_w(5) is None
+    assert kes_cikis_kapasite(5, 1000) == (10, 500)           # #13: 5W->10W, kapasite yari
+    assert round(recine_verim(0), 2) == 0.80                  # #6: en iyi kozak %80
+    assert 0 < recine_verim(20) < 0.80                        # mesafeyle duser (20 m'de yariya)
+    assert 0.50 < raf_kalan_oran(12) < 0.60                   # #11: 1 yil rafta ~%54 kalir
     atlayis = 30 * 3600 * 1000 / feat_maliyeti_j(4900)         # 30 kWh / 490 kJ
     cooldown_s = feat_maliyeti_j(4900) / 2000                  # 2 kW cikista dolum
     # --- dragon (20 t, ZEKI %50) — gercek fizik ---
@@ -88,3 +112,5 @@ if __name__ == "__main__":
           round(atlayis), "atlayis;", round(cooldown_s / 60, 1), "dk cooldown")
     print("dragon(20t,zeki): ucus 20dk 33 kWh, kalkis ~2 dk sarj; ates", round(ates_mj),
           "MJ kimyasal (mana", round(ates_mana_kj), "kJ); eritme 2500C", round(eritme_mana / 1e6, 1), "MW/m2 mana")
+    print("kristal: 5cm3 kup=1kWh; kes 5W->10W(-kapasite); recine %80 tavan, 20m'de yariya;",
+          "raf 1 yil ~%", round(raf_kalan_oran(12) * 100), "kalir")

@@ -2,13 +2,18 @@
 
 The creature roster. Rules live in [Power System §19](power-system.md#19-creatures): most creatures
 carry no crystal and can't cast; a crystal-bearer has one **physical-enhancement**, its efficiency set
-by the beast's wit — a brute manages ~1%, an intelligent beast (a dragon) up to ~50% — and its
-single-use **purple crystal** pays the bill, so hard fighting drains the stone and leaves it cheaper.
-The strongest gather at the Wells.
+by the beast's wit — a brute manages ~1%, and only the rare **intelligent** beast shapes like a mage
+(~50%) and may hold more than one trick — and its **single-use purple crystal** pays the bill, so hard
+fighting drains the stone and leaves it cheaper. The strongest gather at the Wells.
 
-Fields below; some entries add a **Numbers** line for the beast's signature feat.
+**Size classes.** Every beast is one of five: **tiny · small · medium · large · huge**. A sixth tag,
+**Special**, marks the rare legendary one-offs that break the ordinary rules (a dragon shapes many
+disciplines at once); only a handful exist in the world.
+
+Fields below — **Size** on every entry, and some add a **Numbers** line for the beast's signature feat.
 
 - What: what it is
+- Size: its class (and **Special** if it breaks the rules)
 - Habitat: where it lives
 - Crystal: what it carries
 - Magic: its one instinctive effect, if any
@@ -17,6 +22,7 @@ Fields below; some entries add a **Numbers** line for the beast's signature feat
 ## Dragon
 
 - What: 20-ton apex predator, the largest crystal-bearer known
+- Size: **huge · Special** — only a handful exist; the rules bend for it
 - Habitat: Mana Wells
 - Crystal: **purple**, ~**100 kW** output and ~**3.8 MWh** — largest in the world, worth ~**19 platinum**, a fortune in one stone
 - Magic: **soaring flight**, a **chemical fire breath**, and a **melt-aura**; also cold, lightning, or poison gas (Projection, thrown at the world, never into a body)
@@ -30,6 +36,7 @@ Fields below; some entries add a **Numbers** line for the beast's signature feat
 ## Slime
 
 - What: a gelatinous acid blob that engulfs prey and dissolves it
+- Size: **small–medium**
 - Habitat: Caves, ruins, forests, anywhere it can hide and ambush
 - Crystal: usually none
 - Magic: none, the acid is its body chemistry, not a cast
@@ -38,6 +45,7 @@ Fields below; some entries add a **Numbers** line for the beast's signature feat
 ## Walking Mushroom
 
 - What: an ambulatory fungus on stiff root-legs, common and slow
+- Size: **small**
 - Habitat: Forest
 - Crystal: usually none, rarely a small one
 - Magic: usually none; a rare crystal-bearer gets one enhancement, a hard cap or a speed burst
@@ -46,15 +54,18 @@ Fields below; some entries add a **Numbers** line for the beast's signature feat
 ## Blood-Wolf (*Kanlı Kurt*)
 
 - What: 100 kg pack predator, red mane
+- Size: **medium**
 - Habitat: forest and foothills, well out from the Wells
-- Crystal: **purple**, ~30 kWh at ~2 kW — a rich household's stone, ~150 silver
+- Crystal: **purple**, ~30 kWh at ~2 kW — a rich household's stone, ~150 silver (15 gold)
 - Magic: one trick — an explosive **~5 m leap** (bodily enhancement, fuelled by its crystal)
 - Danger: high in a pack; each pounce closes fast, then it must recover
 - Numbers: at ~1% a 5 m leap costs ~4.9 kJ of muscle → ~**490 kJ** of crystal. Every leap **loads the body**, so no back-to-back pounces — ~**4 min** to recover (crystal refill at 2 kW plus muscle fatigue). Good for ~**220** leaps; between them it runs on ordinary legs.
+- Hunting: they run in **packs**, so a party that takes one takes several — a good expedition brings home a **handful of 15-gold stones**, well clear of the veteran mercenaries' wages ([Economics](economics.md)). One wolf alone barely pays; the pack is the point.
 
 ## Troll
 
 - What: a heavy brute (~400 kg) that knits its wounds shut as fast as you open them
+- Size: **large**
 - Habitat: caves, damp gorges, under old bridges
 - Crystal: **purple**, ~20 kWh — the well it heals from; ~10 gold
 - Magic: one trick — **rapid self-regeneration** (self-Medical, [§14](power-system.md#medical)), painless because it is its own mana
@@ -64,6 +75,7 @@ Fields below; some entries add a **Numbers** line for the beast's signature feat
 ## Basilisk
 
 - What: a cave-serpent whose fabled *petrifying gaze* is a myth — the real weapon is a **calcifying venom**
+- Size: **medium**
 - Habitat: caves, ruins, old tombs
 - Crystal: small or none
 - Magic: at most one enhancement (a snake-quick strike, a stone-hard hide); the venom is **chemistry, not a cast** — a living body is closed to magic ([§6](power-system.md#6-the-three-laws)), so a bite hardens flesh to stone over minutes by its own poison
@@ -72,6 +84,7 @@ Fields below; some entries add a **Numbers** line for the beast's signature feat
 ## Griffin
 
 - What: an eagle-lion, ~300 kg, cunning — a mountain raptor
+- Size: **large**
 - Habitat: high crags and peaks
 - Crystal: **purple**, small (~5 kWh, a few kW)
 - Magic: **flight** and a **diving strike** — light enough that soaring costs little, so it hunts for hours; a dive adds kinetic energy at ~20% (clever, not a brute)
@@ -80,6 +93,7 @@ Fields below; some entries add a **Numbers** line for the beast's signature feat
 ## Wyvern
 
 - What: a two-legged dragon-kin, ~1 ton, venomous — the dragon's lesser cousin
+- Size: **large**
 - Habitat: crags and badlands, out from the Wells
 - Crystal: **purple**, ~50 kWh at ~5 kW
 - Magic: **powered flight** plus a **venomous sting** (venom is chemistry, [§6](power-system.md#6-the-three-laws)); semi-intelligent (~25%), so it flies cheaper per kilo than a brute but far dearer than a dragon
@@ -88,6 +102,7 @@ Fields below; some entries add a **Numbers** line for the beast's signature feat
 ## Phoenix
 
 - What: a rare fire-bird of legend, seldom seen
+- Size: **large · Special**
 - Habitat: volcanic heights and Well fringes
 - Crystal: **purple**, large — a fortune
 - Magic: intelligent (~50%): a **chemical fire** like a dragon's, and extreme **self-regeneration** — "rising from the ashes" is it healing back from near-death by spending its crystal. When the stone is finally spent it dies for good, leaving only **ash** (~5 platinum — rare, because most phoenixes rise instead of falling)
@@ -96,8 +111,9 @@ Fields below; some entries add a **Numbers** line for the beast's signature feat
 ## Unicorn
 
 - What: a horse-like beast with a single crystalline **horn**; elusive, near-mythical
+- Size: **medium · Special**
 - Habitat: deep old forest, Well fringes
-- Crystal: the **horn itself** — a rare, almost pure mana-conductor, the finest reagent for healing-alchemy and mana-ink; ~50 platinum
+- Crystal: the **horn itself** — a rare **near-perfect mana conductor**, passing mana with almost no loss where even the best resin leaks (~80%, [§18](power-system.md#18-storage-crystals--the-mana-economy)). Set as a **staff** or a **weapon-haft**, it delivers a caster's full output undimmed; it is also the finest reagent for healing-alchemy and mana-ink; ~50 platinum
 - Magic: intelligent (~50%): one trick, **uncanny speed and evasion**. Its healer's legend comes from the *horn's* use in medicine, not from the beast mending anyone — a living body is closed to it too ([§6](power-system.md#6-the-three-laws))
 - Danger: low in a fight — it flees; the danger is that catching one is all but impossible
 

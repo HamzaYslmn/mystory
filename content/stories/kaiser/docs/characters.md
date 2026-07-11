@@ -64,8 +64,10 @@ treated here as the reimagined English-facing name for the Boran role. **Confirm
 it ships.**
 
 ### Captain Lyra
-One of Valerius's commanders; distrusts Kaiser; armor carries small etched strength-boost
-augments (spell-etching).
+One of Valerius's commanders; distrusts Kaiser. Her **sword** carries scribed **impact** and
+**edge/sharpness** circuits — it strikes harder and cuts cleaner than plain steel — and she herself
+casts natural **self-enhancement** for speed. (Enhancement is self-only and can't be scribed into flesh
+([§14](power-system.md#enhancement)); what is *etched* lives in the blade, not in her.)
 
 ### Toma
 Arrogant journeyman in the workshop.

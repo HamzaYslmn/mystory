@@ -1,7 +1,10 @@
-# robot.py — Robot/golem buyusu (Animation koordinasyonu, doc §13):
-# soyleneni en yakin komuta esler, eylemlerini sirayla calistirir.
+# robot.py — Robot/golem buyusu (Animation koordinasyonu, doc §13).
+# DUNYA: yerli ustalar KESIN tetik-sozcuk kullanir (bir kelime -> bir eylem),
+#   cogu saldiri/savunma icin; bulanik eslesme kavramini bilmezler.
+# KAISER (#9): kodlama bildigi icin soyleneni EN YAKIN komuta esler (bulanik) -
+#   bu bir hesaplamadir ve dunyada bir ilktir. Asagisi onun surumu.
 # ponytail: difflib bulanik eslesme yeter; gercek dil anlama gerekirse
-# onune bir LLM cagrisi konur, model egitilmez.
+#   onune bir LLM cagrisi konur, model egitilmez.
 import difflib
 
 # tetik -> eylemler. Eylem simdilik yazdirilan ad; robota baglarken fonksiyon koy.

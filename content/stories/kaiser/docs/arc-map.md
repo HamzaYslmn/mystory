@@ -6,8 +6,8 @@ is broken into scenes so far (one file per chapter).
 > **⚠ STALE — needs replotting.** The beats below were built on the **retired crystal system**
 > (found cores, dormant Enhancer, slime-core, Converter, runes-as-program, streetlamp socket
 > clearance). The world now runs on the [Power System](power-system.md) (mana as an internal
-> skill; no crystals), so the Arc 1 exit state and the Arc 2–5 beats need to be re-plotted:
-> what Kaiser *finds and does* is different when there are no crystals to restart. Left intact
+> skill; crystals only as single-use cells), so the Arc 1 exit state and the Arc 2–5 beats need to be re-plotted:
+> what Kaiser *finds and does* is different when crystals are single-use fuel, not restartable cores. Left intact
 > below only as a record until re-plotted.
 
 ## Arc 1 — Collapse · Purgatory · Rebirth (Ch1–6) — *detailed*
