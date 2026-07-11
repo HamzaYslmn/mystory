@@ -6,6 +6,10 @@ See also: [Premise & Themes](premise-and-themes.md) · [Power System](power-syst
 
 - **Who he is.** A real engineer, not a movie hacker. Credentialed-adjacent skill wasted
   by the system. Maker, not fighter — his instrument is a tool, not a weapon.
+- **Body (new world).** He died at **28**; the Mist put him back in a **20-year-old** version of
+  himself — visibly de-aged, the lifetime of calluses thinned from his hands. He notices but can't
+  explain it (Ch6). His shattered memory keeps no exact numbers, so in-scene he reads it off his own
+  hands, not as a stated age.
 - **His actual superpower — method *and* modern physics.** The new world's magic obeys real
   physical law, so his old-world engineering literacy **does** transfer and is a genuine edge:
   he knows a compressor beats direct cooling, that tissue costs real energy, what a budget of

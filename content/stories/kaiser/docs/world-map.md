@@ -49,6 +49,22 @@ the southeast waters.
 - Deep, dark open ocean everywhere not listed above.
 - A visible spiraling current (gyre) in the southeast, near the ring island.
 
+### Sky Islands (Gökyüzü Adaları) — aloft
+- **What:** mountain-isles that hover in the air and drift on the wind like moored ships. Legend says a
+  **mana-surge** ([Power System](power-system.md#1-what-mana-is)) once burst over a great mountain and
+  turned the whole of it to **aerogen** — the same rock foamed into an ultraporous solid, so light its bulk
+  density falls **below the air's**. The mountain rose piece by piece; each chunk climbs until the thinning
+  air matches its own density, then floats there, **neutrally buoyant**.
+- **Where:** no fixed position — they wander high on the wind, seen most over the mountains that bore them.
+- **Life:** only **light** things live aloft — moss, ivy, small birds. Mass is death to an isle: let a
+  full-grown tree, pooled water, or soil build up and the average density climbs back over the air's and the
+  rock **falls**. A bird drops a seed in its dung, a sapling roots and splits the aerogen — holing it like a
+  ship's hull — and the piece drops from the sky. **Twice in recorded history** a person has been killed by a
+  stone fallen from the Sky Islands.
+- **White starlings:** on the smaller isles the [white starling](bestiary.md) evolved to keep them clear —
+  hurling every foreign object back to the ground so nothing heavy can grow. Their islets are swept flat as
+  steppe.
+
 ## Settled geography (canon even while continent names are TODO)
 
 - **Humans:** densest across the Central Continent's temperate center — grain plains, rivers, market

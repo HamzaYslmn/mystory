@@ -67,6 +67,10 @@ rules).
 **Writing in Turkish — craft notes.** The concrete conventions behind the *yerelleştir* rule above,
 so the voice stays consistent across chapters:
 
+- **Punctuation (noktalama) — no em dash in Turkish.** The em dash (`—`) is an English habit and
+  reads foreign in Turkish prose; never use it in the chapters. Where an aside, appositive, or
+  turn wants a break, use a comma, semicolon, colon, or parentheses, or just rebuild the sentence.
+  (This rule is Turkish-only; the English docs and these notes may still use `—`.)
 - **Tense (kip).** The grave chronicle runs in the present. Geniş zaman (aorist, *-ir*) is the spine
   — *durur, yürür, bilir, çıkarır*. Use şimdiki zaman (*-yor* / *-maktadır*) only for a genuinely
   in-the-moment action or state. Past tense (*-di* / *-mış*) is reserved for backstory told as

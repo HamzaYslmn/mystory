@@ -70,16 +70,32 @@ Fields below — **Size** on every entry, and some add a **Numbers** line for th
 
 - What: a heavy, low-cunning brute (~400 kg) that can dump a buffered healing burst into fresh wounds
 - Size: **large**
-- Habitat: caves, damp gorges, under old bridges
+- Habitat: caves, damp gorges, and old ruins — always **alongside ogres**, whose colonies they lead
 - Crystal: **purple**, ~20 kWh — the well it heals from; ~10 gold
 - Magic: one trick — **rapid self-regeneration** (self-Medical, [§14](power-system.md#medical)),
   painless because it is its own mana. Its low cunning shapes this one evolved pattern at ~**20%**,
   better than a mindless 1% enhancement but far below a true intelligent beast
+- Society: **all trolls are male.** They breed with **ogres**, and the young come out mostly ogre — but
+  now and then an ogre bears a **troll**, and the troll-born rises to **lead the colony**. Troll and ogre
+  share one crude, brutal culture and a bottomless aggression
 - Danger: cuts close in a buffered burst, then the troll must slow while its body reloads; you must
   **out-damage the burst, force repeated healing, or destroy the crystal**
 - Numbers: tissue costs ~5 kJ/g, so its ~20 kWh stone at 20% can regrow ~**2.9 kg** of flesh in all
   before it is spent and the troll turns mortal. The body can heal briefly above the stone's steady
   output, then must pause to refill the buffer. Burn it down faster than it mends, or exhaust it.
+
+## Ogre
+
+- What: a hulking, dull-witted brute (~300–500 kg), all muscle and appetite — the **bulk of a
+  troll-ogre colony**
+- Size: **large**
+- Habitat: caves and damp gorges shared with their [troll](#troll) leaders
+- Crystal: small or none — an ogre is **raw strength**, not a caster; at most a mindless ~1% body-boost
+- Magic: little to none; it hits hard because it is huge, not because it casts
+- Danger: high in numbers and blind fury — a colony swarms and overruns. Both sexes; the females bear the
+  young, ogre and the rare troll alike ([Troll society](#troll))
+- The trade: strength without cunning. Aggressive to a fault, they raid and feud, but their primitive
+  culture never builds past the club and the cook-fire
 
 ## Basilisk
 
@@ -152,6 +168,63 @@ Fields below — **Size** on every entry, and some add a **Numbers** line for th
 - The mercy: a driven body **rots past use within a few years** and falls for good — it cannot go on. But a
   corpse left **unburned** keeps the fly-fungus fruiting and the flies coming, so the dead in mana-rich
   country are **burned**, not buried
+
+## Giant Spider
+
+- What: a **cat-sized** hunting spider, the **bane of caves** — web, ambush, and venom
+- Size: **small**
+- Habitat: caves, ruins, deep cellars, any dark hollow
+- Crystal: none
+- Magic: none; the **venom is chemistry, not a cast** ([§6](power-system.md#6-the-three-laws)) — a bite
+  that numbs and rots
+- Danger: low singly, but they nest in **numbers** and string a cave with web; a swarm in the dark takes
+  travelers one at a time
+
+## Giant Mountain Goat
+
+- What: a **200 kg** slope-dweller with a battering skull, mana-touched from grazing near mountain Wells
+- Size: **medium**
+- Habitat: high crags and mountain slopes, often within reach of a Well
+- Crystal: **purple**, small (~a few kWh)
+- Magic: one trick — an **impact-charge** (bodily enhancement, fuelled by its crystal): it buffers the
+  stone and dumps it into a headbutt on contact, so a downhill charge lands like a maul — enough to
+  **shatter a shield or a leg**. A handful of enhanced charges, then it butts like an ordinary goat until
+  the stone recovers
+- Danger: high on a narrow ledge, where its charge has room and you do not; sure-footed where you slip
+
+## Goblin
+
+- What: a small, cunning scavenger that lives **far from the settled peoples** and **uses whatever tools
+  it finds** — scrap blades, cast-off armor, stolen gear
+- Size: **small** (the **hobgoblin** strain runs **medium**)
+- Habitat: caves, ruins, deep woods, the edges of civilization
+- Crystal: usually none
+- Magic: most cast nothing; but the larger **hobgoblins** sometimes wield a crude **muscle-boost** (bodily
+  enhancement), enough to make a hobgoblin war-leader dangerous
+- Danger: negligible one at a time, real in a **pack** — goblins raid in numbers with what they've looted,
+  and a hobgoblin at their head turns a rabble into a threat
+
+## Well-warped beasts
+
+A **Mana Well** does to ordinary, magicless life what nothing else does: creatures that survive its dense
+air **change** over generations. To a beast with no magic of its own the Well is a **monolith** — a vast,
+unexplained pressure that reshapes it. Most such change is only **giantism** — **bees, frogs, and ants
+grown monstrous** — but the Well's deeper effects are unpredictable, and a Well-country beast may carry
+almost any strangeness. This is the open door for new monsters: a Well can justify what a plain forest
+cannot.
+
+## White Starling (*Beyaz Sığırcık*)
+
+- What: a small white bird of the **Sky Islands**, named for the flocks that keep the floating isles swept
+  clean
+- Size: **tiny**
+- Habitat: the [Sky Islands](world-map.md), chiefly the smaller isles
+- Crystal: none
+- Magic: none — its trick is pure instinct, not a cast: it drags or shoves every foreign object it finds off
+  the edge, back down to the ground
+- Danger: none to a traveler. Its work is for the isle, not the road: by hurling away seeds, sticks, and
+  carrion before anything heavy can root, the flock keeps its islet light enough to stay **aloft** — and
+  swept as flat as open steppe
 
 ## Tamed & mundane beasts
 

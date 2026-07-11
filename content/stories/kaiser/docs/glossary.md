@@ -19,6 +19,7 @@ reference. Do not coin a synonym when one of these already exists.
 | Shaping | *Şekillendirme* | Deliberate mental pattern, up to roughly 40% |
 | Magical Circuit | *Büyü Devresi* | Permanent scribed pattern, roughly 30–80% |
 | Spell Formula | use guild/profession wording in Turkish scene | The craft of designing and scribing circuits |
+| mana-surge (wild mana) | Ambient mana dense enough to convert with no caster — boiled rain, flash-freeze, heaved ground; rare, local, unpredictable |
 
 ## Materials & power
 
@@ -32,6 +33,7 @@ reference. Do not coin a synonym when one of these already exists.
 | substrate | Solid support and optional loss-reducer; never an energy source |
 | crystal certificate | Assay seal listing remaining kWh, rated kW, leakage grade, and circuit quality |
 | echo crystal | Resonant crystal from echo-crystal caves; a Synthora's given **instrument-and-voice**, converts mana to sound. Not an energy store |
+| aerogen | Rock foamed by a mana-surge into an ultraporous solid — same mass, vast volume, bulk density **below air**, so it floats. The stuff of the Sky Islands |
 
 ## Peoples & institutions
 

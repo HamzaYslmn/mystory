@@ -49,6 +49,12 @@ compute; every limit here falls out of that.
   drifting back toward the Mist over time. Waste is spilled mana, never stray heat. And because energy
   can't be erased, mana already in a body can't be cleared out — the basis of the third law
   ([§6](#6-the-three-laws)).
+- **Chaotic where it pools.** Mana is not tame. Where the ambient density climbs far past even a Well's,
+  it can **convert on its own, with no caster** — raw energy finding any release: rain boiled from a clear
+  sky, the open air flash-frozen, the ground heaved into a new ridge overnight (force moving real rock,
+  never matter from nothing — [§6](#6-the-three-laws)). These **mana-surges** are rare, local, and
+  unpredictable, and the deepest pass into legend — the [Sky Islands](world-map.md) were born in one. What
+  a caster does on purpose, wild mana now and then does by accident.
 
 ## 2. The reservoir
 
