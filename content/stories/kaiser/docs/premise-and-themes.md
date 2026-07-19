@@ -53,3 +53,17 @@ on the page, but it is the deep link between the two worlds.
   the opposite of the lesson Anakara beat into him.
 - **What survives death is method, not memory** (Ch4). His identity is his diagnostic
   loop, not his past — which is why he wakes sharp but with hazy memories.
+- **Power is also interpretation.** A machine does what it physically does, but people decide what
+  it means. The same repair can become charity, heresy, espionage, proof of rank, or a claim of
+  ownership. Kaiser's hardest systems are the stories institutions tell about evidence.
+- **Usefulness attracts a claimant.** Every technical victory invites dependence, imitation,
+  monopoly, protection, or capture. Being needed is not the same as being free.
+- **Ordinary life is the cost ledger.** Bread, warmth, sleep, tools, small promises, and shared work
+  make political stakes human. Return to them after large events so scale remains measurable.
+
+## Structural promise
+
+Each arc moves between three scales: domestic survival, operational problem-solving, and strategic
+ownership. The plot rises from the first into the third through consequence, then returns to the
+first to show what changed. Escalation should reframe earlier acts as often as it introduces larger
+threats.

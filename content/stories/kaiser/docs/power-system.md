@@ -2,8 +2,9 @@
 
 > **Canon.** Power is an internal skill — learn to *feel* mana, then spend it — and every effect
 > obeys **real physics** on a **Watt-hour budget**; better physics is the edge. The system is
-> **fully physical**: no metaphysical tier, no mind or soul magic. Three laws
-> ([§6](#6-the-three-laws)) close the usual exploits. The old rune-crystal *system* is retired;
+> **fully physical**: no metaphysical tier, no mind or soul magic — with the **one forbidden exception**
+> of a **cursed technique** ([§20.5](#205-cursed-techniques--the-forbidden-path-lanetli-teknikler)), which
+> buys power by burning the self. Three laws ([§6](#6-the-three-laws)) close the usual exploits. The old rune-crystal *system* is retired;
 > crystals survive only as **mana storage** ([§18](#18-storage-crystals--the-mana-economy)). Writing:
 > [Engineering Doctrine](engineering-doctrine.md); reveal pacing: [Narrative Rules](narrative-rules.md).
 > Turkish terms in *italics*.
@@ -15,7 +16,7 @@
 | **I. Fundamentals** | [1 What mana is](#1-what-mana-is) · [2 The reservoir](#2-the-reservoir) · [3 Regeneration](#3-regeneration) · [4 How a cast works](#4-how-a-cast-works) · [5 What separates casters](#5-what-separates-casters) · [6 The three laws](#6-the-three-laws) |
 | **II. Casting & sharing** | [7 Unstructured](#7-unstructured-casting) · [8 Shaping](#8-shaping) · [9 Magical circuit](#9-magical-circuit) · [10 Magical devices](#10-magical-devices) · [11 Sharing & combining mana](#11-sharing--combining-mana) |
 | **III. Disciplines** | [12 The map](#12-the-discipline-map) · [13 Physical](#13-physical-disciplines) · [14 The living frontier](#14-the-living-frontier) · [15 Support crafts](#15-support-crafts) |
-| **IV. The world** | [16 The caster's limits](#16-the-casters-limits) · [17 Magic in daily life](#17-magic-in-daily-life) · [18 Storage crystals & economy](#18-storage-crystals--the-mana-economy) · [19 Creatures](#19-creatures) · [20 Ocak Kanlı](#20-ocak-kanlı) |
+| **IV. The world** | [16 The caster's limits](#16-the-casters-limits) · [17 Magic in daily life](#17-magic-in-daily-life) · [18 Storage crystals & economy](#18-storage-crystals--the-mana-economy) · [19 Creatures](#19-creatures) · [20 Ocak Kanlı](#20-ocak-kanlı) · [20.5 Cursed techniques](#205-cursed-techniques--the-forbidden-path-lanetli-teknikler) |
 | **V. Writer's reference** | [21 Cheat sheet](#21-cheat-sheet--what-100-wh-buys) · [22 Worked formulas](#22-worked-formulas) · [23 Open threads](#23-open-threads) |
 
 ---
@@ -733,6 +734,33 @@ the Mist into the heart** — the only marked mortals with **standing regenerati
 - **Kaiser is secretly one.** He doesn't know; the reveal is much later. His bond is why the Mist
   carried him across and his spark caught instead of dissolving. Keep it subtextual — see
   [Characters](characters.md).
+
+## 20.5. Cursed techniques — the forbidden path (Lanetli Teknikler)
+
+**The one exception to the whole system.** Everything above spends *mana* on a Watt-hour budget and cannot
+touch the self. A cursed technique breaks that: it spends the **soul** — the caster's own being — as fuel,
+and in return opens a channel to a **Mist source** far past anything a mortal reserve or crystal can hold.
+This is the only path to **high-tier magic** the capacity ceiling ([§2](#2-the-reservoir)) otherwise walls
+off. It is forbidden, self-consuming, and — for now — a **forming rule**, kept off the page until the story
+earns it.
+
+- **The gate is will, not talent.** No reserve, discipline, or people-affinity gates it. If a person's
+  **will (*irade*)** is strong enough to keep burning through the pain, the channel opens; if the will
+  falters, it shuts and what was already spent is gone. Resolve is the throttle.
+- **What it buys.** Not a bigger tank — a **direct line to the Mist**, effectively unbounded for as long
+  as the caster feeds it. Effects far above the ~1 kW mortal ceiling ([§16](#16-the-casters-limits))
+  become possible: the scale of a mana-surge, on purpose.
+- **The price is the self, and it does not come back.** The soul is real fuel and it is **conserved**
+  like everything else ([§6](#6-the-three-laws)) — burned, it is gone. What goes first is subtractive and
+  permanent: memory, feeling, name, the person themselves — the same dissolution the Mist runs on
+  ([Ch4](../chapters/chapter4.mdx)), now self-inflicted. Spend enough and there is no one left to spend.
+- **Why the world doesn't use it.** Anyone who could is one great cast from erasing themselves, so it is
+  a last resort, a doomsday, or a madness — never a tool. Most who reach for it are **remembered by the
+  crater, not the name**.
+
+**Kaiser link.** His Ocak Kanlı bond ([§20](#20-ocak-kanlı)) and his surviving the Mist by *method, not
+memory* ([Ch4](../chapters/chapter4.mdx)) sit next to this on purpose — leave whether the two connect
+unstated for now.
 
 ---
 

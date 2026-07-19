@@ -6,16 +6,20 @@ read easily — when any other rule here fights that goal, readability wins.
 These rules govern all narrative prose in this project (the Kaiser story and any story content
 here). They override any default instinct toward rich or literary prose.
 
+- **Keep sections short.** No section in this file should grow past 300 lines; split or
+  reorganize it before it reaches that limit.
+
 - **Tell the story directly and straightforwardly.** Name things by their names — say "acid
   rain," not "gray, faintly sour rain." Never talk around something you could state plainly.
 - **Readability first.** The goal is a story that pulls the reader along, fluid and easy to
   read. Choose flow over cleverness every time.
-- **A grave, legendary voice.** Tell it like the chronicle of something that mattered — grand in
-  weight, plain in words. Big events land in clear declarative sentences that always move forward,
-  cause into consequence. Carry emotion through will and action, not adjectives. Vary the rhythm:
-  mostly measured sentences, then one short blunt line to land a turn. State even the strange and
-  enormous matter-of-factly, with authority. The grandeur comes from the stakes and the certainty
-  of the telling, never from ornate language.
+- **A plain, direct voice (the house style).** Short, clear sentences, mostly one idea each.
+  Everyday words a tired reader understands on the first pass. State what happens, then stop, and
+  let cause lead into consequence. A single blunt sentence on its own line can land a beat. Carry
+  emotion and stakes through action and consequence, never through adjectives or an "epic" register.
+  State even the strange and enormous matter-of-factly. The weight comes from what happens, not from
+  ornate or literary language. (This supersedes the earlier "grave, legendary" voice wherever the
+  docs still describe it; the rewritten **chapters 1 and 6** are the model to match.)
 - **Through Kaiser's eyes.** We live the story from inside Kaiser's experience — immediate, in the
   moment, in what he senses and works out right now; keep the reader there by default. The narrator's
   wider, explaining voice (the grave chronicle register above) steps forward only for the sequences
@@ -40,6 +44,13 @@ here). They override any default instinct toward rich or literary prose.
 - **Keep it simple.** Short, clear sentences. Minimal description — only what the scene needs.
   Avoid piled-up metaphors, stacked clauses, doubled adjectives, and ornate phrasing that slows
   the reader down.
+- **Kısa ve öz — kill compressed and convoluted phrasing.** Two habits ruin Turkish clarity, and
+  both must be hunted on every pass. (1) A squeezed noun-phrase no one would actually say — *on
+  dakikalık işe muhtaç bir lamba* — opens into a plain relative clause: *on dakikada tamir
+  edebileceği bir lamba*. (2) One idea over-explained across three or four sentences gets cut to the
+  line that lands — *Porsiyonlar küçülür, buna karşılık da makinelerin boşaldığı söylentisi yayılır*
+  — then stop; drop the "no one can prove it / whoever proves it loses their card" tail. Prefer
+  simple, everyday words, and when unsure, cut.
 - **Show character through action, not narrator praise.** Let the reader judge the character
   from what they do. The narrator never rates them ("gifted," "the one talent he has," etc.).
 - **Consistency, within a chapter and across chapters.** Every beat must follow from what's
@@ -56,17 +67,29 @@ here). They override any default instinct toward rich or literary prose.
 The story wiki and working docs stay in English, but **write the chapters themselves directly in
 Turkish.** Do not draft a chapter in English and translate it — English-first prose comes out stiff
 and unidiomatic. Compose in Turkish from the start, with natural Turkish phrasing and idioms
-(*yerelleştir* — a Turkish reader should never feel a translation underneath). Chapters may be
-written as **bare outlines** — plain numbered beats that capture the events and key details; terse
-fragments and arrows (→) are fine for quick notes, and a beat is a skeleton to expand, not a
-paragraph to polish. But wherever a beat is written out in sentences, those sentences must connect
-and flow — the outline format is never an excuse for choppy, disjointed prose. See
+  (*yerelleştir* — a Turkish reader should never feel a translation underneath). Planning notes may
+  use numbered beats, terse fragments, and arrows (→). Published chapter files use finished prose
+  unless the user explicitly requests an outline. A beat is a skeleton to expand, never a paragraph
+  to leave half-polished. See
 `content/stories/kaiser/docs/` for the story wiki (characters, magic system, arc map, narrative
-rules).
+  rules). Chapters requested as finished prose must never be left as beat lists, summaries, or
+  numbered scene frameworks. Outline syntax is for planning files only.
 
 **Writing in Turkish — craft notes.** The concrete conventions behind the *yerelleştir* rule above,
 so the voice stays consistent across chapters:
 
+- **VS Code-friendly line width.** In published `.mdx` chapter files, soft-wrap prose at roughly
+  **92 characters per source line** so the text fits comfortably in the editor without horizontal
+  scrolling. Preserve paragraph breaks, Markdown syntax, frontmatter, and the wording itself. This
+  is source formatting only; do not insert extra blank lines or change the rendered prose. After
+  writing or revising a chapter, check that no ordinary prose line exceeds 92 characters.
+- **Short terminology notes.** When a chapter uses a technical, anatomical, historical, or
+  world-specific term that a general reader may not know, mark only its first occurrence with a
+  Unicode superscript number (`¹`, `²`, `³`). At the end of that chapter, add a separate Markdown
+  block consisting of `---`, the heading `### Kısa Notlar`, and a numbered list of one-sentence
+  definitions. Keep definitions short and concrete. Do not annotate ordinary vocabulary, repeat a
+  note in the same chapter, invent unrevealed lore, or explain a mystery before the story earns it.
+  Keep the note block and all its lines within the 92-character source limit.
 - **Punctuation (noktalama) — no em dash in Turkish.** The em dash (`—`) is an English habit and
   reads foreign in Turkish prose; never use it in the chapters. Where an aside, appositive, or
   turn wants a break, use a comma, semicolon, colon, or parentheses, or just rebuild the sentence.
@@ -88,3 +111,35 @@ so the voice stays consistent across chapters:
   flow, idiom, and accidental repetition (the rules above). When several chapters need the same pass,
   one editor per chapter in parallel is fine — but re-read each result yourself against the
   glossary, tense, refrains, and cross-chapter consistency before trusting it.
+
+## Story architecture
+
+- **Information drives suspense.** Track what happened, what the viewpoint believes, what the reader
+  can infer, and what an institution records. Wrong conclusions must be intelligent responses to
+  limited evidence.
+- **A scene has residue.** Give every substantial scene a present want, a working model, an active
+  limit, a reversal, and a lasting result: cost, clue, debt, obligation, reputation, or false belief.
+- **Prove competence before measuring danger.** Establish that an observer, worker, or opponent knows
+  their field. Their precise failed assumption then reveals the scale of the anomaly.
+- **Power is clearest through restraint.** Prefer preparation, verification, unguarded confidence, and
+  the option not taken over loud declarations of strength. Early Kaiser has technical leverage, not
+  physical invulnerability.
+- **Worldbuilding enters through work.** Reveal systems through repair, food, wages, travel, ritual,
+  law, checkpoints, injury, and failed tests. A quiet routine must build attachment, hierarchy, a
+  future promise, or the next conflict.
+- **Reputation becomes material.** When others mistake Kaiser's caution for foresight or his silence
+  for authority, someone must commit status or resources to that belief. The misunderstanding then
+  changes his options.
+- **Braid three scales.** Move between domestic life, operational problems, and strategic ownership.
+  After a large event, return to an ordinary need or object whose meaning has changed.
+- **Recontextualize.** A later reveal should often change the meaning of an earlier gift, rescue,
+  repair, or threat. Do not rely only on larger enemies and louder effects.
+- **Keep side characters alive on the page.** Each recurring person needs a present want, private
+  pressure, useful competence, boundary, mistaken belief, and a specific plan beyond the current
+  scene. The future gives danger its price.
+- **Violence follows decisions.** Establish objective, terrain, protected resource, false assumption,
+  and retreat condition. During conflict, follow changing choices. Afterward, count wounds, energy,
+  tools, witnesses, law, and belief.
+- **Humor shares the same world as dread.** Build it from incompatible priorities, ceremonial scale
+  interrupted by a practical need, or the gap between Kaiser's public image and private calculation.
+  Never make injury slapstick or make locals stupid to flatter him.

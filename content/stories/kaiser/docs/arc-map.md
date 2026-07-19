@@ -1,55 +1,129 @@
 # Arc Map
 
-The five arcs, retargeted onto the deeper [premise](premise-and-themes.md). Only **Arc 1**
-is broken into scenes so far (one file per chapter).
+The five-arc spine, aligned with the current internal-mana system. Scene order after Arc 1 remains a
+working plan; physical truth must stay consistent with [Power System](power-system.md).
 
-> **⚠ STALE — needs replotting.** The beats below were built on the **retired crystal system**
-> (found cores, dormant Enhancer, slime-core, Converter, runes-as-program, streetlamp socket
-> clearance). The world now runs on the [Power System](power-system.md) (mana as an internal
-> skill; crystals only as single-use cells), so the Arc 1 exit state and the Arc 2–5 beats need to be re-plotted:
-> what Kaiser *finds and does* is different when crystals are single-use fuel, not restartable cores. Left intact
-> below only as a record until re-plotted.
+## Escalation rule
 
-## Arc 1 — Collapse · Purgatory · Rebirth (Ch1–6) — *detailed*
+Each arc advances four tracks:
 
-Establish the worth-inversion and Kaiser's method in Anakara, and the one bond that gives his
-life any stakes; the ruin of that bond drives his single act of agency, which kills him; the
-Mist formats away his memory but not his method; he wakes into the crystal world and gets his
-first foothold on a dead machine.
+| Track | Arc 1 | Arc 2 | Arc 3 | Arc 4 | Arc 5 |
+|------|-------|-------|-------|-------|-------|
+| Technical | read broken systems | discover mana by tests | model living casting | face institutional craft | build a working prototype |
+| Social | unseen and disposable | dangerous stranger | reluctant protector | prisoner / political anomaly | useful but controlled worker |
+| Moral | act once for Izzet | choose survival without cruelty | accept responsibility for Elin | judge fair captivity | decide who benefits from invention |
+| Information | lose memory | gather fragments | learn the local model | become an object of study | protect a better model from capture |
 
-- [Ch1 — The Mainland](../chapters/chapter1.mdx) — world + engineer-mind; the dead boiler he can diagnose but not reach; the food-aid line.
-- [Ch2 — The Shop](../chapters/chapter2.mdx) — Izzet; the mentorship that forged his method; the kindness (birthday, coat); a day at the Pas Çarşısı; the money trouble Izzet, proud, hides and settles alone.
-- [Ch3 — The Intervention](../chapters/chapter3.mdx) — the debt comes due; Izzet is hurt; the one act of agency; his death.
-- [Ch4 — The Realm of Mist](../chapters/chapter4.mdx) — formatting; method survives; reboot.
-- [Ch5 — Awakening](../chapters/chapter5.mdx) — rebirth; first crystal read as a dead machine.
-- [Ch6 — The Dead Component](../chapters/chapter6.mdx) — dim ≠ dead; the foothold hypothesis.
+Every technical victory must worsen at least one other track.
 
-**Arc 1 exit state.** Kaiser has a body patched by first principles, a survival kit, one
-**dormant blue Enhancer** he can't yet switch on, the hard-won lesson that a dead crystal
-crumbles to dust while his only ran down, and one driving hypothesis: *these are machines, and
-machines can be restarted.*
+## Arc 1 — Collapse, Purgatory, Rebirth (Ch1–7)
 
-## Arc 2 — Cracking the system (Ch8–12) — *not yet scened*
+Purpose: establish the inversion of worth, make Izzet's method emotionally costly, strip Kaiser down to
+that method, and place him before the first impossible device.
 
-Survival in the wild; the slime-core fight (a Converter he defeats by removing its core,
-not by force); the first creatures biologically fused with crystals (aura-seeing). Magic
-revealed as an undocumented codebase — *shown*, never stated.
+- [Ch1 — Anakara](../chapters/chapter1.mdx): a routine repair and ration run prove Kaiser's competence
+  inside a system that profits from failure. He alters one ration machine, helping a handful while
+  attracting an unnoticed record anomaly.
+- [Ch2 — Dükkân](../chapters/chapter2.mdx): Izzet teaches through work; warmth arrives disguised as
+  correction and routine. Kaiser sees signs of pressure but accepts Izzet's denial.
+- [Ch3 — Müdahale](../chapters/chapter3.mdx): the hidden debt comes due. Kaiser reads the room too late,
+  acts for the first time, saves Izzet, and dies because he understands force less well than machinery.
+- [Ch4 — Sis Diyarı](../chapters/chapter4.mdx): the Mist removes stored identity but cannot digest the
+  process that keeps rebuilding it. Method survives where memory does not.
+- [Ch5 — Uyanış](../chapters/chapter5.mdx): Kaiser wakes wounded in a destroyed caravan. Immediate survival
+  outranks explanation; a distant cold light provides the first external question.
+- [Ch6 — Kovuk](../chapters/chapter6.mdx): recovery becomes an engineering problem. His younger body,
+  retained procedural knowledge, foreign cargo, and the unreachable light establish several competing
+  mysteries without solving them.
+- [Ch7 — Ölü Bileşen](../chapters/chapter7.mdx): he reads the caravan as a targeted human attack, salvages
+  tools, and disassembles a crystal lantern. A depleted cell and a spent one give him his first testable
+  model. Someone in the trees sees him take it.
 
-## Arc 3 — Elin & the logic of mana (Ch13–22) — *not yet scened*
+**Exit state.** Kaiser can walk but is not fully healed. He carries salvaged food, cloth, rope, knives,
+coins, one dim blue crystal, its working lantern frame, and a damaged comparison housing. He knows the crystal stores a finite effect
+and suspects the circuit supplies the trigger. He does not know mana, casting, language politics, the
+caravan's target, or the watcher. The reader knows only that he is no longer unobserved.
 
-Saves Elin; learns blue blood = mana, crystal = store, runes = program by *charging a core
-from creature blood*; the common-tongue-is-Turkish shock; capture, dungeon escape
-(commanding a hidden slime core to melt a lock), rescued into Lyra's custody.
+**Active misunderstandings.** Kaiser assumes the attack was aimed at a person or object. The watcher has
+seen a survivor handle a failing crystal without the expected ritual and may report something more
+dangerous than the truth.
 
-## Arc 4 — Ostragrad & the scale of judgment (Ch23–27) — *not yet scened*
+## Arc 2 — The Stranger's Experiments (working Ch8–13)
 
-Interrogation; hands over the big Enhancer, hides the purple Converter; sees a
-fair-but-caging system and has to weigh it against Anakara; Valerius spares him into the
-smith's workshop as labor. (This is where the [central question](premise-and-themes.md#the-central-question-seed-early-answer-late)
-gets its first real test.)
+Purpose: turn survival observations into the first mana model while making every experiment visible to
+people who interpret it socially.
 
-## Arc 5 — The workshop & the engineer's test (Ch28–32) — *not yet scened*
+Planned movement:
 
-Bottom-rung labor; he out-diagnoses the masters on the streetlamp failure (socket clearance
-/ thermal — see [Power System](power-system.md)); redesigns the lamp; is challenged to
-build a *working prototype* by evening. The test of fire and steel begins.
+1. Kaiser follows the road only after marking a return route and hiding most salvage. The watcher finds
+   the cache or the markers, proving that planning also leaves evidence.
+2. A mundane threat forces him to choose between spending the lantern's last charge and preserving his
+   only sample. He chooses life; data comes from the failure curve.
+3. He attempts to recharge the blue crystal and fails. The failed test establishes that blue crystals are
+   single-use cells, not generators.
+4. He witnesses a minor living cast at a distance. The effect resembles the lantern but no crystal is
+   visible, forcing a second energy-source hypothesis.
+5. A slime encounter is solved through chemistry, terrain, and patience, not a nonexistent slime core.
+   The victory proves that not every strange creature is magical.
+6. Contact with travelers creates the first language and status misunderstanding. Kaiser's tools and
+   method are read as guild, military, or forbidden training.
+7. Arc end: he performs one crude, measurable internal cast by copying the observable procedure, but the
+   ease with which his reserve begins returning is hidden canon, not a named discovery.
+
+**Exit state.** Kaiser knows that living bodies can supply the effect, crystals store neutral mana once,
+and circuit quality changes output. Others now know an unregistered stranger can reason across devices
+and casting.
+
+## Arc 3 — Elin and the Living Circuit (working Ch14–22)
+
+Purpose: make a human bond the condition of technical progress.
+
+- Kaiser saves Elin, but escorting her costs speed and concealment.
+- Elin knows customs, spoken categories, and danger signs; Kaiser knows physical survival. Neither can
+  proceed safely alone.
+- Their mismatched Turkish exposes the common tongue as a mystery without resolving its origin.
+- Kaiser learns the local casting sequence through observation and Elin's incomplete explanations.
+- Controlled tests separate capacity, throughput, and efficiency. No soul or mind effect is introduced.
+- A crystal-bearing predator reveals that biological purple crystals are high-output single-use cells;
+  remaining charge affects both the fight and the carcass's value.
+- Captors interpret Kaiser's tests and Elin's identity through politics. A technical notebook becomes
+  evidence against him.
+- Dungeon escape, if retained, must use a physically valid external circuit or chemistry. No hidden slime
+  core and no command-based rune programming.
+- Captain Lyra's intervention ends the escape without clearing Kaiser. Rescue becomes custody.
+
+**Exit state.** Kaiser has a provisional physical model and a person he refuses to abandon. Elin's identity
+makes that loyalty politically expensive.
+
+## Arc 4 — Ostragrad's Fair Cage (working Ch23–27)
+
+Purpose: test Kaiser's hatred of systems against a system that is strict, restrictive, and procedurally fair.
+
+- Interrogation is a clash of models, not a torture shortcut. Each side has evidence the other cannot safely explain.
+- Lyra and Commander Vorn treat Kaiser as a risk with rights, which confuses his Anakara-trained expectations.
+- Valerius protects Elin and confines Kaiser. Mercy and imprisonment arrive in the same order.
+- Assay officials measure Kaiser's items and discover discrepancies between his ignorance and his method.
+- Kaiser must choose what to disclose. He cannot hand over a nonexistent rechargeable core; the valuable
+  secrets are his measurements, circuit observations, and unusual recovery.
+- The city's fairness creates genuine beneficiaries as well as cages. Kaiser cannot dismiss it as simple corruption.
+
+**Exit state.** He is alive, housed, watched, and assigned to Boran's workshop as labor. Several factions
+hold incompatible explanations for what he is.
+
+## Arc 5 — The Workshop Test (working Ch28–32)
+
+Purpose: convert private insight into public proof, then reveal that proof belongs to whoever controls production.
+
+- Bottom-rung work establishes Boran, Toma, workshop hierarchy, materials, and ordinary circuit craft.
+- Kaiser first earns trust through maintenance no one values, not through a grand invention.
+- A streetlamp failure is presented as a live institutional problem with cost and blame attached.
+- He diagnoses heat, contact, substrate, or circuit-clearance failure using the current physics and a cheap
+  discriminating test. Exact failure mode is fixed only when the scene is drafted and checked against
+  [Machines](machines.md) and [Power System](power-system.md).
+- Boran challenges him to produce a working prototype under a time, mana, material, and authority limit.
+- Local craftspeople contribute indispensable knowledge. Kaiser succeeds by combining models, not by
+  replacing everyone in the room.
+- The prototype works. The final turn is ownership: who may build it, who may use it, and what Kaiser has
+  just taught the city to demand from him.
+
+**Exit state.** Kaiser's competence is publicly undeniable and therefore no longer his alone to control.

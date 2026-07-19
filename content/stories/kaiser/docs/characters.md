@@ -77,3 +77,22 @@ Arrogant journeyman in the workshop.
 
 ### Sena
 Young soldier assigned to orient Kaiser in the city.
+
+## Belief ledger
+
+For every recurring character, track four separate fields in arc notes or chapter comments:
+
+| Field | Question |
+|---|---|
+| Evidence | What have they personally seen or verified? |
+| Model | What do they think explains it? |
+| Public account | What version have they told or recorded? |
+| Commitment | What have they risked because of that version? |
+
+Do not synchronize beliefs off-page. Information travels through a speaker, document, price,
+rumor, order, or witnessed act. A character may revise their private model while preserving the
+public account to protect rank or avoid blame.
+
+Kaiser's recurring blind spot belongs in this ledger: he often identifies what a person is doing
+but mistakes why they are doing it. His diagnostic refrain becomes morally complete only when he
+learns that human motive cannot always be isolated with a cheap test.

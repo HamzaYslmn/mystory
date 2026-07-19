@@ -65,6 +65,21 @@ the southeast waters.
   hurling every foreign object back to the ground so nothing heavy can grow. Their islets are swept flat as
   steppe.
 
+### Underground World (Yeraltı Dünyası) — below
+- **What:** a second world under the surface — caverns, shafts, and lightless rivers running for leagues.
+  Mana seeps richest near the planet's core ([Power System](power-system.md#19-creatures)), so the deep
+  runs denser in mana than any surface Well, and the density climbs the further down you go.
+- **Where:** everywhere beneath, but reachable only through cave-mouths, old mine bottoms, and collapse
+  pits. The mapped depths are shallow; below them is unknown.
+- **Life:** a whole ecosystem lives down there, and unlike the Sky Islands it is **crowded** — the rich
+  mana breeds many kinds. Blind, pale, and eyeless things; cave-fish and glow-lichen at the shallow edge;
+  larger and stranger the deeper it goes, up to beasts no surface hunter has seen and lived to name. The
+  richest depths belong to monsters the same way a Well does, thickest at the bottom. Concrete species go
+  in the [Bestiary](bestiary.md).
+- **Why it matters:** the deep is a source of crystal and resin no surface claim controls, and a danger
+  that surfaces through any breach — a mine dug too far, a cave opened, a sinkhole. Extraction, never
+  settlement.
+
 ## Settled geography (canon even while continent names are TODO)
 
 - **Humans:** densest across the Central Continent's temperate center — grain plains, rivers, market

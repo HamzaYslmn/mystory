@@ -22,17 +22,18 @@ docs in English; published chapters are Turkish (see [Narrative Rules](narrative
 | [Glossary](glossary.md) | Fixed Turkish/English terms, materials, institutions, and unresolved naming decisions. |
 | [Engineering Doctrine](engineering-doctrine.md) | How to write engineering/magic scenes (the "misrepresented engineering" fix). |
 | [Narrative Rules](narrative-rules.md) | POV, reveal discipline, tone, style, localization. |
-| [Voice Study](voice-study.md) | Worked craft breakdown of an exemplar story — the techniques behind the prose-style rules. |
+| [Voice Study](voice-study.md) | Kaiser-specific craft system: perspective, tension, scale, humor, violence, and long-form architecture. |
 | [Arc Map](arc-map.md) | The five arcs and where each chapter sits. |
 
-## Chapters (Arc 1 scene frameworks)
+## Chapters (Arc 1 finished prose)
 
 [Ch1 — The Mainland](../chapters/chapter1.mdx) ·
 [Ch2 — The Shop](../chapters/chapter2.mdx) ·
 [Ch3 — The Intervention](../chapters/chapter3.mdx) ·
 [Ch4 — The Realm of Mist](../chapters/chapter4.mdx) ·
 [Ch5 — Awakening](../chapters/chapter5.mdx) ·
-[Ch6 — The Dead Component](../chapters/chapter6.mdx)
+[Ch6 — The Dead Component](../chapters/chapter6.mdx) ·
+[Ch7 — The Blue Light](../chapters/chapter7.mdx)
 
 ## Continuity with old canon
 
