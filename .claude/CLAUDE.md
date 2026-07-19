@@ -67,13 +67,28 @@ here). They override any default instinct toward rich or literary prose.
 The story wiki and working docs stay in English, but **write the chapters themselves directly in
 Turkish.** Do not draft a chapter in English and translate it — English-first prose comes out stiff
 and unidiomatic. Compose in Turkish from the start, with natural Turkish phrasing and idioms
-  (*yerelleştir* — a Turkish reader should never feel a translation underneath). Planning notes may
-  use numbered beats, terse fragments, and arrows (→). Published chapter files use finished prose
-  unless the user explicitly requests an outline. A beat is a skeleton to expand, never a paragraph
-  to leave half-polished. See
+  (*yerelleştir* — a Turkish reader should never feel a translation underneath). See
 `content/stories/kaiser/docs/` for the story wiki (characters, magic system, arc map, narrative
-  rules). Chapters requested as finished prose must never be left as beat lists, summaries, or
-  numbered scene frameworks. Outline syntax is for planning files only.
+  rules).
+
+**Drafting mode — scene by scene is the default (*sahne sahne*).** Polishing a chapter to finished
+literary prose costs too much time, so new chapters are drafted scene by scene in condensed running
+prose. This is a *register*, not an outline:
+
+- **Still real Turkish prose, still Turkish-first.** Full sentences, present tense (geniş zaman),
+  third person, no em dash, plain everyday words. Every other rule in this file still applies.
+- **Condensed, not thinned.** Clauses run together with commas where finished prose would break them
+  into separate beats: *"Kaiser yağmurla uyanır, siste ne kadar kaldığını hatırlamaz, ısı ve acı bir
+  anda üstüne biner."* Say more per sentence, then move on.
+- **Never lose the fine detail.** The point is to skip the *craft* pass, not the *content*. Concrete
+  specifics stay — the tool, the wound, the number, the exact object, the thing he notices. A vague
+  summary is worse than no draft.
+- **Drop only the artistry pass.** No hunting for rhythm, no single-sentence paragraphs used as
+  beats, no engineered refrain placement. State what happens, clearly, and go on.
+- **Number each scene** with a bare `1 - `, `2 - ` prefix. Do not title the scenes; the number alone
+  is enough to keep the chapter skimmable and easy to expand later.
+- Finished, polished prose is written only for a chapter the user explicitly asks to polish.
+  **Chapters 1-4 are in the finished register; chapter 5 onward is scene-by-scene.**
 
 **Writing in Turkish — craft notes.** The concrete conventions behind the *yerelleştir* rule above,
 so the voice stays consistent across chapters:
