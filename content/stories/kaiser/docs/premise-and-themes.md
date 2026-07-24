@@ -5,9 +5,9 @@ See also: [Characters](characters.md) · [Arc Map](arc-map.md).
 
 ## Logline
 
-A gifted engineer, ground to numbness by a society that has no use for competence, dies
-in the one moment he chooses to act — and wakes in a world built entirely out of the
-thing he is best at: broken machines nobody understands.
+A gifted engineer, ground to numbness by a society that has no use for competence, dies of
+a curable cancer he is not insured to have treated — and wakes in a world built entirely
+out of the thing he is best at: broken machines nobody understands.
 
 ## Premise — the inversion of worth
 
@@ -32,8 +32,8 @@ Everything hangs on this single reversal between the two worlds.
 
 Kaiser hated his old world's cruelty. When he finally holds real power here, does he
 build something kinder — or does power reveal he would become the thing he hated?
-**Ostragrad** (the austere, fair, military-communal city he reaches in Arc 4) is the
-thesis he measures himself against: a *fair* system that still cages you.
+The sharpest test of this is a system that is genuinely *fair* and still cages you, so
+that he cannot dismiss it as corruption. No such institution has appeared on the page yet.
 
 ## Cosmology (permanent, unrevealed)
 
@@ -48,10 +48,12 @@ on the page, but it is the deep link between the two worlds.
 - **Recurring motif:** *the man who can fix anything, in a world that won't let him.* Old
   world: forbidden to fix. New world: finally free to — at mortal cost.
 - **Numbness → agency arc.** Kaiser opens as a numb observer (learned helplessness, not
-  apathy). His single act of agency kills him (Ch3). Rebirth forces him into pure agency
-  (survival). The new-world story is him *relearning that intervening is worth the cost* —
-  the opposite of the lesson Anakara beat into him.
-- **What survives death is method, not memory** (Ch4). His identity is his diagnostic
+  apathy). Anakara never offers him anything to act against; it poisons the air he breathes,
+  then declines to treat the result because he is registered to no employer (Ch1). There is no
+  villain to fight, only a blank field on a form. Rebirth forces him into pure agency
+  (survival). The new-world story is him
+  *learning that intervening is worth the cost* — the opposite of the lesson Anakara beat into him.
+- **What survives death is method, not memory** (Ch2). His identity is his diagnostic
   loop, not his past — which is why he wakes sharp but with hazy memories.
 - **Power is also interpretation.** A machine does what it physically does, but people decide what
   it means. The same repair can become charity, heresy, espionage, proof of rank, or a claim of

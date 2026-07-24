@@ -4,8 +4,8 @@ Author-facing source of truth for the **Kaiser** reimagining (formerly *Kisho*).
 docs in English; published chapters are Turkish (see [Narrative Rules](narrative-rules.md)).
 
 > **Logline.** A gifted engineer, ground to numbness by a society that has no use for
-> competence, dies in the one moment he chooses to act — and wakes in a world built
-> entirely out of the thing he is best at: broken machines nobody understands.
+> competence, dies of a curable cancer he is not insured to have treated — and wakes in a
+> world built entirely out of the thing he is best at: broken machines nobody understands.
 
 ## Pages
 
@@ -23,17 +23,17 @@ docs in English; published chapters are Turkish (see [Narrative Rules](narrative
 | [Engineering Doctrine](engineering-doctrine.md) | How to write engineering/magic scenes (the "misrepresented engineering" fix). |
 | [Narrative Rules](narrative-rules.md) | POV, reveal discipline, tone, style, localization. |
 | [Voice Study](voice-study.md) | Kaiser-specific craft system: perspective, tension, scale, humor, violence, and long-form architecture. |
-| [Arc Map](arc-map.md) | The five arcs and where each chapter sits. |
+| [Arc Map](arc-map.md) | What is written and what is still open. Nothing beyond Ch5 is planned. |
 
-## Chapters (Arc 1 finished prose)
+## Chapters
+
+Ch1 and Ch2 are finished prose; Ch3 onward are scene-by-scene drafts.
 
 [Ch1 — The Mainland](../chapters/chapter1.mdx) ·
-[Ch2 — The Shop](../chapters/chapter2.mdx) ·
-[Ch3 — The Intervention](../chapters/chapter3.mdx) ·
-[Ch4 — The Realm of Mist](../chapters/chapter4.mdx) ·
-[Ch5 — Awakening](../chapters/chapter5.mdx) ·
-[Ch6 — The Dead Component](../chapters/chapter6.mdx) ·
-[Ch7 — The Blue Light](../chapters/chapter7.mdx)
+[Ch2 — The Realm of Mist](../chapters/chapter2.mdx) ·
+[Ch3 — Awakening](../chapters/chapter3.mdx) ·
+[Ch4 — The Hollow](../chapters/chapter4.mdx) ·
+[Ch5 — The Dead Component](../chapters/chapter5.mdx)
 
 ## Continuity with old canon
 

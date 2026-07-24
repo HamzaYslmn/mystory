@@ -37,7 +37,7 @@ Use close third person. A scene does not merely report what happened near its vi
 its language, comparisons, and noticed details belong to that mind.
 
 - Kaiser notices failure modes, materials, load paths, wasted energy, and who controls access.
-- Izzet notices workmanship, shortcuts, pride, and whether a person respects a tool.
+- A craftsman notices workmanship, shortcuts, pride, and whether a person respects a tool.
 - A guard notices hands, exits, rank markings, rehearsed lies, and who obeys without being told.
 - A villager notices food, weather, reputation, family risk, and what a powerful visitor might cost.
 - A scholar notices precedent, terminology, status, and the terror of a fact that invalidates a career.
@@ -238,8 +238,9 @@ People rarely answer the exact question when status or danger is involved. Let p
 formality, and who speaks for whom reveal the hierarchy.
 
 Distinct voices come from priorities, not decorative accents. Kaiser is concise and literal when
-thinking about work, guarded around motives, and dry when frightened. Izzet corrects through questions.
-A bureaucrat speaks in categories that move responsibility away from the speaker.
+thinking about work, guarded around motives, and dry when frightened. A craftsman speaks in
+tolerances and materials. A bureaucrat speaks in categories that move responsibility away from the
+speaker.
 
 ## 14. Internal monologue: capable mind, human noise
 
@@ -351,9 +352,10 @@ Useful progression:
 3. plot mechanism;
 4. costly return.
 
-For Kaiser, Izzet's diagnostic question is the central refrain. It begins as workshop discipline,
-survives as mental habit, becomes a survival tool, and should later become the question Kaiser fails
-to ask about a person. That final failure prevents the refrain from becoming self-congratulation.
+For Kaiser, his own diagnostic question is the central refrain. It begins as a habit he taught himself
+over broken machines, survives the Mist when nothing else of him does, becomes a survival tool, and
+should later become the question Kaiser fails to ask about a person. That final failure prevents the
+refrain from becoming self-congratulation.
 
 ## 22. Arc-level escalation
 

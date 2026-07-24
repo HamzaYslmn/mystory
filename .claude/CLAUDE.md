@@ -1,160 +1,130 @@
-# Storytelling style
+# Kaiser — writing rules
 
-The story and the narrative are the whole point. Above all else, the writing must flow smoothly and
-read easily — when any other rule here fights that goal, readability wins.
+**The story is the point. When any rule below fights readability, readability wins.**
 
-These rules govern all narrative prose in this project (the Kaiser story and any story content
-here). They override any default instinct toward rich or literary prose.
+These rules govern all narrative prose in this project and override any default instinct toward
+rich or literary writing. Docs and the wiki stay in English; **chapters are written in Turkish
+from the start**, never drafted in English and translated. Story wiki:
+`content/stories/kaiser/docs/`.
 
-- **Keep sections short.** No section in this file should grow past 300 lines; split or
-  reorganize it before it reaches that limit.
+## Register: which chapters are finished
 
-- **Tell the story directly and straightforwardly.** Name things by their names — say "acid
-  rain," not "gray, faintly sour rain." Never talk around something you could state plainly.
-- **Readability first.** The goal is a story that pulls the reader along, fluid and easy to
-  read. Choose flow over cleverness every time.
-- **A plain, direct voice (the house style).** Short, clear sentences, mostly one idea each.
-  Everyday words a tired reader understands on the first pass. State what happens, then stop, and
-  let cause lead into consequence. A single blunt sentence on its own line can land a beat. Carry
-  emotion and stakes through action and consequence, never through adjectives or an "epic" register.
-  State even the strange and enormous matter-of-factly. The weight comes from what happens, not from
-  ornate or literary language. (This supersedes the earlier "grave, legendary" voice wherever the
-  docs still describe it; the rewritten **chapters 1 and 6** are the model to match.)
-- **Through Kaiser's eyes.** We live the story from inside Kaiser's experience — immediate, in the
-  moment, in what he senses and works out right now; keep the reader there by default. The narrator's
-  wider, explaining voice (the grave chronicle register above) steps forward only for the sequences
-  that *explain* something — the world, the metaphysics, how a thing works — and then recedes back
-  into his point of view.
-- **Show the vast by a glimpse, not a catalog.** Name ordinary things plainly (above) — but for
-  the huge, the dreadful, or the wondrous, give one clear impression and stop. A thing half-seen,
-  or a pointed silence, unsettles more than a full inventory. Don't pile on detail to prove scale;
-  let the reader's mind finish it, and leave the deepest mystery unstated.
-- **The refrain that turns.** A deliberate refrain is not lazy repetition. Plant a plain or telling
-  line or image, and bring it back only when its return will mean *more* than the first time — at
-  its strongest, something first read as ordinary pays off later as literal. If a repeat doesn't
-  deepen, cut it.
-- **Cut accidental repetition.** The refrain above is the *only* licensed repeat. Everything else —
-  a word, an image, a sentence shape echoed within a few lines or across neighboring beats — is
-  noise, and it dulls the prose. Hunt for it always, not only while writing: whenever you write,
-  revise, edit, or even just read a passage, watch for the same word twice close together (three
-  "cold"s, two "soul"s in a sentence), a doubled image (two things "thinning" a beat apart), or the
-  same construction repeated — and when you spot it, fix it on the spot. Vary the word or, better,
-  cut the weaker instance. When a phrase must recur, make sure it *earns* the recurrence as a
-  refrain; if it doesn't, it's an accident — fix it.
-- **Keep it simple.** Short, clear sentences. Minimal description — only what the scene needs.
-  Avoid piled-up metaphors, stacked clauses, doubled adjectives, and ornate phrasing that slows
-  the reader down.
-- **Kısa ve öz — kill compressed and convoluted phrasing.** Two habits ruin Turkish clarity, and
-  both must be hunted on every pass. (1) A squeezed noun-phrase no one would actually say — *on
-  dakikalık işe muhtaç bir lamba* — opens into a plain relative clause: *on dakikada tamir
-  edebileceği bir lamba*. (2) One idea over-explained across three or four sentences gets cut to the
-  line that lands — *Porsiyonlar küçülür, buna karşılık da makinelerin boşaldığı söylentisi yayılır*
-  — then stop; drop the "no one can prove it / whoever proves it loses their card" tail. Prefer
-  simple, everyday words, and when unsure, cut.
-- **Show character through action, not narrator praise.** Let the reader judge the character
-  from what they do. The narrator never rates them ("gifted," "the one talent he has," etc.).
-- **Consistency, within a chapter and across chapters.** Every beat must follow from what's
-  already established. A character can't act on something they were never told or shown — if proud
-  Izzet hides his debt, Kaiser can't walk in already knowing his time is up; he pieces it together
-  in the moment. When you revise one chapter, re-check the others and the docs so nothing
-  contradicts: names, timeline, who-knows-what, chapter numbers.
-- **Revise by rebuilding, not by negating.** When a sentence needs work, rewrite it from scratch
-  to say plainly what is there and what happens. Never patch it by tacking on what it isn't ("no
-  box to drop off," "no pretense of a repair"). State the thing directly and let concrete action
-  carry it.
-- **When in doubt, cut.** A plain, concrete sentence beats a rich, ornate one.
+| Chapters | Register | Model to match |
+|---|---|---|
+| 1-2 | **Finished literary prose.** Full scenes, dialogue, paragraph breaks, no scene numbers. | Ch1 |
+| 3 onward | **Scene-by-scene draft.** Condensed running prose, numbered `1 - `, `2 - `. | Ch4 |
 
-The story wiki and working docs stay in English, but **write the chapters themselves directly in
-Turkish.** Do not draft a chapter in English and translate it — English-first prose comes out stiff
-and unidiomatic. Compose in Turkish from the start, with natural Turkish phrasing and idioms
-  (*yerelleştir* — a Turkish reader should never feel a translation underneath). See
-`content/stories/kaiser/docs/` for the story wiki (characters, magic system, arc map, narrative
-  rules).
+New chapters are drafted scene by scene. Polish to finished prose only when asked for that
+chapter. Chapters 3-5 are drafts awaiting polish; do not treat their compression as the house
+standard.
 
-**Drafting mode — scene by scene is the default (*sahne sahne*).** Polishing a chapter to finished
-literary prose costs too much time, so new chapters are drafted scene by scene in condensed running
-prose. This is a *register*, not an outline:
+**The old world gets one chapter.** Ch1 carries the city, the proof of competence, and Kaiser's
+death. Do not add a second Anakara chapter; the reader does not need the cyberpunk world in depth
+and it delays the isekai.
 
-- **Still real Turkish prose, still Turkish-first.** Full sentences, present tense (geniş zaman),
-  third person, no em dash, plain everyday words. Every other rule in this file still applies.
-- **Condensed, not thinned.** Clauses run together with commas where finished prose would break them
-  into separate beats: *"Kaiser yağmurla uyanır, siste ne kadar kaldığını hatırlamaz, ısı ve acı bir
-  anda üstüne biner."* Say more per sentence, then move on.
-- **Never lose the fine detail.** The point is to skip the *craft* pass, not the *content*. Concrete
-  specifics stay — the tool, the wound, the number, the exact object, the thing he notices. A vague
-  summary is worse than no draft.
-- **Drop only the artistry pass.** No hunting for rhythm, no single-sentence paragraphs used as
-  beats, no engineered refrain placement. State what happens, clearly, and go on.
-- **Number each scene** with a bare `1 - `, `2 - ` prefix. Do not title the scenes; the number alone
-  is enough to keep the chapter skimmable and easy to expand later.
-- Finished, polished prose is written only for a chapter the user explicitly asks to polish.
-  **Chapters 1-4 are in the finished register; chapter 5 onward is scene-by-scene.**
+## Voice
 
-**Writing in Turkish — craft notes.** The concrete conventions behind the *yerelleştir* rule above,
-so the voice stays consistent across chapters:
+- **Plain and direct.** Short sentences, mostly one idea each. Everyday words a tired reader gets
+  on the first pass. State what happens, then stop; let cause lead into consequence.
+- **No epic register.** Carry emotion through action and consequence, never through adjectives.
+  State even the strange and enormous matter-of-factly. Weight comes from what happens.
+- A single blunt sentence on its own line can land a beat. Use it sparingly or it stops working.
+- **Specificity is not ornament.** Keep the tool, the wound, the number, the exact object, the
+  reasoning step. Cut adjectives, metaphors, and mood-painting. "Minimal description" means no
+  decoration, not no detail.
+- **Show the vast by a glimpse.** For the huge, the dreadful, or the wondrous, give one clear
+  impression and stop. Never catalogue to prove scale. This applies to spectacle, not to work:
+  technical sequences earn their length.
+- **Never praise the character.** No "gifted", no "master". The reader judges from what he does.
+- **Point of view.** Stay inside Kaiser's experience by default: what he senses and works out right
+  now. The narrator's wider, explaining voice steps forward only to explain the world or its
+  metaphysics (as in Ch3), then recedes.
 
-- **VS Code-friendly line width.** In published `.mdx` chapter files, soft-wrap prose at roughly
-  **92 characters per source line** so the text fits comfortably in the editor without horizontal
-  scrolling. Preserve paragraph breaks, Markdown syntax, frontmatter, and the wording itself. This
-  is source formatting only; do not insert extra blank lines or change the rendered prose. After
-  writing or revising a chapter, check that no ordinary prose line exceeds 92 characters.
-- **Short terminology notes.** When a chapter uses a technical, anatomical, historical, or
-  world-specific term that a general reader may not know, mark only its first occurrence with a
-  Unicode superscript number (`¹`, `²`, `³`). At the end of that chapter, add a separate Markdown
-  block consisting of `---`, the heading `### Kısa Notlar`, and a numbered list of one-sentence
-  definitions. Keep definitions short and concrete. Do not annotate ordinary vocabulary, repeat a
-  note in the same chapter, invent unrevealed lore, or explain a mystery before the story earns it.
-  Keep the note block and all its lines within the 92-character source limit.
-- **Punctuation (noktalama) — no em dash in Turkish.** The em dash (`—`) is an English habit and
-  reads foreign in Turkish prose; never use it in the chapters. Where an aside, appositive, or
-  turn wants a break, use a comma, semicolon, colon, or parentheses, or just rebuild the sentence.
-  (This rule is Turkish-only; the English docs and these notes may still use `—`.)
-- **Tense (kip).** The grave chronicle runs in the present. Geniş zaman (aorist, *-ir*) is the spine
-  — *durur, yürür, bilir, çıkarır*. Use şimdiki zaman (*-yor* / *-maktadır*) only for a genuinely
-  in-the-moment action or state. Past tense (*-di* / *-mış*) is reserved for backstory told as
-  backstory (how İzzet took Kaiser in, years earlier); keep the present-tense frame around it, and
-  never flip a whole beat's tense while polishing.
-- **Hunt translationese (*çeviri kokusu*).** The enemy is Turkish that reads like English
-  underneath. Rebuild, in native word order, any: heavy nominal chain (*…olmasının sebebi …ayarlanmış
-  olmasıdır* → a plain active sentence), an English "whether…or not" rendered as *…olup olmadığını*, a
-  dangling demonstrative (*bu / şu / o*) with no clear referent, or a causative forced where a simple
-  verb fits.
-- **Use real idioms, where they land.** Reach for the genuine Turkish *deyim* when it fits the beat —
-  *taş kesilmek, sırra kadem basmak, kılını kıpırdatmamak, tabana kuvvet, gözü dönmek, beş para
-  etmemek, posası çıkmak* — but never shoehorn one; a plain sentence beats a forced idiom.
-- **How we work a chapter.** Compose/rewrite Turkish-first, then pass it sentence by sentence for
-  flow, idiom, and accidental repetition (the rules above). When several chapters need the same pass,
-  one editor per chapter in parallel is fine — but re-read each result yourself against the
-  glossary, tense, refrains, and cross-chapter consistency before trusting it.
+## Writing Turkish, not translated Turkish
+
+- **The book test.** Ask of every sentence: would this appear in a book originally written in
+  Turkish? If not, rebuild it in native word order.
+- **Two killers.** (1) **Personification** — *ateşin ne istediğini bilir*, *acı bacağını kilitler*,
+  *yorgunluk üzerine kapanır*. (2) **Invented metaphor** Turkish has no stock for — *kapıları
+  sökülmüş bir bina gibidir*. Say the thing plainly instead.
+- **Say it once, short.** Never stretch one idea across two clauses.
+- **Kısa ve öz.** Open squeezed noun-phrases nobody would say (*on dakikalık işe muhtaç bir lamba*
+  → *on dakikada tamir edebileceği bir lamba*). Cut an idea explained across four sentences down to
+  the line that lands, then stop.
+- **Hunt translationese.** Rebuild heavy nominal chains (*…olmasının sebebi …olmasıdır*), English
+  "whether or not" as *…olup olmadığını*, demonstratives (*bu / şu / o*) with no clear referent, and
+  causatives forced where a simple verb fits.
+- **Real idioms where they land** — *taş kesilmek, sırra kadem basmak, tabana kuvvet, beş para
+  etmemek*. Never shoehorn one; a plain sentence beats a forced idiom.
+- **No aphorisms.** Never write a neat, balanced, quotable line that states a general truth
+  (*Yazılım yanılabilir. Zincir yanılmaz.* / *Pahalı olan mantık değildir. Pahalı olan izindir.*).
+  These are shallow and read as the author speaking through the character; they also restate what
+  the scene has already shown. Never use the device that sets one up either, such as the character
+  writing a phrase on paper. If the reasoning must be stated, state it plainly about *this* machine
+  and *this* moment, not as a maxim about the world.
+- **Revise by rebuilding.** Rewrite a weak sentence from scratch to say plainly what happens. Never
+  patch it by adding what it isn't ("no box to drop off", "no pretense of a repair").
+- **When in doubt, cut.**
+
+## Repetition
+
+- **Cut accidental repetition ruthlessly**, on every pass, including when you are only reading. The
+  same word twice within a few lines, a doubled image, a repeated sentence shape: vary it or cut
+  the weaker one.
+- **A refrain must earn its return.** Bring a line back only when it means more than the first
+  time. At its best, something first read as ordinary later pays off as literal. If a repeat
+  doesn't deepen, it's an accident.
+
+## Mechanics
+
+- **No em dash (—) in Turkish prose.** Use a comma, semicolon, colon, parentheses, or rebuild the
+  sentence. English docs may still use them.
+- **Tense.** Geniş zaman is the spine (*durur, bakar, ölçer*). Use *-yor* only for a genuinely
+  in-the-moment action. Past tense (*-di* / *-mış*) is for backstory told as backstory; keep the
+  present-tense frame around it and never flip a whole beat while polishing.
+- **Wrap chapter source lines at ~92 characters.** Source formatting only; do not change wording,
+  paragraph breaks, or frontmatter.
+- **Kısa Notlar.** Mark the first occurrence of a technical, anatomical, or world-specific term
+  with a superscript (`¹`, `²`, `³`). At the chapter end add `---`, `### Kısa Notlar`, and a
+  numbered list of one-sentence definitions. Never annotate ordinary vocabulary, repeat a note, or
+  explain a mystery the story hasn't earned.
+
+## Scene-by-scene draft mode (Ch3 onward)
+
+Real Turkish prose, not an outline. Full sentences, present tense, third person, plain words.
+Clauses run together with commas where finished prose would separate them. **Condensed, not
+thinned:** every concrete specific stays — the tool, the wound, the number, the object he notices.
+What you skip is the craft pass: no hunting for rhythm, no engineered refrains. Number scenes
+`1 - `, `2 - ` with no titles.
 
 ## Story architecture
 
-- **Information drives suspense.** Track what happened, what the viewpoint believes, what the reader
-  can infer, and what an institution records. Wrong conclusions must be intelligent responses to
+- **Consistency is non-negotiable.** A character cannot act on something they were never told or
+  shown. When you revise one chapter, re-check the others and the docs: names, timeline,
+  who-knows-what, chapter numbers.
+- **Information drives suspense.** Track what happened, what Kaiser believes, what the reader can
+  infer, and what an institution records. Wrong conclusions must be intelligent responses to
   limited evidence.
-- **A scene has residue.** Give every substantial scene a present want, a working model, an active
-  limit, a reversal, and a lasting result: cost, clue, debt, obligation, reputation, or false belief.
-- **Prove competence before measuring danger.** Establish that an observer, worker, or opponent knows
-  their field. Their precise failed assumption then reveals the scale of the anomaly.
-- **Power is clearest through restraint.** Prefer preparation, verification, unguarded confidence, and
-  the option not taken over loud declarations of strength. Early Kaiser has technical leverage, not
-  physical invulnerability.
-- **Worldbuilding enters through work.** Reveal systems through repair, food, wages, travel, ritual,
-  law, checkpoints, injury, and failed tests. A quiet routine must build attachment, hierarchy, a
-  future promise, or the next conflict.
-- **Reputation becomes material.** When others mistake Kaiser's caution for foresight or his silence
-  for authority, someone must commit status or resources to that belief. The misunderstanding then
-  changes his options.
-- **Braid three scales.** Move between domestic life, operational problems, and strategic ownership.
-  After a large event, return to an ordinary need or object whose meaning has changed.
-- **Recontextualize.** A later reveal should often change the meaning of an earlier gift, rescue,
-  repair, or threat. Do not rely only on larger enemies and louder effects.
-- **Keep side characters alive on the page.** Each recurring person needs a present want, private
-  pressure, useful competence, boundary, mistaken belief, and a specific plan beyond the current
-  scene. The future gives danger its price.
-- **Violence follows decisions.** Establish objective, terrain, protected resource, false assumption,
-  and retreat condition. During conflict, follow changing choices. Afterward, count wounds, energy,
-  tools, witnesses, law, and belief.
-- **Humor shares the same world as dread.** Build it from incompatible priorities, ceremonial scale
-  interrupted by a practical need, or the gap between Kaiser's public image and private calculation.
-  Never make injury slapstick or make locals stupid to flatter him.
+- **Every substantial scene leaves residue:** a cost, clue, debt, obligation, reputation, or false
+  belief that outlasts it.
+- **Prove competence before measuring danger.** Establish that someone knows their field; their
+  precise failed assumption then reveals the scale of the problem.
+- **Power through restraint.** Prefer preparation, verification, and the option not taken over
+  declarations of strength. Kaiser has technical leverage, not invulnerability.
+- **Worldbuilding enters through work** — repair, food, wages, travel, law, checkpoints, injury,
+  failed tests. A quiet routine must build attachment, hierarchy, or the next conflict.
+- **Recontextualize.** A later reveal should change the meaning of an earlier repair, gift, or
+  threat. Do not rely on louder enemies.
+- **Violence follows decisions.** Establish objective, terrain, false assumption, and retreat
+  condition. Afterward count wounds, tools, witnesses, law, and belief.
+- **Humor and dread share a world.** Build it from incompatible priorities or the gap between
+  Kaiser's public image and his private calculation. Never make injury slapstick or locals stupid
+  to flatter him.
+
+## Fixed motifs
+
+- Kaiser's working refrain is **"Analiz et."** — a command he gives himself, self-taught, never
+  inherited from anyone. His signature gesture is **two fingers to the forehead** before he solves
+  something. The gesture survives his death and memory loss; its origin does not.
+- **Arc 1 runs on worth, not on a bond.** There is no mentor and no loved one in the old world. Do
+  not add an old-world attachment.

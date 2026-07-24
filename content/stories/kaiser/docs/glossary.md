@@ -35,6 +35,15 @@ reference. Do not coin a synonym when one of these already exists.
 | echo crystal | Resonant crystal from echo-crystal caves; a Synthora's given **instrument-and-voice**, converts mana to sound. Not an energy store |
 | aerogen | Rock foamed by a mana-surge into an ultraporous solid — same mass, vast volume, bulk density **below air**, so it floats. The stuff of the Sky Islands |
 
+## Old world (Anakara, 2053)
+
+| Term | Fixed meaning |
+|------|---------------|
+| Sarpic | Lung cancer from years of breathing the Lower District's acid air. Curable in fourteen weeks at a tower clinic. Unknown in the towers, whose air is filtered. Kills Kaiser (Ch1) |
+| gold-tier health insurance | *altın seviye sağlık sigortası*. Not sold; issued to a corporation's registered employee by their employer. Gates every treatment that works |
+| base tier | *temel seviye*. Covers painkillers and dressings. What an unregistered worker has |
+| Alt Bölge | Lower District. Kaiser is Alt Bölge 12 |
+
 ## Peoples & institutions
 
 | Term | Fixed meaning |
@@ -57,5 +66,3 @@ reference. Do not coin a synonym when one of these already exists.
 ## Naming decisions still required
 
 - Continent, sea, and Ice Wall proper names remain open on [World Map](world-map.md); city locations do not.
-
-The master smith is fixed as **Boran** (the old canon's *Kazgrim Steelhand* is retired).

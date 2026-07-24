@@ -135,8 +135,9 @@ A scene that returns everyone to the state in which they entered is probably dis
 ## Refrains and payoff
 
 - Repeat only what gains meaning.
-- Izzet's question — *What is it doing? Not what you think; what is it actually doing?* — progresses from
-  workshop rule to survival method to moral challenge.
+- Kaiser's own question — *What is it doing? Not what you think; what is it actually doing?* — progresses
+  from a habit he taught himself over broken machines, to the one thing the Mist leaves him, to a moral
+  challenge.
 - Objects and rules should return as mechanisms, not decoration.
 - A solution planted early should pay off under a changed cost, never in the exact form first imagined.
 

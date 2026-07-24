@@ -753,13 +753,13 @@ earns it.
 - **The price is the self, and it does not come back.** The soul is real fuel and it is **conserved**
   like everything else ([§6](#6-the-three-laws)) — burned, it is gone. What goes first is subtractive and
   permanent: memory, feeling, name, the person themselves — the same dissolution the Mist runs on
-  ([Ch4](../chapters/chapter4.mdx)), now self-inflicted. Spend enough and there is no one left to spend.
+  ([Ch2](../chapters/chapter2.mdx)), now self-inflicted. Spend enough and there is no one left to spend.
 - **Why the world doesn't use it.** Anyone who could is one great cast from erasing themselves, so it is
   a last resort, a doomsday, or a madness — never a tool. Most who reach for it are **remembered by the
   crater, not the name**.
 
 **Kaiser link.** His Ocak Kanlı bond ([§20](#20-ocak-kanlı)) and his surviving the Mist by *method, not
-memory* ([Ch4](../chapters/chapter4.mdx)) sit next to this on purpose — leave whether the two connect
+memory* ([Ch2](../chapters/chapter2.mdx)) sit next to this on purpose — leave whether the two connect
 unstated for now.
 
 ---
