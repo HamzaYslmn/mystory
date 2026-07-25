@@ -121,10 +121,22 @@ What you skip is the craft pass: no hunting for rhythm, no engineered refrains. 
   Kaiser's public image and his private calculation. Never make injury slapstick or locals stupid
   to flatter him.
 
+## Chapter cover art
+
+Covers live in `content/stories/kaiser/assets/chapter-N.png`, referenced from frontmatter as
+`/assets/chapter-N.png`. To generate one, use `.claude/skills/gen-image/SKILL.md`.
+
+- **No characters, ever.** No people, no figures, no faces, not even distant or silhouetted.
+  Kaiser is never drawn. Places, weather, wreckage, objects and machines only.
+- **One subject per cover**, and it must be something the chapter actually contains. A cover
+  that invents a detail (magic lightning on a cart wheel) contradicts the prose.
+- **House look:** muted desaturated palette, cinematic painterly illustration, dramatic
+  natural light, square 1:1. The covers must read as one set.
+- **No text in the image**, and no readable signage; Anakara is not an English-speaking city.
+
 ## Fixed motifs
 
-- Kaiser's working refrain is **"Analiz et."** — a command he gives himself, self-taught, never
-  inherited from anyone. His signature gesture is **two fingers to the forehead** before he solves
+- Kaiser's signature gesture is **two fingers to the forehead** before he solves
   something. The gesture survives his death and memory loss; its origin does not.
 - **Arc 1 runs on worth, not on a bond.** There is no mentor and no loved one in the old world. Do
   not add an old-world attachment.

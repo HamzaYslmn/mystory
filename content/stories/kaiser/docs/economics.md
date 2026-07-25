@@ -110,6 +110,7 @@ famine, debt, and unrest live.
 | Item | Price |
 |------|-------|
 | Onions (kg) | 3 br |
+| Beşkat bulb (kg) | 3 br |
 | Cabbage (each) | 2 br |
 | Turnips (kg) | 2 br |
 | Carrots (kg) | 3 br |
@@ -133,6 +134,7 @@ famine, debt, and unrest live.
 | Apples (kg) | 3 br |
 | Pears (kg) | 3 br |
 | Plums (kg) | 3 br |
+| Mürven (kg) | 3 br |
 | Cherries (kg) | 4 br |
 | Grapes (kg) | 5 br |
 | Chestnuts (kg) | 4 br |

@@ -44,6 +44,16 @@ reference. Do not coin a synonym when one of these already exists.
 | base tier | *temel seviye*. Covers painkillers and dressings. What an unregistered worker has |
 | Alt Bölge | Lower District. Kaiser is Alt Bölge 12 |
 
+## Flora & food plants
+
+Cultivated or gathered plants that appear as food and cargo. The mana-bearing
+**Bornmülleriana** is not food and lives under [Materials & power](#materials--power).
+
+| Term | Fixed meaning |
+|------|---------------|
+| *mürven* | Purple fruit the size of a large plum, thin skin, sharply **sour** raw. One hard round stone, too tough to chew and normally thrown away. Mostly stewed, pickled, or boiled down for winter; travels well, so it is common caravan and market food |
+| *beşkat* | White bulb built from **five thick layers** instead of an onion's many thin ones. The outer layer is a rind and peels off in strips like a banana skin; each layer inward is sweeter, the core sweetest and eaten raw by children. Keeps through winter, a staple everywhere humans farm |
+
 ## Peoples & institutions
 
 | Term | Fixed meaning |
