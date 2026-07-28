@@ -29,6 +29,8 @@ MODEL = "gemini-3.6-flash-high"
 PROMPT_LIMIT = 28000                  # the prompt rides in argv; Windows caps that at 32767
 AUTH_RE = re.compile(r"not logged in|signing in|sign in to|log in to|"
                      r"authenticat\w* fail|no token|token source", re.I)
+# agy is a .cmd shim on Windows, so every turn would flash a console window without this.
+NO_WINDOW = {"creationflags": 0x08000000} if os.name == "nt" else {}   # CREATE_NO_WINDOW
 
 
 class AgyError(RuntimeError):
@@ -49,7 +51,7 @@ def run(prompt: str, a, conversation: str | None = None) -> dict:
     for attempt in (1, 2, 3):
         try:
             p = subprocess.run(cmd, capture_output=True, text=True, encoding="utf-8",
-                               errors="replace", timeout=a.timeout + 30)
+                               errors="replace", timeout=a.timeout + 30, **NO_WINDOW)
         except subprocess.TimeoutExpired:
             raise AgyError(f"no answer within {a.timeout + 30}s")
         for line in reversed(p.stdout.splitlines()):
