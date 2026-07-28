@@ -124,7 +124,7 @@ What you skip is the craft pass: no hunting for rhythm, no engineered refrains. 
 ## Chapter cover art
 
 Covers live in `content/stories/kaiser/assets/chapter-N.png`, referenced from frontmatter as
-`/assets/chapter-N.png`. To generate one, use `.claude/skills/gen-image/SKILL.md`.
+`/assets/chapter-N.png`. To generate one, use `.claude/skills/agy/SKILL.md`.
 
 - **No characters, ever.** No people, no figures, no faces, not even distant or silhouetted.
   Kaiser is never drawn. Places, weather, wreckage, objects and machines only.
