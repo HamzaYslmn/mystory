@@ -29,9 +29,11 @@ reference. Do not coin a synonym when one of these already exists.
 | purple crystal | Biological, single-use, high-output mana cell; sold by remaining kWh **and** rated kW |
 | Bornmülleriana | The Well-bound tree whose resin is the workable mana conductor |
 | *kozak* | Sealed Bornmülleriana cocoon; highest resin grade |
+| spent crystal | A discharged cell: black, brittle, crumbles under a knife. Worth less than a bronze each; collected by the sack, ground and sieved into ink powder |
 | mana-ink | Conductive resin plus **spent neutral crystal powder**; pattern medium, not fuel |
 | substrate | Solid support and optional loss-reducer; never an energy source |
 | crystal certificate | Assay seal listing remaining kWh, rated kW, leakage grade, and circuit quality |
+| *safir kap* | Sealed storage vessel: sapphire-grit glass wall, closed Bornmülleriana ring inside, gold-fused seam. Cuts shelf leakage ~15×; a vault, not a housing. Trade names it after its dearest part |
 | echo crystal | Resonant crystal from echo-crystal caves; a Synthora's given **instrument-and-voice**, converts mana to sound. Not an energy store |
 | aerogen | Rock foamed by a mana-surge into an ultraporous solid — same mass, vast volume, bulk density **below air**, so it floats. The stuff of the Sky Islands |
 

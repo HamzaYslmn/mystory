@@ -40,3 +40,5 @@ cover: "url_to_image"
 - **Karakter Çizmeme Kuralı (No Characters/Humans):** Bölüm kapakları veya diğer görseller üretilirken kesinlikle hikaye karakterleri, insanlar veya insan siluetleri çizilmemelidir.
 - **Ortam ve Atmosfer Odaklılık (Ambient & Environment Focus):** Çizimler tamamen ambient (ortam), manzara, mekan ve atmosfer odaklı olmalıdır. Hikayenin o anki duygu durumunu ve çevresel detaylarını yansıtmalıdır.
 
+## 5. Dil ve İletişim (Language & Communication)
+- **Sadece Türkçe:** Tüm iletişim, düşünce süreçleri, içerik üretimi ve notlar yalnızca Türkçe olarak yürütülecektir.

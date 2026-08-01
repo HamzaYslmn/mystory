@@ -628,6 +628,34 @@ not a continuous multi-watt load — and grade, damage, and age change it. **Scr
 ~100 W blue, kilowatts purple — and a **cut, worked** cell higher still, at the cost of capacity (above).
 Working a crystal is guild craft; the scribers sit at the center of the trade.
 
+**Sealed vessels — slowing the bleed.** Nothing stops shelf leakage, but a *safir kap* (sapphire vessel)
+cuts it ~**15×**, and it is the only way anyone holds crystal wealth across years. Four materials, four
+jobs:
+
+- **Sapphire grit** in the cast glass wall is the **insulator** — mana seeps along grain boundaries and
+  cracks, and flawless corundum has neither. One flaw and the vessel leaks along it.
+- **An unbroken Bornmülleriana ring** in a groove against the stone is the **return path**. Resin
+  conducts, so a loose strip would *drain* the cell; closed on itself it carries what seeps out around
+  and back by contact ([§6](#6-the-three-laws)) instead of letting it reach open air and neutralize
+  ([§1](#1-what-mana-is)).
+- **Spent crystal powder** in the glass holds the groove's edge — geometry, never charge
+  ([§9](#9-magical-circuit)).
+- **Gold dust** in the seam keeps it chemically dead. A corroded joint is a flaw, a flaw is a leak, and
+  a vessel lives exactly as long as its seam.
+
+**Rates:** waxed box ~3%/month, merchant's chip-lined jar ~1%, guild vessel ~**0.2%** — a hoard that
+halved in two years now halves in thirty. Built like kozak, inside a sealed chamber (resin dies in open
+air), so only Well-adjacent guilds make them: a second lever in the hands that already hold the ink.
+
+**Broken is worse than none.** One crack, one break in the ring, one corroded joint, and the resin stops
+returning mana and conducts it out instead — a treasury emptied quietly over months with nothing to see.
+A resealed vessel looks identical to a sound one, so assay houses certify vessels as well as stones. The
+ring also closes only when the lid is seated, so a stone in daily use bleeds like any other: this is a
+vault, not a housing.
+
+**Never a charger.** It slows a bleed, adds no Wh, and does not let anyone fill a stone
+([§11](#11-sharing--combining-mana)). Crystals stay single-use and the trade still runs on extraction.
+
 **The economy — coin and fuel.**
 
 - **Currency.** 100 **bronze** (*tunç*) = 1 **silver** (*gümüş*); 10 silver = 1 **gold** (*altın*);

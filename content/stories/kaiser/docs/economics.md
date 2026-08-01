@@ -311,6 +311,10 @@ famine, debt, and unrest live.
 | Riding lizard (mount) | 60 gold |
 | Blood-wolf pup (rare, restricted) | 20 gold |
 
+A pup outprices the 15-gold stone a grown blood-wolf drops, and will never grow one in captivity: that
+needs years inside a Well ([§19](power-system.md#19-creatures)). Status and guard animal only; sold as
+an investment it is a fraud.
+
 ## Cloth & textiles
 
 | Item | Price |
@@ -497,10 +501,14 @@ famine, debt, and unrest live.
 
 | Item | Price |
 |------|-------|
+| Spent crystal, dead cell (each) | under 1 br — not sold singly |
 | Reagent, common herbs (bundle) | 5 br |
 | Wound salve | 10 br |
+| Spent crystal grit, unsieved (kg) | 10 br |
 | Healing potion, minor | 30 br |
-| Antidote | 40 br |
+| Spent crystal powder, sieved workshop grade (kg) | 30 br |
+| Antidote, common venoms | 40 br |
+| Spent crystal, collector's sack (~5 kg) | 50 br |
 | Blue crystal, 5 cm³ (1 kWh) | 1 silver |
 | Blue crystal, 25 cm³ (5 kWh) | 5 silver |
 | Purple crystal (per kWh) | 5 silver |
@@ -517,27 +525,67 @@ Purple crystal prices above are **energy-only base prices**. The sale certificat
 output (kW), estimated remaining charge, monthly leakage grade, and circuit quality; high-output
 stones earn an additional power premium. A half-spent nameplate is not sold as a full stone.
 
+**Spent crystal.** A dead cell is black and brittle and crumbles under a knife; ground and sieved it is
+the neutral powder in **mana-ink** — geometry, never charge ([§9](power-system.md#9-magical-circuit)).
+One 5 cm³ cell is ~15 g and worth **less than a bronze**, so nobody sells one: households jar them,
+collectors buy by the sack, and sieving is the value added (10 br/kg crumbs → 30 br/kg workshop grade).
+Blue crumbs and purple crumbs sell alike; spent is spent. A 2-gold ink vial holds under 2 br of powder —
+**kozak, not crystal, is the bottleneck.**
+
+**Three prices that look wrong.** The **mana potion (2 gold)** costs what 20 kWh of crystal costs while a
+person's whole reserve is 0.01 kWh, because crystal mana cannot enter a person
+([§11](power-system.md#11-sharing--combining-mana)): bought energy and a caster's own reserve are
+non-convertible currencies, and the potion is the only bridge. A **healer visit (3 silver)** beats a
+specialist's whole commissioned day because the heal spends the healer's reserve, which takes a day to
+refill; a master's full day closes ~**70 g** of tissue ([§14](power-system.md#medical)). **Mana-well
+water (5 gold)** is the trade's standing fraud — loose mana disperses in open air
+([§1](power-system.md#1-what-mana-is)), so the flask holds water, and since mana is unmeasurable nobody
+can disprove it. The 40-br antidote covers common venoms only; a counter to a restricted poison is
+compounded to order and priced near it.
+
 ## Magic devices (scribed)
 
 | Item | Price |
 |------|-------|
 | Hand-lamp (small) | 1 gold |
-| Heater-stone | 8 gold |
 | House-lamp (scribed) | 2 gold |
+| Storage box, waxed & varnished (~3%/mo) | 2 gold |
+| Heater-stone | 8 gold |
 | Night-lens (infrared) | 12 gold |
 | Cook-stove (scribed) | 15 gold |
 | Illusion-projector | 15 gold |
 | Golem, small (worker) | 20 gold |
+| Merchant's jar, sapphire-chip lined (~1%/mo) | 25 gold |
 | Water-pump (mana) | 25 gold |
 | Ward-stone (gate) | 30 gold |
 | Mill-engine (mana) | 40 gold |
 | Ice-box (compressor, Kaiser-tier) | 50 gold |
-| Golem, war | 2 platinum |
+| Sealed vessel, single stone (*safir kap*, ~0.2%/mo) | 100 gold |
+| Vault case, six stones | 5 platinum |
+| Golem, war | 20 platinum |
 
 Device prices exclude fuel. A vial of mana-ink and a matched substrate plate are workshop bulk units,
 not one-device bills: a careful scriber gets several small circuits from each. State the yield when a
 scene prices manufacturing, so a 1-gold hand-lamp cannot appear to contain an entire 2-gold ink vial
 and 3-gold plate.
+
+**Storage is a rich man's option.** A sealed vessel ([§18](power-system.md#18-storage-crystals--the-mana-economy))
+saves ~2.8% of the charge a month, so a 100-gold *safir kap* only pays if it holds roughly **300 gold of
+crystal standing still for a year**. A floor household never sees 300 gold and has nothing to seal: it
+buys one stone and burns it. Merchants, guilds, and treasuries hold crystal across years; everyone else
+across weeks. **Energy is a consumable for most people because they cannot afford to store it.**
+Vessel-houses rent the difference — seal a stone, charge by the month, hand back a sealed receipt
+(whether those receipts circulate as paper is left open). The matching crime is one scratch across a
+resin ring: months of invisible loss that reads as ordinary age.
+
+**Fuel, not capital, is why the world is not paved with golems.** A 20-gold worker golem is under two
+years of a laborer's wage; the gate is the bill after. A one-joint grinder matching a hand-miller's
+~40 W burns roughly **1 kWh a day**, about **1 silver against a laborer's 10 br** — and the same
+arithmetic sinks the mill-engine beside a water wheel. Golems buy what a man cannot give: no fatigue, no
+wage dispute, no theft, one rate all day, and work in the dark, the mine, or the poison room. A **war
+golem** carries ~1000× a grinder's coordination bill ([§13](power-system.md#animation)), needs kilowatt
+purple, and at ~2 kW runs **about 1 gold an hour** — a soldier's month per hour of battle. That, not the
+price, is why armies are made of men.
 
 ## Services & wages
 
@@ -652,18 +700,21 @@ Poor to rich. **Hire** rents the master's hands; **the shop** is the owner's mar
 | Giant mushroom cap (edible) | 4 br |
 | Walking-mushroom spore (pouch) | 8 br |
 | Slime acid (vial) | 30 br |
-| Mana-well water (flask) | 5 gold |
 | Slime core (rare) | 2 gold |
-| Troll blood (regenerative reagent) | 3 gold |
-| Dragon tooth | 5 gold |
 | Blood-wolf pelt | 3 gold |
+| Troll blood (regenerative reagent) | 3 gold |
+| Mana-well water (flask) | 5 gold |
+| Wyvern venom (vial) | 8 gold |
 | Griffin feather | 10 gold |
 | Dragon scale (each) | 20 gold |
+| Dragon tooth | 30 gold |
 | Basilisk eye (petrification reagent) | 50 gold |
-| Wyvern venom (vial) | 8 gold |
-| Dragon crystal | ~19 platinum |
 | Phoenix ash (rare) | 5 platinum |
+| Dragon crystal | ~19 platinum |
 | Unicorn horn (legendary) | 50 platinum |
+
+Thousands of scales, a few dozen teeth — so a tooth outprices a scale. A slime keeps yielding acid, so
+the 3-gold "novelty" is slow livestock: ten vials and it has paid for itself.
 
 ---
 

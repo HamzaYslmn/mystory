@@ -209,3 +209,6 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# agy edit keeps the previous version next to the file
+*.bak
