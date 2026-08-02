@@ -28,11 +28,12 @@ at nothing and kill him with it. No mentor, no bond, no violent death.
   before explanation; a distant cold light is the first external question.
 - [Ch4 — Kovuk](../chapters/chapter4.mdx): two days under the wagon, recovery as an engineering
   problem. His unworn hands and the foreign cargo open mysteries without solving any.
-- [Ch5 — Ölü Bileşen](../chapters/chapter5.mdx): he reads the caravan as a targeted attack and takes
-  apart a crystal lantern. A dim cell and a spent one give him his first testable model.
+- [Ch5 — Ölü Bileşen](../chapters/chapter5.mdx): he stands for the first time in three days and the
+  wrecked caravan opens up fifty metres ahead. He reads it as a targeted attack and takes apart a
+  crystal lantern. A dim cell and a spent one give him his first testable model.
 
-**Exit state.** He can walk but is not healed. He carries salvaged food, cloth, rope, knives, coins,
-boots, one dim blue crystal, its lantern frame, and a damaged comparison housing. He knows the
+**Exit state.** He can walk on a cut prop but is not healed. He carries salvaged food, cloth, rope,
+knives, coins, boots, one dim blue crystal, its lantern frame, and a damaged comparison housing. He knows the
 crystal holds a finite store. He does not know mana, casting, the caravan's target, or the watcher.
 
 ## Open threads

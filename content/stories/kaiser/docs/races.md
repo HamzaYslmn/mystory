@@ -104,8 +104,10 @@ immortal individual balance sheet.
   on each cultivated valley than any other people. A war's losses are a generation, not a century
 - Mana: humans are farmers with no one to teach them, so magic mostly goes unlearned — only about
   **one in five** ever picks it up, usually a trick or two off a **wandering mage** passing through:
-  starting a fire, a few heartbeats of light. Those dabblers carry the human **base ~10 Wh** and output
-  about as much (~1×, ~10 W). A properly trained caster reaches 20–30 Wh, a master 50–100 — the trained
+  starting a fire, or a candle's worth of light. Those dabblers carry the human **base ~10 Wh** and
+  output about as much (~1×, ~10 W); throttled to a **1 W trickle** that reserve gives **ten hours** of
+  candle-bright light — but it holds his attention the whole time
+  ([§7](power-system.md#7-unstructured-casting)), which is why tallow candles still sell. A properly trained caster reaches 20–30 Wh, a master 50–100 — the trained
   few who actually matter. And once in a generation a human is a **universal engineer** at ~**100 Wh**,
   the equal of a dwarf master at the workbench — never more than a handful alive
 - Signature: **arrow-acceleration and body-enhancement** in war; **engineering** in craft. No single

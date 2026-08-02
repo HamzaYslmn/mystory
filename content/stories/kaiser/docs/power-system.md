@@ -195,6 +195,10 @@ circuit they scribe (that still caps ~80%). See [Peoples](races.md).
 - **Who:** everyone who can feel mana; no schooling needed. The magic of daily life — kindling,
   house-lights, warming a pot.
 - **Efficiency:** ~1% first try, ~5–10% with practice, ceiling ~**20%**. The rest spills as raw mana.
+- **It holds you while it runs.** A sustained effect — light, a warmed pot — takes the caster's
+  attention for as long as it lasts and stops when that attention drops. A villager can light his own
+  evening off a 1 W trickle, but not while doing anything else; that is why tallow candles still sell
+  ([Peoples](races.md)).
 - **In a scene:** instant, casual, wasteful. An angry amateur empties himself in moments and barely
   marks a door.
 
@@ -615,6 +619,14 @@ crystal is measured in **kilowatt-hours**.
 **Size sets both.** A crystal's **output rises with its surface area**, its **capacity with its
 volume** — so a bigger stone gives both more current and more charge, a simple *big stone, big power*
 logic. A blood-wolf's fist-sized purple stone puts out ~2 kW; a dragon's is a boulder, and a fortune.
+
+**Full output to the end; the stone darkens as it goes.** A cell delivers its **rated output** until it
+dies — the last hour drives a circuit as hard as the first, then it stops. What changes is the crystal
+itself: as the charge drains it **darkens**, clear blue through smoke to the black brittle husk of a
+spent cell. In a lamp the light passes *through* the stone, so a half-spent cell visibly dims while its
+circuit still runs at full power — the light fails, the heater beside it does not. The darkening is the
+trade's only free gauge: good enough to haggle by, far too crude to certify, which is why assay houses
+stay in business and why polished or back-lit stones are a standing fraud.
 
 **Cutting trades charge for output.** Faceting a stone opens more surface, so a cut cell throws **more
 power** than the whole lump did — but the working spills part of the stored charge, so you buy the higher
