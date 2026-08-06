@@ -1,44 +1,192 @@
-# MyStory Agent Protocol & MDX Conventions
+# Kaiser — writing rules
 
-This document serves as a standard ruleset for any developers or AI agents interacting with my personal storytelling platform. It explains the core rendering logic, MDX syntax, and folder structuring necessary to maintain my ecosystem.
+**The story is the point. When a rule below fights readability, readability wins.**
 
-## 0. READ RULES FIRST, before editing or writing any content.
+Chapters are written in Turkish from the start, never drafted in English and translated. Chapter
+files live in `content/stories/kaiser/chapters/`; the story wiki in
+`content/stories/kaiser/docs/` stays in English.
 
-Rules path: `content/stories/kisho/docs/rules.md`
+Each rule lives in exactly one section:
 
-## 1. Architecture: Books & Chapters
+| Section | Covers |
+|---|---|
+| Register | which chapters are finished, how new ones are drafted |
+| Voice | how a sentence sounds; tense and repetition |
+| Turkish, not translated Turkish | judgement calls that separate native prose from translation |
+| Yazım denetimi | checkable orthography and punctuation |
+| Story architecture | plot, consistency, what the arc may not do |
+| Chapter files | source formatting, Kısa Notlar, cover art |
+| Fixed motifs | canon that never changes |
 
-The system operates strictly on a hierarchical **Books and Pages** approach located at `content/stories/`.
+## Register
 
-- **Books (Folders):** Every subfolder inside the `content/stories/` directory acts as a discrete "Book".
-  - The folder's name acts as the system's `bookSlug` (e.g., `the-wizard-of-oz`).
-  - The platform automatically formats this slug into a readable title ("The Wizard Of Oz") for the Library UI.
-- **Chapters Subfolder:** Finished `.mdx` chapter files live inside a `chapters/` subfolder of each book (e.g., `content/stories/kisho/chapters/chapter1.mdx`).
-  - The file name acts as the `pageSlug` (e.g., `chapter1.mdx` -> `chapter1`).
-  - The system recursively scans book folders for `.mdx` files, skipping `docs/`, `library/`, and `assets/` directories.
-  - Prefixing file names with logical numbers enables natural sorting for the Table of Contents & Pagination.
+| Chapters | Register | Model to match |
+|---|---|---|
+| 1-2 | **Finished prose.** Full scenes, dialogue, paragraph breaks, no scene numbers. | Ch1 |
+| 3 onward | **Scene-by-scene draft.** Condensed running prose, numbered `1 - `, `2 - `. | Ch4 |
 
-## 2. Frontmatter Properties
+Draft mode is real Turkish prose, not an outline: full sentences, present tense, third person,
+plain words, clauses running together with commas where finished prose would separate them.
+**Condensed, not thinned** — every concrete specific stays: the tool, the wound, the number, the
+object he notices. What you skip is the craft pass, so no hunting for rhythm and no engineered
+refrains. Chapters 3-5 are drafts awaiting polish; do not treat their compression as the house
+standard. Polish a chapter to finished prose only when asked for that chapter.
 
-All `.mdx` content files MUST begin with a YAML Frontmatter block delineated by triple dashes (`---`). The parser does not use `gray-matter`, but instead relies on a lightweight browser-safe regex implementation inside `utils/markdown.ts`.
+## Voice
 
-### Core Properties
+- **Plain and direct.** Short sentences, mostly one idea each. Everyday words a tired reader gets
+  on the first pass. State what happens, then stop; let cause lead into consequence.
+- **No epic register.** Carry emotion through action and consequence, never through adjectives.
+  State even the strange and enormous matter-of-factly. Weight comes from what happens.
+- **A single blunt sentence on its own line** can land a beat. Use it sparingly or it stops working.
+- **Specificity is not ornament.** Keep the tool, the wound, the number, the exact object, the
+  reasoning step. Cut adjectives, metaphors and mood-painting. "Minimal description" means no
+  decoration, not no detail.
+- **Show the vast by a glimpse.** One clear impression, then stop. Never catalogue to prove scale.
+  This applies to spectacle, not to work: technical sequences earn their length.
+- **Never praise the character.** No "gifted", no "master". The reader judges from what he does.
+- **Point of view.** Stay inside Kaiser's experience: what he senses and works out right now. The
+  narrator's wider, explaining voice steps forward only for the world or its metaphysics (as in
+  Ch3), then recedes.
+- **Tense.** Geniş zaman is the spine (*durur, bakar, ölçer*). Use *-yor* only for a genuinely
+  in-the-moment action. Past tense (*-di* / *-mış*) is for backstory told as backstory; keep the
+  present-tense frame around it and never flip a whole beat while polishing.
+- **Repetition.** Cut accidental repetition ruthlessly on every pass, including when you are only
+  reading: the same word twice within a few lines, a doubled image, a repeated sentence shape.
+  A refrain returns only when it means more than the first time; at its best something first read
+  as ordinary later pays off as literal. If a repeat doesn't deepen, it's an accident.
 
-```yaml
----
-title: "Chapter 1: An Expected Journey"
-cover: "url_to_image"
----
-```
+## Turkish, not translated Turkish
 
-## 3. Yerelleştirme (Localization):
+**Scope: every Turkish sentence, not only chapters.** Chat replies, reports and design summaries
+are held to the same standard. Compose the sentence in Turkish first; never build an English
+skeleton and fill it with Turkish words.
 
-- **Yerelleştirme (Localization):** Sadece dil çevirisi yapmakla kalmayıp, içeriği hedef kitlenin kültürüne, geleneklerine, deyimlerine ve günlük alışkanlıklarına (örneğin ölçü birimleri, mizah, kültürel referanslar) uygun hale getirme işlemidir. İçeriğin o kültüre aitmiş gibi doğal hissettirmesini sağlar.
+- **The book test.** Ask of every sentence: would this appear in a book originally written in
+  Turkish? If not, rebuild it in native word order.
+- **Every sentence needs a verb.** No headless fragments: *Sistemin belkemiğinde bir ölçek farkı.*
+  → *Sistemin altında bir ölçek farkı yatar.* A colon does not license dropping the predicate, and
+  a bolded lead-in is still a sentence.
+- **No English rhythm.** Do not chain short punchy sentences for effect, do not open with *Ve* /
+  *Ama* as a beat, and cut translated connectives (*tam olarak*, *işte bu*, *şurada başlar*).
+  Turkish binds clauses instead: *çünkü, ne var ki, oysa, dolayısıyla, üstelik, ancak*.
+- **No calqued idiom.** An English figure has no Turkish stock behind it: *birkaç kalp atımı* is
+  not Turkish. Write *birkaç saniye*, or rebuild the sentence.
+- **Two killers.** (1) **Personification** — *ateşin ne istediğini bilir*, *acı bacağını kilitler*,
+  *yorgunluk üzerine kapanır*. (2) **Invented metaphor** Turkish has no stock for — *kapıları
+  sökülmüş bir bina gibidir*. Say the thing plainly instead.
+- **Say it once, short.** Never stretch one idea across two clauses.
+- **Kısa ve öz.** Open squeezed noun-phrases nobody would say (*on dakikalık işe muhtaç bir lamba*
+  → *on dakikada tamir edebileceği bir lamba*). Cut an idea explained across four sentences down to
+  the line that lands, then stop.
+- **Hunt translationese.** Rebuild heavy nominal chains (*…olmasının sebebi …olmasıdır*), English
+  "whether or not" as *…olup olmadığını*, demonstratives (*bu / şu / o*) with no clear referent,
+  and causatives forced where a simple verb fits.
+- **Real idioms where they land** — *taş kesilmek, sırra kadem basmak, tabana kuvvet, beş para
+  etmemek*. Never shoehorn one; a plain sentence beats a forced idiom.
+- **No aphorisms.** Never write a neat, balanced, quotable line stating a general truth (*Yazılım
+  yanılabilir. Zincir yanılmaz.*). It reads as the author speaking through the character and
+  restates what the scene already showed. Never use the device that sets one up either, such as
+  the character writing a phrase on paper. State the reasoning plainly about *this* machine and
+  *this* moment.
+- **Write the event, not its absence.** A sentence must carry what happens, what a thing is, what
+  he sees. *Eşikten hemen dışarı atlamaz* → *Eşiğe kadar sürünüp orada bekler*. *Başka ses yoktur*
+  → *Duyduğu her ses bu ikisinden birine çıkar*. *Karar veremez* → *Üçü de bu izle uyuşur*. Keep
+  a negation only where the missing thing is itself the fact he acts on.
+- **Revise by rebuilding.** Rewrite a weak sentence from scratch to say plainly what happens. Never
+  patch it by adding what it isn't ("no box to drop off", "no pretense of a repair").
+- **When in doubt, cut.**
 
-## 4. Resim Çizme Kuralları (Image Generation Rules)
+## Yazım denetimi
 
-- **Karakter Çizmeme Kuralı (No Characters/Humans):** Bölüm kapakları veya diğer görseller üretilirken kesinlikle hikaye karakterleri, insanlar veya insan siluetleri çizilmemelidir.
-- **Ortam ve Atmosfer Odaklılık (Ambient & Environment Focus):** Çizimler tamamen ambient (ortam), manzara, mekan ve atmosfer odaklı olmalıdır. Hikayenin o anki duygu durumunu ve çevresel detaylarını yansıtmalıdır.
+The rules above are judgement calls; these are checkable. Run this pass over every Turkish text
+before handing it over. Sources (TDK-based): [Vikipedi Türkçe yazım
+kuralları](https://tr.wikipedia.org/wiki/Vikipedi:T%C3%BCrk%C3%A7e_yaz%C4%B1m_kurallar%C4%B1),
+[İmla](https://tr.wikipedia.org/wiki/%C4%B0mla),
+[Dilbilgisi](https://tr.wikipedia.org/wiki/Dilbilgisi),
+[Anlatım bozukluğu](https://tr.wikipedia.org/wiki/Anlat%C4%B1m_bozuklu%C4%9Fu).
 
-## 5. Dil ve İletişim (Language & Communication)
-- **Sadece Türkçe:** Tüm iletişim, düşünce süreçleri, içerik üretimi ve notlar yalnızca Türkçe olarak yürütülecektir.
+- **Emphasis is position, not wording.** The stressed element sits immediately before the verb:
+  *Lambayı çırak tamir eder* stresses the apprentice, *Çırak lambayı tamir eder* is neutral. Move
+  the word instead of reaching for *özellikle*, *gerçekten* or italics. The verb closes the
+  sentence; a devrik cümle is a spoken-register effect, so use it rarely and never twice in a row.
+- **Kesme işareti.** Özel ada gelen çekim ekleri ayrılır: *Kaiser'in, Anakara'da, 1985'te,
+  TDK'den*. Yapım eki, çokluk eki ve bunlardan sonrası bitişiktir: *Anakaralı, Anakaralılar,
+  Kaiserler, Türkçülük*. Kurum adına gelen ek de bitişiktir: *Kâhya Ocağına*. Uydurulan cins
+  isimler kesme almaz: *lonca ustasına*, asla *lonca ustası'na*.
+- **de/da, ki, mı.** Bağlaç olan *de/da* ayrı yazılır ve sertleşmez: *Ahmet de geldi*, asla
+  *Ahmet te*. Cümleden atıldığında anlam bozulmuyorsa bağlaçtır. Bağlaç *ki* ayrıdır (*demek ki*),
+  kalıplaşmışları bitişiktir (*belki, çünkü, hâlbuki, mademki, oysaki, sanki*). Soru eki her zaman
+  ayrıdır, sonraki ekler ona bitişir: *bakar mısın, gördü mü ki*.
+- **Sayılar.** Anlatıda yazıyla: *on dört gün, üç bin adım, ikinci kat*. Rakam yalnızca ölçü,
+  saat, para ve teknik değer için: *25 kilogram, 17.30'da, 12 gümüş*. Ondalık virgülle (*38,6*),
+  binlik noktayla (*1.500*), yüzde bitişik (*%25*).
+- **Virgül.** *ve / veya / ile* önünde virgül konmaz, şart ekinden sonra konmaz. Yanlış okunacak
+  öznenin ardına konur: *Genç, adama baktı*. İçinde virgül bulunan sıralamayı noktalı virgül ayırır.
+- **Şapka yalnız ayırt ettiği yerde.** *hâlâ, kâr, âdet, kâğıt, hükûmet, mahkûm*; nispet ekinde
+  *millî, resmî, dinî*. Karışıklık doğmuyorsa yazılmaz: *tarih, layık, kar*.
+- **Bitişik/ayrı tuzakları.** Bitişik: *hiçbir, birçok, birkaç, herhangi, hiçbiri*. Ayrı: *bir şey,
+  her şey, hiç kimse, bir sürü*. Yardımcı fiil ayrıdır (*kabul etmek, tamir etmek*), ses düşmesi
+  varsa bitişiktir (*kaybolmak, sabretmek, affetmek*). Tasvir fiilleri bitişiktir (*tamir
+  edebilir, uyuyakalır, alıverir*).
+- **Anlatım bozukluğu.** Eş anlamlı ikili kurma: *yaklaşık üç saat kadar*, *geri iade*. Cansız ya
+  da soyut çoğul özne tekil yüklem alır: *Kıvılcımlar söner*, asla *sönerler*. Ortak ögeli sıralı
+  cümlede eksik tümleci tamamla, aynı cümlede etken ile edilgeni karıştırma, iyeliği belirsiz
+  bırakma (*onun kardeşini gördü*: kimin kardeşi?).
+- **Spelling.** *doküman*, never *döküman*; prefer *belge*.
+- **No em dash (—) in Turkish prose.** Use a comma, semicolon, colon, parentheses, or rebuild the
+  sentence. English docs may still use them.
+- **Dialogue takes double quotes** (`"..."`), the convention Ch1 set. TDK also allows the konuşma
+  çizgisi at line start; the book does not use it.
+
+## Story architecture
+
+- **Consistency is non-negotiable.** A character cannot act on something they were never told or
+  shown. When you revise one chapter, re-check the others and the docs: names, timeline,
+  who-knows-what, chapter numbers.
+- **Information drives suspense.** Track what happened, what Kaiser believes, what the reader can
+  infer, and what an institution records. Wrong conclusions must be intelligent responses to
+  limited evidence.
+- **Every substantial scene leaves residue:** a cost, clue, debt, obligation, reputation or false
+  belief that outlasts it.
+- **Prove competence before measuring danger.** Establish that someone knows their field; their
+  precise failed assumption then reveals the scale of the problem.
+- **Power through restraint.** Prefer preparation, verification and the option not taken over
+  declarations of strength. Kaiser has technical leverage, not invulnerability.
+- **Worldbuilding enters through work** — repair, food, wages, travel, law, checkpoints, injury,
+  failed tests. A quiet routine must build attachment, hierarchy or the next conflict.
+- **Recontextualize.** A later reveal should change the meaning of an earlier repair, gift or
+  threat. Do not rely on louder enemies.
+- **Violence follows decisions.** Establish objective, terrain, false assumption and retreat
+  condition. Afterward count wounds, tools, witnesses, law and belief.
+- **Humor and dread share a world.** Build it from incompatible priorities or the gap between
+  Kaiser's public image and his private calculation. Never make injury slapstick or locals stupid
+  to flatter him.
+- **The old world gets one chapter.** Ch1 carries the city, the proof of competence and Kaiser's
+  death. Do not add a second Anakara chapter; the reader does not need the cyberpunk world in
+  depth and it delays the isekai.
+
+## Chapter files
+
+- **Wrap chapter source lines at ~92 characters.** Source formatting only; do not change wording,
+  paragraph breaks or frontmatter.
+- **Kısa Notlar.** Mark the first occurrence of a technical, anatomical or world-specific term with
+  a superscript (`¹`, `²`, `³`). At the chapter end add `---`, `### Kısa Notlar`, and a numbered
+  list of one-sentence definitions. Never annotate ordinary vocabulary, repeat a note, or explain
+  a mystery the story hasn't earned.
+- **Covers** live in `content/stories/kaiser/assets/chapter-N.png`, referenced from frontmatter as
+  `/assets/chapter-N.png`. Generate them with `.claude/skills/agy/SKILL.md`.
+- **No characters on a cover, ever.** No people, no figures, no faces, not even distant or
+  silhouetted. Kaiser is never drawn. Places, weather, wreckage, objects and machines only.
+- **One subject per cover**, and it must be something the chapter actually contains. A cover that
+  invents a detail (magic lightning on a cart wheel) contradicts the prose.
+- **House look:** muted desaturated palette, cinematic painterly illustration, dramatic natural
+  light, square 1:1. The covers must read as one set. No text and no readable signage in the
+  image; Anakara is not an English-speaking city.
+
+## Fixed motifs
+
+- Kaiser's signature gesture is **two fingers to the forehead** before he solves something. The
+  gesture survives his death and memory loss; its origin does not.
+- **Arc 1 runs on worth, not on a bond.** There is no mentor and no loved one in the old world. Do
+  not add an old-world attachment.

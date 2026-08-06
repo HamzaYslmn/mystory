@@ -564,6 +564,15 @@ compounded to order and priced near it.
 | Vault case, six stones | 5 platinum |
 | Golem, war | 20 platinum |
 
+**The price buys efficiency, not the object.** Two lamps look alike and both light; one burns a
+crystal a month, the other forty ([§9](power-system.md#9-magical-circuit)). Nobody can tell them
+apart on the bench, because mana cannot be measured — so the buyer is really paying for the **maker's
+stamp**, and the guild that owns the stamp prices accordingly. The one honest clue is **how much ink
+the pattern stands in**, since fine work needs volume; a trader who has opened enough housings can
+say a thin pattern is not a 60% pattern, but never that a thick one is. Unstamped work sells at a
+fraction and is usually worth less than that. Forging a stamp is the most profitable crime in the
+trade, which is why the assay houses that certify stones certify workshops too.
+
 Device prices exclude fuel. A vial of mana-ink and a matched substrate plate are workshop bulk units,
 not one-device bills: a careful scriber gets several small circuits from each. State the yield when a
 scene prices manufacturing, so a 1-gold hand-lamp cannot appear to contain an entire 2-gold ink vial

@@ -1,14 +1,19 @@
 # Bestiary
 
-The creature roster. Rules live in [Power System §19](power-system.md#19-creatures): most creatures
-carry no crystal and can't cast; a crystal-bearer has one **physical-enhancement**, its efficiency set
-by the beast's wit — a brute manages ~1%, and only the rare **intelligent** beast shapes like a mage
-(~50%) and may hold more than one trick — and its **single-use purple crystal** pays the bill, so hard
-fighting drains the stone and leaves it cheaper. The strongest gather at the Wells.
+The creature roster, ordered by size class. Rules live in
+[Power System §19](power-system.md#19-creatures): most creatures carry no crystal and can't cast; a
+crystal-bearer has one **physical-enhancement**, its efficiency set by the beast's wit — a brute
+manages ~1%, and only the rare **intelligent** beast shapes like a mage (~50%) and may hold more than
+one trick — and its **single-use purple crystal** pays the bill, so hard fighting drains the stone and
+leaves it cheaper. The strongest gather at the Wells.
 
 **Size classes.** Every beast is one of five: **tiny · small · medium · large · huge**. A sixth tag,
 **Special**, marks the rare legendary one-offs that break the ordinary rules (a dragon shapes many
-disciplines at once); only a handful exist in the world.
+disciplines at once); only a handful exist in the world, and they sit inside their size class here:
+[Unicorn](#unicorn) (medium), [Phoenix](#phoenix) (large), [Dragon](#dragon) (huge).
+
+Two sections fall outside the size order because they describe a category rather than a beast:
+[Well-warped beasts](#well-warped-beasts) and [Tamed & mundane beasts](#tamed--mundane-beasts).
 
 Fields below — **Size** on every entry, and some add a **Numbers** line for the beast's signature feat.
 
@@ -19,19 +24,22 @@ Fields below — **Size** on every entry, and some add a **Numbers** line for th
 - Magic: its one instinctive effect, if any
 - Danger: how much of a threat
 
-## Dragon
+# Tiny
 
-- What: 20-ton apex predator, the largest crystal-bearer known
-- Size: **huge · Special** — only a handful exist; the rules bend for it
-- Habitat: Mana Wells
-- Crystal: **purple**, ~**100 kW** output and ~**3.8 MWh** — largest in the world, worth ~**19 platinum**, a fortune in one stone
-- Magic: **soaring flight**, a **chemical fire breath**, and a **melt-aura**; also cold, lightning, or poison gas (Projection, thrown at the world, never into a body)
-- Danger: catastrophic, a matter for armies
-- Numbers (dragons are **intelligent — ~50% efficient**, not a brute's 1%):
-  - **Flight — soaring.** It rides thermals and only supplements with flaps, so its crystal's ~**100 kW** carries it: a 20-min flight burns ~**33 kWh**. Brute powered flight would cost ~10× more — a dragon glides. **Takeoff is the catch**: heaving 20 tons airborne needs a burst it can't draw at once, so it **winds up ~2 min** first. A grounded dragon is briefly vulnerable.
-  - **Fire — chemical, not mana.** It sprays ~0.5 kg of a **gasoline-like body fluid** that burns in **open-air oxygen** → ~**22 MJ** of flame. Mana only **forces air into the mouth** and sharpens the burn (~**26 kJ**, near-free). The limit is the small **fuel sac** (~5 breaths), refilled slowly by the body, not the crystal.
-  - **Melt-aura — the mana-hungry feat.** Raising its surroundings to thousands of degrees is pure mana-heat, and radiation punishes it (σT⁴): ~**1 MW/m² of mana at 1500 °C, ~7 MW/m² at 2500 °C**. Far above its 100 kW output, so only **brief bursts** or **small contact** — it dumps its buffer to melt through a wall, and can't hold it. This is where a dragon truly burns mana.
-  - Cold ~4 kWh, lightning ~3 kWh, poison gas near-free.
+## White Starling (*Beyaz Sığırcık*)
+
+- What: a small white bird of the **Sky Islands**, named for the flocks that keep the floating isles swept
+  clean
+- Size: **tiny**
+- Habitat: the [Sky Islands](world-map.md), chiefly the smaller isles
+- Crystal: none
+- Magic: none — its trick is pure instinct, not a cast: it drags or shoves every foreign object it finds off
+  the edge, back down to the ground
+- Danger: none to a traveler. Its work is for the isle, not the road: by hurling away seeds, sticks, and
+  carrion before anything heavy can root, the flock keeps its islet light enough to stay **aloft** — and
+  swept as flat as open steppe
+
+# Small
 
 ## Slime
 
@@ -51,6 +59,31 @@ Fields below — **Size** on every entry, and some add a **Numbers** line for th
 - Magic: usually none; a rare crystal-bearer gets one enhancement, a hard cap or a speed burst
 - Danger: low alone, dangerous as a swarm and for its poisonous spore cloud
 
+## Giant Spider
+
+- What: a **cat-sized** hunting spider, the **bane of caves** — web, ambush, and venom
+- Size: **small**
+- Habitat: caves, ruins, deep cellars, any dark hollow
+- Crystal: none
+- Magic: none; the **venom is chemistry, not a cast** ([§6](power-system.md#6-the-three-laws)) — a bite
+  that numbs and rots
+- Danger: low singly, but they nest in **numbers** and string a cave with web; a swarm in the dark takes
+  travelers one at a time
+
+## Goblin
+
+- What: a small, cunning scavenger that lives **far from the settled peoples** and **uses whatever tools
+  it finds** — scrap blades, cast-off armor, stolen gear
+- Size: **small** (the **hobgoblin** strain runs **medium**)
+- Habitat: caves, ruins, deep woods, the edges of civilization
+- Crystal: usually none
+- Magic: most cast nothing; but the larger **hobgoblins** sometimes wield a crude **muscle-boost** (bodily
+  enhancement), enough to make a hobgoblin war-leader dangerous
+- Danger: negligible one at a time, real in a **pack** — goblins raid in numbers with what they've looted,
+  and a hobgoblin at their head turns a rabble into a threat
+
+# Medium
+
 ## Blood-Wolf (*Kanlı Kurt*)
 
 - What: 100 kg pack predator, red mane
@@ -65,6 +98,65 @@ Fields below — **Size** on every entry, and some add a **Numbers** line for th
   tax, wounded shares, and deaths come out before profit ([Economics](economics.md)). Hunters are paid
   by expedition share and bounty, not a year-round 8-silver wage. One wolf barely covers a serious
   party's risk; the pack is the point.
+
+## Basilisk
+
+- What: a cave-serpent whose fabled *petrifying gaze* is a myth — the real weapon is a **calcifying venom**
+- Size: **medium**
+- Habitat: caves, ruins, old tombs
+- Crystal: small or none
+- Magic: at most one enhancement (a snake-quick strike, a stone-hard hide); the venom is **chemistry, not a cast** — a living body is closed to magic ([§6](power-system.md#6-the-three-laws)), so a bite hardens flesh to stone over minutes by its own poison
+- Danger: slow but lethal up close; its **eye** is the alchemist's petrification reagent (~50 gold)
+
+## Giant Mountain Goat
+
+- What: a **200 kg** slope-dweller with a battering skull, mana-touched from grazing near mountain Wells
+- Size: **medium**
+- Habitat: high crags and mountain slopes, often within reach of a Well
+- Crystal: **purple**, small (~a few kWh)
+- Magic: one trick — an **impact-charge** (bodily enhancement, fuelled by its crystal): it buffers the
+  stone and dumps it into a headbutt on contact, so a downhill charge lands like a maul — enough to
+  **shatter a shield or a leg**. A handful of enhanced charges, then it butts like an ordinary goat until
+  the stone recovers
+- Danger: high on a narrow ledge, where its charge has room and you do not; sure-footed where you slip
+
+## Hortlak (Revenant)
+
+- What: a **brain-dead corpse still walking**. Where a person dies in mana-rich ground — a battlefield, a
+  Well's fringe — death releases the body's spin-lock and the thick ambient mana floods the empty flesh and
+  drives it ([closed body, §6](power-system.md#6-the-three-laws): the living reject outside mana, the dead
+  cannot). A mindless puppet, no crystal
+- Size: **medium**
+- Habitat: battlefields and mana-dense ground; it stiffens and stops where the mana thins, so it never
+  strays far from what feeds it
+- Crystal: **none** — it runs on the **ambient mana** around it, not a stored stone
+- Magic: none it wills; the raw mana only animates it, a brute's ~1% — slow, clumsy, tireless. Alone it is
+  barely a threat
+- Danger: low one at a time, but they **drift together**, and the crowd is the problem. Two fungi take the
+  standing dead: **mushrama**, a poisonous mana-feeding fungus that pumps the corpse full of crude
+  **steroids** to strengthen it, and the **fly-fungus** (*sinek mantarı*), which feeds on the body to keep
+  it moving and draws **biting flies and their diseases**. A gathered horde **drips a heavy toxic sap** that
+  **blights the ground barren**, and carries plague wherever it shambles
+- The mercy: a driven body **rots past use within a few years** and falls for good — it cannot go on. But a
+  corpse left **unburned** keeps the fly-fungus fruiting and the flies coming, so the dead in mana-rich
+  country are **burned**, not buried
+
+## Unicorn
+
+- What: a horse-like beast with a single crystalline **horn**; elusive, near-mythical
+- Size: **medium · Special**
+- Habitat: deep old forest, Well fringes
+- Crystal: a separate **purple chest-stone** fuels the beast (~20 kWh); the **horn** is a rare
+  **near-perfect mana conductor**, not the battery. It passes mana with almost no loss where even the
+  best resin tops out near ~80% ([§18](power-system.md#18-storage-crystals--the-mana-economy)). Set as a
+  **staff** or **weapon-haft**, it delivers a caster's output undimmed; it is also the finest reagent
+  for healing-alchemy and mana-ink; the horn alone is ~50 platinum
+- Magic: intelligent (~50%): one trick, **uncanny speed and evasion**, drawing from the chest-stone
+  through the horn's natural channel. Its healer's legend comes from the *horn's* use in medicine, not
+  from the beast mending anyone — a living body is closed to it too ([§6](power-system.md#6-the-three-laws))
+- Danger: low in a fight — it flees; the danger is that catching one is all but impossible
+
+# Large
 
 ## Troll
 
@@ -97,15 +189,6 @@ Fields below — **Size** on every entry, and some add a **Numbers** line for th
 - The trade: strength without cunning. Aggressive to a fault, they raid and feud, but their primitive
   culture never builds past the club and the cook-fire
 
-## Basilisk
-
-- What: a cave-serpent whose fabled *petrifying gaze* is a myth — the real weapon is a **calcifying venom**
-- Size: **medium**
-- Habitat: caves, ruins, old tombs
-- Crystal: small or none
-- Magic: at most one enhancement (a snake-quick strike, a stone-hard hide); the venom is **chemistry, not a cast** — a living body is closed to magic ([§6](power-system.md#6-the-three-laws)), so a bite hardens flesh to stone over minutes by its own poison
-- Danger: slow but lethal up close; its **eye** is the alchemist's petrification reagent (~50 gold)
-
 ## Griffin
 
 - What: an eagle-lion, ~300 kg, cunning — a mountain raptor
@@ -133,76 +216,23 @@ Fields below — **Size** on every entry, and some add a **Numbers** line for th
 - Magic: intelligent (~50%): a **chemical fire** like a dragon's, and extreme **self-regeneration** — "rising from the ashes" is it healing back from near-death by spending its crystal. When the stone is finally spent it dies for good, leaving only **ash** (~5 platinum — rare, because most phoenixes rise instead of falling)
 - Danger: legendary; few live, fewer are ever killed
 
-## Unicorn
+# Huge
 
-- What: a horse-like beast with a single crystalline **horn**; elusive, near-mythical
-- Size: **medium · Special**
-- Habitat: deep old forest, Well fringes
-- Crystal: a separate **purple chest-stone** fuels the beast (~20 kWh); the **horn** is a rare
-  **near-perfect mana conductor**, not the battery. It passes mana with almost no loss where even the
-  best resin tops out near ~80% ([§18](power-system.md#18-storage-crystals--the-mana-economy)). Set as a
-  **staff** or **weapon-haft**, it delivers a caster's output undimmed; it is also the finest reagent
-  for healing-alchemy and mana-ink; the horn alone is ~50 platinum
-- Magic: intelligent (~50%): one trick, **uncanny speed and evasion**, drawing from the chest-stone
-  through the horn's natural channel. Its healer's legend comes from the *horn's* use in medicine, not
-  from the beast mending anyone — a living body is closed to it too ([§6](power-system.md#6-the-three-laws))
-- Danger: low in a fight — it flees; the danger is that catching one is all but impossible
+## Dragon
 
-## Hortlak (Revenant)
+- What: 20-ton apex predator, the largest crystal-bearer known
+- Size: **huge · Special** — only a handful exist; the rules bend for it
+- Habitat: Mana Wells
+- Crystal: **purple**, ~**100 kW** output and ~**3.8 MWh** — largest in the world, worth ~**19 platinum**, a fortune in one stone
+- Magic: **soaring flight**, a **chemical fire breath**, and a **melt-aura**; also cold, lightning, or poison gas (Projection, thrown at the world, never into a body)
+- Danger: catastrophic, a matter for armies
+- Numbers (dragons are **intelligent — ~50% efficient**, not a brute's 1%):
+  - **Flight — soaring.** It rides thermals and only supplements with flaps, so its crystal's ~**100 kW** carries it: a 20-min flight burns ~**33 kWh**. Brute powered flight would cost ~10× more — a dragon glides. **Takeoff is the catch**: heaving 20 tons airborne needs a burst it can't draw at once, so it **winds up ~2 min** first. A grounded dragon is briefly vulnerable.
+  - **Fire — chemical, not mana.** It sprays ~0.5 kg of a **gasoline-like body fluid** that burns in **open-air oxygen** → ~**22 MJ** of flame. Mana only **forces air into the mouth** and sharpens the burn (~**26 kJ**, near-free). The limit is the small **fuel sac** (~5 breaths), refilled slowly by the body, not the crystal.
+  - **Melt-aura — the mana-hungry feat.** Raising its surroundings to thousands of degrees is pure mana-heat, and radiation punishes it (σT⁴): ~**1 MW/m² of mana at 1500 °C, ~7 MW/m² at 2500 °C**. Far above its 100 kW output, so only **brief bursts** or **small contact** — it dumps its buffer to melt through a wall, and can't hold it. This is where a dragon truly burns mana.
+  - Cold ~4 kWh, lightning ~3 kWh, poison gas near-free.
 
-- What: a **brain-dead corpse still walking**. Where a person dies in mana-rich ground — a battlefield, a
-  Well's fringe — death releases the body's spin-lock and the thick ambient mana floods the empty flesh and
-  drives it ([closed body, §6](power-system.md#6-the-three-laws): the living reject outside mana, the dead
-  cannot). A mindless puppet, no crystal
-- Size: **medium**
-- Habitat: battlefields and mana-dense ground; it stiffens and stops where the mana thins, so it never
-  strays far from what feeds it
-- Crystal: **none** — it runs on the **ambient mana** around it, not a stored stone
-- Magic: none it wills; the raw mana only animates it, a brute's ~1% — slow, clumsy, tireless. Alone it is
-  barely a threat
-- Danger: low one at a time, but they **drift together**, and the crowd is the problem. Two fungi take the
-  standing dead: **mushrama**, a poisonous mana-feeding fungus that pumps the corpse full of crude
-  **steroids** to strengthen it, and the **fly-fungus** (*sinek mantarı*), which feeds on the body to keep
-  it moving and draws **biting flies and their diseases**. A gathered horde **drips a heavy toxic sap** that
-  **blights the ground barren**, and carries plague wherever it shambles
-- The mercy: a driven body **rots past use within a few years** and falls for good — it cannot go on. But a
-  corpse left **unburned** keeps the fly-fungus fruiting and the flies coming, so the dead in mana-rich
-  country are **burned**, not buried
-
-## Giant Spider
-
-- What: a **cat-sized** hunting spider, the **bane of caves** — web, ambush, and venom
-- Size: **small**
-- Habitat: caves, ruins, deep cellars, any dark hollow
-- Crystal: none
-- Magic: none; the **venom is chemistry, not a cast** ([§6](power-system.md#6-the-three-laws)) — a bite
-  that numbs and rots
-- Danger: low singly, but they nest in **numbers** and string a cave with web; a swarm in the dark takes
-  travelers one at a time
-
-## Giant Mountain Goat
-
-- What: a **200 kg** slope-dweller with a battering skull, mana-touched from grazing near mountain Wells
-- Size: **medium**
-- Habitat: high crags and mountain slopes, often within reach of a Well
-- Crystal: **purple**, small (~a few kWh)
-- Magic: one trick — an **impact-charge** (bodily enhancement, fuelled by its crystal): it buffers the
-  stone and dumps it into a headbutt on contact, so a downhill charge lands like a maul — enough to
-  **shatter a shield or a leg**. A handful of enhanced charges, then it butts like an ordinary goat until
-  the stone recovers
-- Danger: high on a narrow ledge, where its charge has room and you do not; sure-footed where you slip
-
-## Goblin
-
-- What: a small, cunning scavenger that lives **far from the settled peoples** and **uses whatever tools
-  it finds** — scrap blades, cast-off armor, stolen gear
-- Size: **small** (the **hobgoblin** strain runs **medium**)
-- Habitat: caves, ruins, deep woods, the edges of civilization
-- Crystal: usually none
-- Magic: most cast nothing; but the larger **hobgoblins** sometimes wield a crude **muscle-boost** (bodily
-  enhancement), enough to make a hobgoblin war-leader dangerous
-- Danger: negligible one at a time, real in a **pack** — goblins raid in numbers with what they've looted,
-  and a hobgoblin at their head turns a rabble into a threat
+# Not sorted by size
 
 ## Well-warped beasts
 
@@ -211,20 +241,7 @@ air **change** over generations. To a beast with no magic of its own the Well is
 unexplained pressure that reshapes it. Most such change is only **giantism** — **bees, frogs, and ants
 grown monstrous** — but the Well's deeper effects are unpredictable, and a Well-country beast may carry
 almost any strangeness. This is the open door for new monsters: a Well can justify what a plain forest
-cannot.
-
-## White Starling (*Beyaz Sığırcık*)
-
-- What: a small white bird of the **Sky Islands**, named for the flocks that keep the floating isles swept
-  clean
-- Size: **tiny**
-- Habitat: the [Sky Islands](world-map.md), chiefly the smaller isles
-- Crystal: none
-- Magic: none — its trick is pure instinct, not a cast: it drags or shoves every foreign object it finds off
-  the edge, back down to the ground
-- Danger: none to a traveler. Its work is for the isle, not the road: by hurling away seeds, sticks, and
-  carrion before anything heavy can root, the flock keeps its islet light enough to stay **aloft** — and
-  swept as flat as open steppe
+cannot. Size varies by case; give each one a class when it earns an entry.
 
 ## Tamed & mundane beasts
 
@@ -235,4 +252,4 @@ warmer lands, ~60 gold) and the **messenger-hawk** (drilled to carry notes with 
 
 ## To design
 
-Add more as scenes demand, each with the same six fields.
+Add more as scenes demand, each with the same six fields, filed under its size heading.

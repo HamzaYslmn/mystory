@@ -17,8 +17,8 @@ reference. Do not coin a synonym when one of these already exists.
 | personal spin | *spin* | A body's unique mana polarity; neutral outside living flesh |
 | Unstructured | *Yapılandırılmamış* | Fast mental image, roughly 1–20% efficiency |
 | Shaping | *Şekillendirme* | Deliberate mental pattern, up to roughly 40% |
-| Magical Circuit | *Büyü Devresi* | Permanent scribed pattern, roughly 30–80% |
-| Spell Formula | use guild/profession wording in Turkish scene | The craft of designing and scribing circuits |
+| Magical Circuit | *Büyü Devresi* | A cast set permanently into wet mana-ink; ceiling ~80%, no floor |
+| Spell Formula | use guild/profession wording in Turkish scene | The craft of setting patterns into ink |
 | mana-surge (wild mana) | Ambient mana dense enough to convert with no caster — boiled rain, flash-freeze, heaved ground; rare, local, unpredictable |
 
 ## Materials & power
@@ -30,7 +30,7 @@ reference. Do not coin a synonym when one of these already exists.
 | Bornmülleriana | The Well-bound tree whose resin is the workable mana conductor |
 | *kozak* | Sealed Bornmülleriana cocoon; highest resin grade |
 | spent crystal | A discharged cell: black, brittle, crumbles under a knife. Worth less than a bronze each; collected by the sack, ground and sieved into ink powder |
-| mana-ink | Conductive resin plus **spent neutral crystal powder**; pattern medium, not fuel |
+| mana-ink | Conductive resin plus **spent neutral crystal powder**. Wet, it takes a cast and stands into a pattern; dry, it converts mana back into that effect. Never fuel |
 | substrate | Solid support and optional loss-reducer; never an energy source |
 | crystal certificate | Assay seal listing remaining kWh, rated kW, leakage grade, and circuit quality |
 | *safir kap* | Sealed storage vessel: sapphire-grit glass wall, closed Bornmülleriana ring inside, gold-fused seam. Cuts shelf leakage ~15×; a vault, not a housing. Trade names it after its dearest part |

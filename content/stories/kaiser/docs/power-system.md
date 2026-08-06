@@ -108,7 +108,7 @@ Every cast, from lighting kindling to raising a golem, is the same four steps:
 2. **Draw.** Pull it out at some rate — your **throughput** (*debi*). One caster pushes 100 W,
    another 10. Training widens the tap.
 3. **Pattern.** Give the mana an instruction — what to become. A crude mental image, a built mental
-   construct, or a circuit scribed into an object: the three **methods** of Part II.
+   construct, or a pattern set permanently into mana-ink: the three **methods** of Part II.
 4. **Convert.** Mana runs through the pattern into real energy. **How much converts is the pattern's
    quality** — your **efficiency** (*verim*).
 
@@ -166,7 +166,10 @@ it — done to you by another, at healing speed, that forced conversion **burns 
   own hand, feeding and directing in one act, heals you painlessly. Without a coherent Medical pattern
   the body reflexively rejects almost all incoming mana; the tiny accepted fraction burns, then the
   rest spills neutral. Forcing mana into an unwilling body is therefore **torture, never a scalable
-  kill** — ordinary fire, force, and weapons remain the way magic harms flesh.
+  kill** — ordinary fire, force, and weapons remain the way magic harms flesh. It needs a **grip on
+  bare skin** and it leaves an unmistakable body: charred from the inside under unbroken clothing
+  or armour, the burn worst where the hand held. Slow, costly, and useless in a melee, so it turns
+  up where a caster had time and wanted something — an interrogation, not a battle.
 
 ---
 
@@ -179,9 +182,13 @@ discipline, any method; the method sets **efficiency**.
 
 | Method | Efficiency | One line |
 |--------|-----------|----------|
-| [Unstructured](#7-unstructured-casting) | ~1–10% (ceiling ~20%) | Crude image → effect. Everyone's everyday magic. |
-| [Shaping](#8-shaping) | up to ~40% | A pattern built deliberately in the mind. Costs concentration. |
-| [Magical circuit](#9-magical-circuit) | ~30–80% | A conductive-mana circuit drawn into an object. A craft. |
+| [Unstructured](#7-unstructured-casting) | ceiling ~20% | Crude image → effect. Everyone's everyday magic. |
+| [Shaping](#8-shaping) | ceiling ~40% | A pattern built deliberately in the mind. Costs concentration. |
+| [Magical circuit](#9-magical-circuit) | ceiling ~80% | A cast set permanently into mana-ink. A craft. |
+
+**These are ceilings, not ranges — there is no floor.** Any method can be executed badly, and a bad
+execution still *works*: a botched circuit runs at 0.5% and lights the lamp exactly like a guild one,
+burning eighty times the fuel to do it. Skill is the whole distance between the two.
 
 **Racial affinity — the one born exception.** A few **separate species** are tuned from birth to a single
 domain — sound, heat, water, cold — and cast *that one thing* at ~**100%**, past every ceiling above;
@@ -215,34 +222,46 @@ closing the leaks.
 
 ## 9. Magical circuit
 
-*Büyü Devresi.* The pattern is drawn **into an object** as a permanent **mana circuit** — a trace of
-conductive **mana-ink** ([§18](#18-storage-crystals--the-mana-economy)). Mana poured through runs the
-circuit and converts at its quality every time, no concentration needed. The circuit *is* the pattern:
-it does the conversion — **no catalyst material is required** ([§4](#4-how-a-cast-works)).
+*Büyü Devresi.* Mana-ink is a **two-way transducer**. **Wet, it records:** the caster holds his image
+and pushes mana in, and the dead crystal grain **stands into a pattern** the way sand climbs the nodal
+lines of a vibrating plate, then hardens that way. **Dry, it plays back:** mana poured through
+converts into the effect it was made from, same quality every time, no concentration and no catalyst
+([§4](#4-how-a-cast-works)).
 
-- **Efficiency:** ~**30–80%** — the high road, but only if the circuit is good. Even the finest sealed
-  *kozak* ink tops out near **80%**: the resin conducts but has real **resistance**
-  ([§18](#18-storage-crystals--the-mana-economy)), so nothing scribed reaches 100%.
-- **Losses are like wire resistance.** A broken, thin, or smeared trace leaks; a **longer** circuit
-  loses more along its length — and, like resistance, also caps **throughput**
-  ([§5](#5-what-separates-casters)). All of it spills as **raw mana**, never heat ([§1](#1-what-mana-is)).
-- **Mana-ink.** **Spent, neutral crystal powder** worked into **Bornmülleriana resin**. The resin is the
-  **conductor**; the depleted powder controls geometry, holds an edge, and gives a stable surface for
-  the pattern, but supplies no charge and is not consumed as fuel
-  ([§18](#18-storage-crystals--the-mana-economy)). Fresh charged crystal is never ground into a
-  permanent trace. Ink grade — set by resin purity, grain, and sealing — sets how near the ~**80%**
-  ceiling a circuit can get; the resin's resistance also means a **longer** trace loses more. The
-  surrounding varnish or substrate is the **insulator**, never the resin itself.
-- **The substrate must make sense.** It has to be **solid** (a trace won't hold on sand), and it must
-  **survive the output** — a heat circuit on wood burns the wood, a force circuit cracks a brittle
-  block, an electric circuit shorts a conductor. A **matched** substrate raises that output's
-  efficiency: **perovskite** under a light circuit, refractory under heat, hard dense stone under
-  force. This is all the old "transducer material" ever was — an *optional loss-reducer and a survival
-  constraint*, never an energy amplifier or a required key. Total circuit efficiency still cannot
-  exceed the resin-limited ~80% ceiling.
-- **A craft, learned as one** — [Spell Formula](#spell-formula), years of it. A sloppy circuit (~30%)
-  loses to a good [shaper](#8-shaping) (~40%); it wins only by being **permanent and needing no
-  concentration**. A bad circuit on the wrong substrate is a grenade with a handle.
+So **nobody draws a circuit.** A pattern cannot be pencilled, stamped, or copied by hand — it is what
+the ink *did* under a cast, and only a caster makes one. Two mages given identical lamp bodies produce
+different patterns, because the pattern is the shape of what each actually pictured. Every caster can
+invent, bounded by his own understanding rather than a guild catalogue.
+
+- **Efficiency is the image, made permanent.** The ink records exactly what it was given and never
+  what the caster failed to understand. It beats [shaping](#8-shaping) (~40%) because a standing
+  pattern is a physical equilibrium — it sharpens what the mind only approximated — and because it
+  holds without attention. Ceiling ~**80%** (the resin has real resistance) and **no floor**: guild
+  work 30–60%, a town workshop 10–20%, a half-understood cast 1–5%, a pattern that barely stood
+  0.5%. All of them light the lamp; only the fuel bill differs.
+- **Complexity buys efficiency, and the ink bill explodes.** Finer structure needs more ink to stand
+  in — roughly **triple the ink per 10 points** — so ~80% is an economic wall long before a physical
+  one. A 1-gold hand-lamp holds a coarse pattern; a 40-gold mill-engine is mostly ink. Kozak price,
+  not talent, is what stops the world running at 80%.
+- **Read, never copied.** A stripped device shows its pattern, so rivals learn what you understood;
+  reproducing it means picturing it yourself, and the copy is only as good as the copier. Guilds
+  guard ink and training, not drawings.
+- **The craftsman's half.** Housing, glass, crystal seat, claws, switch, crank, flywheel — ordinary
+  trade work, and most of the hours. None of it makes the pattern, so no tooling yields a device
+  without a caster in the room.
+- **Losses are like wire resistance.** A broken, thin, or smeared pattern leaks; a longer circuit
+  loses more and also caps **throughput** ([§5](#5-what-separates-casters)). It spills as **raw
+  mana**, never heat ([§1](#1-what-mana-is)).
+- **Mana-ink.** Spent neutral crystal powder in **Bornmülleriana resin**. The resin conducts; the
+  dead grain is the medium the pattern stands in. It holds no charge, is never burned as fuel, and
+  fresh crystal is never ground into ink ([§18](#18-storage-crystals--the-mana-economy)). Ink grade
+  sets how fine a pattern can stand, and so how near the ceiling it reaches. The surrounding varnish
+  or substrate insulates, never the resin.
+- **The substrate must make sense.** Solid (ink won't stand on sand) and able to **survive the
+  output** — heat burns wood, force cracks a brittle block, current shorts a conductor. A matched
+  substrate cuts loss (perovskite under light, refractory under heat, dense stone under force); it
+  never amplifies and never lifts the ~80% ceiling. A bad pattern on the wrong substrate is a grenade
+  with a handle.
 
 ## 10. Magical devices
 
@@ -254,6 +273,14 @@ battery. This is how the **many who never learned to cast** ([§17](#17-magic-in
 *Example:* a 250-lumen magical lamp needs ~0.83 W of optical output; a 30–80% scribed circuit runs it
 for roughly **15–40 continuous days** from a blue crystal (~1 kWh) before it is
 spent. A city's luxury quarters burn through crystals to stay lit all night.
+
+*How that lamp is built:* the pattern is scribed in mana-ink across a **perovskite plate** — the
+matched substrate for light ([§9](#9-magical-circuit)) — and the crystal sits in claws at the
+pattern's centre, pressed against it, because mana crosses only by contact
+([§6](#6-the-three-laws)). **The plate is what shines**, so the light holds steady while the stone
+blackens, and a loose seat lets the stone drift off its axis
+([§18](#18-storage-crystals--the-mana-economy)) and kills the lamp with nothing broken. Cheap work skips the plate and
+lights the crystal itself.
 
 ## 11. Sharing & combining mana
 
@@ -526,12 +553,15 @@ Remake a **living** form — only your **own**.
 
 ### Spell Formula
 
-[Circuit-scribing](#9-magical-circuit) as a profession: permanent spells, magic items, golems (permanent
+[Pattern-setting](#9-magical-circuit) as a profession: permanent spells, magic items, golems (permanent
 [Animation](#animation)), standing [Wards](#wards), worked storage crystals
 ([§18](#18-storage-crystals--the-mana-economy)).
 
 - **Engineering:** each product embeds its effect's model made permanent — capacity, draw rate,
   material fatigue. It lives on **materials** ([§23](#23-open-threads)).
+- **The trained skill is the image, not the hand.** A scriber's years go into holding a complete,
+  exact picture of the effect while the ink sets under him ([§9](#9-magical-circuit)). What he cannot
+  picture, he cannot make; what he pictures vaguely, he makes badly and pays for in fuel forever.
 - **Kaiser's home craft.** Everything he is converges here.
 - **In play.** The scribed perovskite lamp; a ward-stone over a gate long after its maker; a golem
   still working in an empty shop.
@@ -623,9 +653,11 @@ logic. A blood-wolf's fist-sized purple stone puts out ~2 kW; a dragon's is a bo
 **Full output to the end; the stone darkens as it goes.** A cell delivers its **rated output** until it
 dies — the last hour drives a circuit as hard as the first, then it stops. What changes is the crystal
 itself: as the charge drains it **darkens**, clear blue through smoke to the black brittle husk of a
-spent cell. In a lamp the light passes *through* the stone, so a half-spent cell visibly dims while its
-circuit still runs at full power — the light fails, the heater beside it does not. The darkening is the
-trade's only free gauge: good enough to haggle by, far too crude to certify, which is why assay houses
+spent cell. The dark eats **outward from the core**, so a nearly dead stone still carries a thin blue
+skin. Brightness does not track charge: a lamp shining off a scribed **emitter plate**
+([§10](#10-magical-devices)) burns as hard in its last hour as its first, and only cheap work with the
+crystal in the light path visibly dims. Reading a cell means opening the housing and looking at the
+stone. The darkening is the trade's only free gauge: good enough to haggle by, far too crude to certify, which is why assay houses
 stay in business and why polished or back-lit stones are a standing fraud.
 
 **Cutting trades charge for output.** Faceting a stone opens more surface, so a cut cell throws **more
@@ -639,6 +671,15 @@ not a continuous multi-watt load — and grade, damage, and age change it. **Scr
 [Spell Formula](#spell-formula), it delivers up to its rated output —
 ~100 W blue, kilowatts purple — and a **cut, worked** cell higher still, at the cost of capacity (above).
 Working a crystal is guild craft; the scribers sit at the center of the trade.
+
+**Every crystal has an axis.** The frozen spin ([§1](#1-what-mana-is)) leaves a stone with two poles
+and an equator, like a lodestone. Mana crosses at a pole, and only when that pole stands square to the
+contact face; seated side-on, a live cell touches the pattern and delivers nothing. Either pole serves,
+so a stone flipped end for end runs the same, but every angle between the two is dead. Nothing on the
+surface marks where the axis lies. This is what makes an unworked lump a trickle: it seats on whatever
+corner it landed on and rarely sits true. Cutting a cell gives it flat polar faces, so the claws hold
+it square and the rated output crosses. Living casters carry no fixed axis, because a body's spin turns
+with the body; skin contact works from any side ([§11](#11-sharing--combining-mana)).
 
 **Sealed vessels — slowing the bleed.** Nothing stops shelf leakage, but a *safir kap* (sapphire vessel)
 cuts it ~**15×**, and it is the only way anyone holds crystal wealth across years. Four materials, four
@@ -696,8 +737,10 @@ vault, not a housing.
 along it by contact, like current down a wire ([§6](#6-the-three-laws)), but it has real **resistance**:
 the longer the run, the more leaks, so a cable's efficiency **falls with distance** and even the finest
 sealed *kozak* tops out near **80%**. Two uses: work powdered storage crystal into it to make
-**mana-ink** and draw a [circuit](#9-magical-circuit); or run a length of raw resin as a **cable** to
-feed a device from a distance, or to scribe onto one out of reach. It is **not a store** — it carries
+**mana-ink**, lay that wet and set a [pattern](#9-magical-circuit) into it with a cast; or run a
+length of raw resin as a **cable** to feed a device from a distance, or to reach one you cannot
+touch. Because a fine pattern needs a large volume of ink to stand in, resin supply is what caps the
+efficiency of everything this world builds. It is **not a store** — it carries
 mana, it does not bank it. (The one thing that beats it is a **unicorn's horn**, a rare near-perfect
 conductor that passes mana with almost no loss — set as a staff or a weapon-haft, [Bestiary](bestiary.md).)
 It comes from a tree that grows only beside a **Mana Well**,
