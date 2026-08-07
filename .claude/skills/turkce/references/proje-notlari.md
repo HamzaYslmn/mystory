@@ -17,6 +17,24 @@ kelimeyi metne koymadan önce TDK'ye sor.
 - **parmakların izi.** *Parmak izi* adli terimdir, yanık izini anlatırken çarpışır.
 - **yıkarken.** *Yıkararken* diye bir çekim yoktur.
 
+## Yön zarfını çıplak bırakmak
+
+*Kapak yana açılır* İngilizce dizilişidir. Türkçe yön zarfının yanına **doğru** ister: *yana
+doğru açılır, ileri doğru eğilir, aşağı doğru kayar*. Aynı cümlede özneyi de geri koymak çoğu
+zaman daha iyi olur: *Kapağı yana doğru açar*.
+
+## Kararı gerekçesiz bırakmak
+
+*Lambayı sönük bırakır* ne yaptığını söyler, niçin yaptığını söylemez; kısa olduğu için de
+mekanik durur. Karar cümlesi gözlemi, gözlemi çürüten şeyi ve amacı birlikte taşımalı:
+*günlerdir hiç zayıflamadan yanıyor, ama geriye ne kaldığını gösteren bir işaret yok, bu
+yüzden gücünü gerektiği güne saklamaya karar verir.* Kısalık akıcılığın yerine geçmez.
+
+## Üst üste benzetme edatı
+
+*Kurabiye misali bir kristal gibidir* iki benzetme edatını üst üste bindirir. Biri yeter:
+*kurabiye gibi bir kristal* ya da *kurabiye misali bir kristal*.
+
 ## Karakterin ağzına uymayan kelime
 
 Kaiser teknolojik bir şehirden gelir, hafızası gitmiştir ama teknik bilgisi durur. Bu yüzden

@@ -678,7 +678,8 @@ contact face; seated side-on, a live cell touches the pattern and delivers nothi
 so a stone flipped end for end runs the same, but every angle between the two is dead. Nothing on the
 surface marks where the axis lies. This is what makes an unworked lump a trickle: it seats on whatever
 corner it landed on and rarely sits true. Cutting a cell gives it flat polar faces, so the claws hold
-it square and the rated output crosses. Living casters carry no fixed axis, because a body's spin turns
+it square and the rated output crosses. Cheap practice skips the cut and just files the two
+contact spots flat where the stone happened to work, which runs but leaves the seat loose. Living casters carry no fixed axis, because a body's spin turns
 with the body; skin contact works from any side ([§11](#11-sharing--combining-mana)).
 
 **Sealed vessels — slowing the bleed.** Nothing stops shelf leakage, but a *safir kap* (sapphire vessel)
